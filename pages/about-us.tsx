@@ -6,11 +6,11 @@ import Layout from '../components/layout'
 const AboutUs: NextPage = () => {
     const { t } = useTranslation();
 
-  const pageTitle = 'About Us - Discover more about how we are helping people connect throug their potential Once again'
+  const pageTitle = 'About Us - Discover more about how we are helping kids to keep dreaming.'
   return (
     <Layout page='aboutUs'>    
         <Head>
-            <title>GrandParentals</title>
+              <title>Wishing Fountain</title>
             <meta
             name="description"
             content={pageTitle}

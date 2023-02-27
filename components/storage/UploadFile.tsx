@@ -21,7 +21,7 @@ const UploadFile = ({ setImageCallback }: { setImageCallback: any }) => {
 
         setImgUrl('');
         const firebaseApp = getApp();
-        const storage = getStorage(firebaseApp, "gs://medicine-40a75.appspot.com");
+        const storage = getStorage(firebaseApp, "gs://wishing-fountain.appspot.com");
         const storageRef = ref(storage, `files/${file.name}`);
         const uploadTask = uploadBytesResumable(storageRef, file);
 

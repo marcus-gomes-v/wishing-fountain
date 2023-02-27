@@ -1,149 +1,151 @@
 export default {
     translation: {
         common: {
-            grandparentals: 'GrandpaRentals',
-            rights: '2022 GrandpaRental. Wszelkie prawa zastrzeżone.',
+            grandparentals: 'Wishing Fountain',
+            rights: "2023 Wishing Fountain. All rights reserved."
         },
         navBar: {
-            dashboard: 'Kokpit',
-            discoverPeople: 'Odkryj ludzi',
-            typesOfHelp: 'Rodzaje pomocy',
-            aboutUs: 'O nas',
-            howItWorks: 'Jak to działa',
+            dashboard: 'Dashboard',
+            discoverPeople: 'Our kids Dream',
+            typesOfHelp: 'Types of dreams',
+            aboutUs: "About Us",
+            howItWorks: "How it Works",
             solutions: [
                 {
-                    name: 'Porozmawiajmy',
-                    description: 'Chcesz po prostu znaleźć przyjaciela, z którym mogłbyś spotykać się od czasu do czasu na rozmowę i kawę? Jest wielu ludzi, którzy chętnie z tobą porozmawiają.',
+                    name: 'Lets talk',
+                    description: "You just want to get a friend to meet from time to time for a chat and a coffe? There are a lot of people that are willing to have a chat with you.",
                 },
                 {
-                    name: 'Zjedzmy razem',
-                    description: 'Jeśli nie lubisz jeść samemu lub potrzebujesz pomocy w przygotowaniu posiłku, spójrz na ludzi, którzy mogą ci pomóc.',
+                    name: 'Lets eat together',
+                    description: 'If you don\'t like eating alone or you need help with preparing the food, please look at the people that can help you with that.',
                 },
                 {
-                    name: 'Pomoc z nauką i zadaniem domowym',
-                    description: 'Jeśli twoje dzieci potrzebują kogoś, kto pomoże im z zadaniem domowym, możesz szukać ludzi, którzy mogą im w tym pomóc.',
+                    name: 'Help with studies and homework',
+                    description: "If your kids needs somebody to help them with the homework you can look for people that can help them with that",
                 },
                 {
-                    name: 'Opieka nad zwierzętami',
-                    description: 'Znajdź ludzi, którzy mogą ci pomóc w opiece nad zwierzętami, gdy planujesz wyjazd na wakacje lub pójdą z tobą na spacer z psem, gdy nie możesz.',
-                },
-            ],
+                    name: 'Animals care',
+                    description: 'Find people that can help you take care of your animals when you are planning to go on the vaccation or will walk your dog when you are not able to.',
+                }
+            ]
         },
         login: {
-            login: 'Zaloguj się',
-            logout: 'Wyloguj się',
-            google: 'Zaloguj się przez Google',
+            login: 'Login',
+            logout: 'Logout',
+            google: 'Login with Google'
         },
         page: {
             aboutUs: {
-                title: 'O nas',
-                content: 'Oto treść bla bla bla',
+                title: "About Us",
+                content: "Here is the content bla bla bla"
             },
             howItWorks: {
-                title: 'Jak to działa',
-                content: 'Oto treść bla bla bla',
+                title: "How it Works",
+                content: "Here is the content bla bla bla"
             },
             discoverPeople: {
                 head: {
-                    title: 'Odkryj ludzi - Grandparentals',
+                    title: "Discover people"
                 },
-                title: 'Ludzie',
-                appliedOn: 'Zastosowano dnia',
+                title: "People",
+                appliedOn: "Applied on"
             },
             personalInformation: {
                 head: {
-                    title: 'Informacje osobiste',
+                    title: "Personal information"
                 },
-                title: 'Informacje osobiste',
-                joinedOn: 'Dołączył dnia',
-                personalInformation: 'Informacje osobiste',
-                about: 'O mnie',
-                professionalSummary: 'Podsumowanie zawodowe',
-                telephone: 'Telefon',
-                location: 'Lokalizacja',
+                title: "Personal information",
+                joinedOn: "Joined on",
+                personalInformation: "Personal information",
+                about: "About",
+                professionalSummary: "Professional summary",
+                telephone: "Telephone",
+                location: "Location",
             },
             userDashboard: {
-                title: 'Profil',
-                subtitle: 'Przegląd profilu',
-                welcome: 'Witaj ponownie,',
+                title: "Profile",
+                subtitle: " Profile Overview",
+                welcome: "Welcome back, "
             },
         },
         components: {
             hero: {
-                title: "Odkryj potencjał ludzi",
-                slogan: "Raz jeszcze",
-                description: "Oni pomogą Tobie, Ty pomożesz Im",
+                title: "Wspieraj marzenie już dziś",
+                slogan: "Aby zmienić jutro",
+                description: "Pomóż dzieciom z całego świata spełnić ich marzenia.",
                 items: {
-                    letsTalk: "Porozmawiajmy",
-                    letsEatTogether: "Zjedzmy razem",
-                    helpWithStudiesAndHomework: "Pomoc w nauce i pracach domowych",
-                    animalsCare: "Opieka nad zwierzętami",
+                    letsTalk: "Be Astronaut",
+                    letsEatTogether: "Be Politician",
+                    helpWithStudiesAndHomework: "Be Engineer",
+                    animalsCare: "Be veterinariam",
                 }
             },
             features: {
                 icons: {
                     one: {
-                        name: "Zauważ potrzebującego",
-                        description: "Pierwszą rzeczą, która może spowodować zmianę, jest zauważenie potrzeby i rozmowa z osobą potrzebującą."
+                        name: "Notice a kid dreaming",
+                        description: "The first thing to bring the change is to hear the dream of kids, understand and feel the difference they want to make."
                     },
                     two: {
-                        name: 'Zarejestruj osobę',
-                        description: 'Po zalogowaniu się do systemu możesz utworzyć profil osoby, która chce dzielić się swoim czasem i talentami z innymi. Profil zawiera informacje osobiste o osobie, jej umiejętnościach i celach.'
+                        name: 'Register the dream',
+                        description: 'After you log in to the system, you are able to create a profile of a kid who is willing to share their dream with all the people in the world.',
+
                     },
                     three: {
-                        name: 'Pozwól innym kontaktować się z tą osobą',
-                        description: "Utworzony profil będzie dostępny publicznie, więc osoba, która potrzebuje pomocy, będzie mogła znaleźć ludzi, którzy jej pomogą lub po prostu porozmawiać i spędzić razem trochę czasu."
+                        name: 'Let other people support',
+                        description: "The created profile will be publicly available, so the kids dream will be able to find people to help them to growth and became reality."
+
                     },
                     four: {
-                        name: 'Stwórz nowe relacje',
-                        description: "Gdy ludzie mogą znajdować się nawzajem, uważamy, że jesteśmy w stanie wprowadzić do społeczeństwa nowe ludzkie relacje."
+                        name: 'Create new relations',
+                        description: "When dreams can touch peoples hearth we believe that we are capable of introducing new human relations to the society."
                     },
                 },
                 section: {
                     first: {
-                        title: "Drugi początek",
-                        text: "Czy kiedykolwiek myślałeś o potencjale, który marnujemy, akceptując emeryturę jako czas w życiu, kiedy nie musisz już nic robić. <br />Dopóki ludzie pozostają aktywni, są w stanie zrobić znacznie więcej, co może poprawić ich zdrowie psychiczne i fizyczne.< br />Niestety wiele osób, które są bardziej doświadczonymi w życiu, nie ma wiele aktywności w swoim życiu. <br />Nie pozwól, aby tak było z wszystkimi osobami, które są bliskie ci, a które mogą tak wiele zaoferować społeczeństwu!Pomóż im zarejestrować się na naszej platformie i znaleźć nowy cel w życiu.",
-                        tag: "Zarejestruj się na portalu" 
+                        title: "The dream start",
+                        text: "Have you ever thought of the potential we waste just by accepting the status quo, killing our dreams, closing doors of imagination?<br />As long as the people can dream they are able to do much more which can improve improve our world as we know.< br />Unfortunately, a lot of kids live under difference perspective, experienced no possibilities to create a future to change in their lives.<br />Don't let it happen with our kids, dont let the dreams die.<br />Help them registering on our platform let's support this kids dream.",
+                        tag: "Register at the portal"
                     },
                     quote: {
-                        text: "Życzyłabym sobie, żeby mój dziadek miał jakiś cel w życiu. Kiedy wnuki dorosły i nie mieli już tak dużo czasu, żeby z nim spędzać, jego życie zwolniło. To spowodowało samotność i nawet problemy z ruchem. Teraz rodzinne wizyty to prawie jedyna radość dla niego, a my chcielibyśmy, żeby znów był aktywny w życiu towarzyskim.",
-                        person: "Zofia, wnuczka"
+                        text: "I wish have being able to provide a different life for my kids, being able to provide a differently future far away from the war and the poverty, allowing them to have a education that could save their future.",
+                        person: "Zofia, mother"
                     },
                     second: {
-                        title: "Stwórz więzi społeczne",
-                        text: "Nigdy nie jest za późno, żeby zawrzeć nowe znajomości i stworzyć nowe relacje. <br/>Wierzymy, że możemy zmienić sposób, w jaki ludzie współistnieją w społeczeństwie, pomagając im stworzyć więzi społeczne z ludźmi mieszkającymi w pobliżu. <br />Liczba możliwych rodzajów współpracy między ludźmi jest nieograniczona, a jedynym ograniczeniem jest nasza własna wyobraźnia. <br />Dołącz do platformy, aby rozpocząć nową podróż w swoim życiu.",
-                        tag: "Zarejestruj się na portalu"
+                        title: "Create social bonds",
+                        text: "It is never too late to make new friends and create new relationships. <br/>We believe we are able to change the way that kids can dream and how the experienced people in the society can helping them to create social bond through dreams.",
+                        tag: "Register at the portal"
                     }
                 }
             },
             featuresGradient: {
                 icons: {
                     one: {
-                        name: 'Spontaniczne aktywności',
-                        description: 'Regularne spontaniczne aktywności, takie jak zakupy czy spacer z psem, znacznie zmniejszają prawdopodobieństwo problemów z sercem.'
+                        name: 'Spontaneus activieties',
+                        description: 'Regular spontaneous activities like buying groceries or walking the dog drastically decrease the probability of heart issues.'
                     },
                     two: {
-                        name: 'Środowisko starzenia się',
-                        description: 'Według Prognoz Ludnościowych Narodów Zjednoczonych na rok 2019, do roku 2050 liczba osób powyżej 65 roku życia wzrośnie o 48%. Musimy wykorzystać ich potencjał, aby uczynić świat lepszym miejscem.'
+                        name: 'Aging environment',
+                        description: 'Based on the 2019 United Nations World Population Prospects 2019, until the year 2050 number of people over 65 will increase by 48%. We have to reuse their potential to make the world a better place.'
                     },
                     three: {
-                        name: 'Profesjonaliści w wielu dziedzinach',
-                        description: 'Ludzie mają wiele talentów. Od stolarstwa, przez naprawianie rzeczy, po pisanie. Nie pozwólmy, aby ich umiejętności zmarnowały się!'
+                        name: 'Proffessionals in many areas',
+                        description: 'People have a lot of talents. From carpentery through fixing things to writing. Let\'s not let their skills waste!'
                     }
                 }
             },
             grandparents: {
-                title: "Ludzie",
-                subtitle: "Lista ludzi, z którymi pomogłeś nawiązać połączenie",
+                title: "Kids & Dreams",
+                subtitle: "The list of kids and their dreams",
                 actions: {
-                    add: "Dodaj osobę",
-                    edit: "Edytuj",
-                    delete: "Usuń"
+                    add: "Add a Kid",
+                    edit: "Edit",
+                    delete: "Delete"
                 },
                 list: {
-                    title: "Imię"
+                    title: "Name"
                 }
             }
-        },
-    },
-}
+        }
+    }
+};

@@ -7,6 +7,8 @@ import UploadFile from '../../../components/storage/UploadFile';
 import { Transition } from '@headlessui/react';
 import { faCheckCircle, faXmark } from '@fortawesome/pro-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Swal from 'sweetalert2';
+import router from 'next/router';
 
 const Offer = () => {
     const { useSession } = useAuth() as { useSession: user };
@@ -84,7 +86,12 @@ const Offer = () => {
             headers: headers
         });
         setShow(true)
-        // console.log(response)
+        Swal.fire({
+            text: "Kid's dream registered with success",
+            icon: 'success',
+        }).then(() => {
+            router.push('/user')
+        })
     }
 
     const skills = [
@@ -151,7 +158,7 @@ const Offer = () => {
                                             value={content.fullName}
                                             onChange={onChange}
                                             className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                            placeholder="Maciej Krawczyk"
+                                            placeholder="Lorena Krawczyk"
                                         />
                                     </div>
                                 </div>
@@ -186,7 +193,7 @@ const Offer = () => {
                                             value={content.cellphone}
                                             onChange={onChange}
                                             className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                            placeholder="Maciej Krawczyk"
+                                            placeholder="+48 5248 654 254"
                                         />
                                     </div>
                                 </div>
@@ -204,7 +211,7 @@ const Offer = () => {
                                             value={content.phone}
                                             onChange={onChange}
                                             className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                            placeholder="Maciej Krawczyk"
+                                            placeholder="+48 948 654 254"
                                         />
                                     </div>
                                 </div>
@@ -222,14 +229,14 @@ const Offer = () => {
                                         value={content.about}
                                         onChange={onChange}
                                         className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                        placeholder="I'm experienced handcraft, able to create really good art, equipaments or fix your wardrobe, I can also teach your dog some good tricks..."
+                                        placeholder="Describe the kids dream, could be the dream for the future or just a dream to achieve someday in when growup, here the idea is to let the kid free to dream."
                                         defaultValue={''}
                                     />
                                 </div>
-                                <p className="mt-2 text-sm text-gray-500">Tell more about your preferences and skills.</p>
+                                <p className="mt-2 text-sm text-gray-500">Tell more about your dream.</p>
                             </div>
 
-                            <div>
+                            <div className='hidden'>
                                 <label htmlFor="professionalSkills" className="block text-sm font-medium text-gray-700">
                                     Professioal Skills
                                 </label>
@@ -242,7 +249,7 @@ const Offer = () => {
                                         onChange={onChange}
                                         className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                         placeholder="I'm experienced handcraft, able to create really good art, equipaments or fix your wardrobe, I can also teach your dog some good tricks..."
-                                        defaultValue={''}
+                                        defaultValue={'undefinied'}
                                     />
                                 </div>
                                 <p className="mt-2 text-sm text-gray-500">Tell more about your preferences and skills.</p>
@@ -253,7 +260,7 @@ const Offer = () => {
                     </div>
                 </div>   
                 
-                <div className="bg-white px-4 py-5 shadow sm:rounded-lg sm:p-6">
+                <div className="bg-white px-4 py-5 shadow sm:rounded-lg sm:p-6 hidden">
                     <div className="md:grid md:grid-cols-3 md:gap-6">
                         <div className="md:col-span-1">
                             <h3 className="text-lg font-medium leading-6 text-gray-900">Generic Skills</h3>
@@ -281,7 +288,7 @@ const Offer = () => {
                                                                 id={`custom-checkbox-${index}`}
                                                                 name={title}
                                                                 value={title}
-                                                                checked={checkedState[index]}
+                                                                checked={true}
                                                                 onChange={() => handleOnChange(index)}
                                                                 aria-describedby="comments-description"
                                                                 type="checkbox"
@@ -304,7 +311,7 @@ const Offer = () => {
                     <div className="md:grid md:grid-cols-3 md:gap-6">
                         <div className="md:col-span-1">
                             <h3 className="text-lg font-medium leading-6 text-gray-900">Open Skills</h3>
-                            <p className="mt-1 text-sm text-gray-500">Use to best describe your skills, separating then through commas.</p>
+                            <p className="mt-1 text-sm text-gray-500">Use to best to describe the kid skills, separating then through commas.</p>
                         </div>
                         <div className="mt-5 md:col-span-2 md:mt-0">
                             <div className="grid grid-cols-6 gap-6">
@@ -319,7 +326,7 @@ const Offer = () => {
                                         value={content.openSkills}
                                         onChange={onChange}
                                         className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                        placeholder="Listening, Dog care, Writer..."
+                                        placeholder="Love Animals, Like to Write, Love science..."
                                     />
                                 </div>
                             </div>
@@ -342,49 +349,7 @@ const Offer = () => {
                     </button>
                 </div>
             </form>
-            <div
-                aria-live="assertive"
-                className="pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6 "
-            >
-                <div className="flex w-full flex-col items-center space-y-4 sm:items-end pt-12 lg:pr-12">
-                    <Transition
-                        show={show}
-                        as={Fragment}
-                        enter="transform ease-out duration-300 transition"
-                        enterFrom="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
-                        enterTo="translate-y-0 opacity-100 sm:translate-x-0"
-                        leave="transition ease-in duration-100"
-                        leaveFrom="opacity-100"
-                        leaveTo="opacity-0"
-                    >
-                        <div className="pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
-                            <div className="p-4">
-                                <div className="flex items-start">
-                                    <div className="flex-shrink-0">
-                                        <FontAwesomeIcon icon={faCheckCircle} className="h-6 w-6 text-green-400" aria-hidden="true" />
-                                    </div>
-                                    <div className="ml-3 w-0 flex-1 pt-0.5">
-                                        <p className="text-sm font-medium text-gray-900">Successfully saved!</p>
-                                        {/* <p className="mt-1 text-sm text-gray-500">Anyone with a link can now view this file.</p> */}
-                                    </div>
-                                    <div className="ml-4 flex flex-shrink-0">
-                                        <button
-                                            type="button"
-                                            className="inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                                            onClick={() => {
-                                                setShow(false)
-                                            }}
-                                        >
-                                            <span className="sr-only">Close</span>
-                                            <FontAwesomeIcon icon={faXmark} className="h-5 w-5" aria-hidden="true" />
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Transition>
-                </div>
-            </div>
+           
         </Layout>
     );
 };

@@ -97,7 +97,7 @@ function Navbar({page}: {page: string}) {
 
                                 
 
-                                <Popover>
+                                {/* <Popover>
                                     {({ open }) => (
                                         <>
                                             <Popover.Button
@@ -157,7 +157,7 @@ function Navbar({page}: {page: string}) {
                                             </Transition>
                                         </>
                                     )}
-                                </Popover>
+                                </Popover> */}
                             </Popover.Group>
                             
                             <div className="flex items-center md:ml-12">
@@ -197,7 +197,6 @@ function Navbar({page}: {page: string}) {
                                 <div className="mt-6 sm:mt-8">
                                     <nav>
                                         <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
-                                           
                                             <Link href={'/discover/list/all'}>
                                                 <a className="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
                                                     <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-pelorous-500 text-white sm:h-12 sm:w-12">
@@ -224,10 +223,12 @@ function Navbar({page}: {page: string}) {
                                             </Link>
                                             {!loading && isLogged ?
                                                 <Link href={'/user'}>
-                                                    <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-pelorous-500 text-white sm:h-12 sm:w-12">
-                                                        <FontAwesomeIcon icon={faDashboard} className="h-6 w-6" aria-hidden="true" />
-                                                    </div>
-                                                    <div className="ml-4 text-base font-medium text-gray-900">{t('navBar.dashboard')}</div>
+                                                    <a className='flex'>
+                                                        <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-pelorous-500 text-white sm:h-12 sm:w-12">
+                                                            <FontAwesomeIcon icon={faDashboard} className="h-6 w-6" aria-hidden="true" />
+                                                        </div>
+                                                        <div className="ml-4 text-base font-medium text-gray-900">{t('navBar.dashboard')}</div>
+                                                    </a>
                                                 </Link>
                                                 : ''
                                             } 

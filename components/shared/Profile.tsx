@@ -59,12 +59,12 @@ function Profile({ data }: any) {
                                             {data.about}
                                         </dd>
                                     </div>
-                                    <div className="sm:col-span-2">
+                                    {/* <div className="sm:col-span-2">
                                         <dt className="text-sm font-medium text-gray-500">{t('page.personalInformation.professionalSummary')}</dt>
                                         <dd className="mt-1 text-sm text-gray-900">
                                             {data.professionalSkills}
                                         </dd>
-                                    </div>
+                                    </div> */}
                                     <div className="sm:col-span-1">
                                         <dt className="text-sm font-medium text-gray-500">{t('page.personalInformation.telephone')}</dt>
                                         <dd className="mt-1 text-sm text-gray-900">{data.cellphone}</dd>

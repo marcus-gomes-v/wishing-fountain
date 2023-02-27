@@ -5,11 +5,11 @@ import Features from '../components/shared/Features'
 import Hero from '../components/shared/Hero'
 
 const Home: NextPage = () => {
-  const pageTitle = 'GrandpaRentails - Discover people potential Once again'
+  const pageTitle = 'Wishing Fountain - Help to build the future support todays dream.'
   return (
     <Layout page='home'>    
       <Head>
-        <title>GrandParentals</title>
+        <title>Wishing Fountain</title>
         <meta
           name="description"
           content={pageTitle}

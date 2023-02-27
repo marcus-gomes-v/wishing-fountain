@@ -74,10 +74,10 @@ export default {
                 slogan: "To change tomorrow",
                 description: "Help kids arround the world to keep their dream alive.",
                 items: {
-                    letsTalk: "Lets talk",
-                    letsEatTogether: "Lets eat together",
-                    helpWithStudiesAndHomework: "Help with studies and homework",
-                    animalsCare: "Animals care",
+                    letsTalk: "Be Astronaut",
+                    letsEatTogether: "Be Politician",
+                    helpWithStudiesAndHomework: "Be Engineer",
+                    animalsCare: "Be veterinariam",
                 }
             },
             features: {
@@ -135,10 +135,10 @@ export default {
                 }
             },
             grandparents: {
-                title: "People",
-                subtitle: "The list of people you helped to connect",
+                title: "Kids & Dreams",
+                subtitle: "The list of kids and their dreams",
                 actions: {
-                    add: "Add a Person",
+                    add: "Add a Kid",
                     edit: "Edit",
                     delete: "Delete"
                 },

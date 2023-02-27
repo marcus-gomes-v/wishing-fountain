@@ -7,11 +7,11 @@ import FeaturesGradient from '../components/shared/FeaturesGradient'
 const howItWorks: NextPage = () => {
     const { t } = useTranslation();
 
-  const pageTitle = 'How it Works - Discover more how we are helping people connect throug their potential Once again'
+  const pageTitle = 'How it Works - Discover more how support dreams of kids to build a brighter tomorrow.'
   return (
     <Layout page='howItWorks'>    
         <Head>
-            <title>GrandParentals</title>
+              <title>Wishing Fountain</title>
             <meta
             name="description"
             content={pageTitle}
