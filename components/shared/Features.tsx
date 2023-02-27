@@ -31,11 +31,11 @@ function Features() {
     ]
 
     return (
-        <div className="relative overflow-hidden pt-3 pb-32">
-            <div className="relative">
+        <div className="relative overflow-hidden">
+            <div className="relative bg-gray-100">
                 <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-1 lg:gap-24 lg:px-8">
                     <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
-                        <div className="bg-gray-50">
+                        <div className="">
                             <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                                 <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8">
                                     {incentives.map((incentive) => (
@@ -50,14 +50,16 @@ function Features() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="relative py-12 bg-gradient-to-r from-pelorous-800 to-pelorous-700">
                 <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
 
                     <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
                         <div>
 
                             <div className="mt-6">
-                                <h2 className="text-3xl font-bold tracking-tight text-gray-900">{t('components.features.section.first.title')}</h2>
-                                <p className="mt-4 text-lg text-gray-500">
+                                <h2 className="text-3xl font-bold tracking-tight text-gray-100">{t('components.features.section.first.title')}</h2>
+                                <p className="mt-4 text-lg text-gray-200">
                                     <Trans i18nKey="multiline">
                                         {t('components.features.section.first.text')}
                                     </Trans>
@@ -77,7 +79,7 @@ function Features() {
                         <div className="mt-8 border-t border-gray-200 pt-6">
                             <blockquote>
                                 <div>
-                                    <p className="text-base text-gray-500">
+                                    <p className="text-base text-gray-200">
                                         &ldquo;
                                         {t('components.features.section.quote.text')}
                                         &rdquo;
@@ -92,7 +94,7 @@ function Features() {
                                                 alt=""
                                             />
                                         </div>
-                                        <div className="text-base font-medium text-gray-700">
+                                        <div className="text-base font-medium text-gray-400">
                                             {t('components.features.section.quote.person')}
                                         </div>
                                     </div>
@@ -104,7 +106,7 @@ function Features() {
                         <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                             <img
                                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                                src="https://images.unsplash.com/photo-1613147474738-b988fa947e40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=20"
+                                src="/images/photos/content-right-home.avif"
                                 alt="Second start"
                             />
                         </div>
@@ -140,7 +142,7 @@ function Features() {
                         <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                             <img
                                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                                src="https://images.unsplash.com/photo-1494438043283-22a3c46831a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=20"
+                                src="/images/photos/content-left-home.webp"
                                 alt="Customer profile user interface"
                             />
                         </div>

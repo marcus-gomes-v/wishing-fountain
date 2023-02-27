@@ -1,13 +1,13 @@
 export default {
     translation: {
         common: {
-            grandparentals: 'GrandpaRentals',
-            rights: "2022 GrandpaRental. All rights reserved."
+            grandparentals: 'Wishing Fountain',
+            rights: "2023 Wishing Fountain. All rights reserved."
         },
         navBar: {
             dashboard: 'Dashboard',
-            discoverPeople: 'Discover people',
-            typesOfHelp: 'Types of help',
+            discoverPeople: 'Our kids Dream',
+            typesOfHelp: 'Types of dreams',
             aboutUs: "About Us",
             howItWorks: "How it Works",
             solutions: [
@@ -45,7 +45,7 @@ export default {
             },
             discoverPeople: {
                 head: {
-                    title: "Discover people - Grandparentals"
+                    title: "Discover people"
                 },
                 title: "People",
                 appliedOn: "Applied on"
@@ -70,9 +70,9 @@ export default {
         },
         components: {
             hero: {
-                title:"Discover people potential",
-                slogan: "Once again",
-                description: "Help the people by letting them help you",
+                title:"Support a dream today",
+                slogan: "To change tomorrow",
+                description: "Help kids arround the world to keep their dream alive.",
                 items: {
                     letsTalk: "Lets talk",
                     letsEatTogether: "Lets eat together",
@@ -83,37 +83,37 @@ export default {
             features: {
                 icons: {
                     one: {
-                        name: "Notice the person in need",
-                        description: "The first thing to bring the change is to notice the need and talk with the person."
+                        name: "Notice a kid dreaming",
+                        description: "The first thing to bring the change is to hear the dream of kids, understand and feel the difference they want to make."
                     },
                     two: {
-                        name: 'Register the person',
-                        description: 'After you log in to the system, you are able to create a profile of a person who is willing to share their time and talents with others. The profile contains personal information about the person, their skills, and goals.',
+                        name: 'Register the dream',
+                        description: 'After you log in to the system, you are able to create a profile of a kid who is willing to share their dream with all the people in the world.',
 
                     },
                     three: {
-                        name: 'Let other people contact the person',
-                        description: "The created profile will be publicly available, so the person who would use the help will be able to find people to help them or just to talk to and spend some time together."
+                        name: 'Let other people support',
+                        description: "The created profile will be publicly available, so the kids dream will be able to find people to help them to growth and became reality."
 
                     },
                     four: {
                         name: 'Create new relations',
-                        description: "When people can find each other we believe that we are capable of introducing new human relations to the society."
+                        description: "When dreams can touch peoples hearth we believe that we are capable of introducing new human relations to the society."
                     },
                 },
                 section: {
                     first: {
-                        title: "The second start",
-                        text: "Have you ever thought of the potential we waste just by accepting retirement as the time in life when you don't have to do anything.<br />As long as the people stay active they are able to do much more which can improve both their mental and psychical health.< br />Unfortunately, a lot of people who are more experienced in life don't have a lot of activities in their lives.<br />Don't let it happen to all people that are close to you that have so much to offer to the society!<br />Help them register on our platform and find a new purpose in life.",
+                        title: "The dream start",
+                        text: "Have you ever thought of the potential we waste just by accepting the status quo, killing our dreams, closing doors of imagination?<br />As long as the people can dream they are able to do much more which can improve improve our world as we know.< br />Unfortunately, a lot of kids live under difference perspective, experienced no possibilities to create a future to change in their lives.<br />Don't let it happen with our kids, dont let the dreams die.<br />Help them registering on our platform let's support this kids dream.",
                         tag: "Register at the portal"
                     },
                     quote: {
-                        text: "I wish that my grandpa had some goal in his life. After the grandkids grew up and didn't have as much time to spend with him, his life slowed up a lot. This caused loneliness and even problems with mobility. Now family visits are almost the only joy for him, and we wish for him to be active in social life again.",
-                        person: "Zofia, grandchild"
+                        text: "I wish have being able to provide a different life for my kids, being able to provide a differently future far away from the war and the poverty, allowing them to have a education that could save their future.",
+                        person: "Zofia, mother"
                     },
                     second: {
                         title: "Create social bonds",
-                        text: "It is never too late to make new friends and create new relationships. <br/>We believe we are able to change the way that people are co- existing in the society by helping them to create social bond with people who live close.< br />The number of possible types of collaboration among the people is infinite, and the only thing limiting us is our own imagination.< br />Join the platform to start a new journey in your life.",
+                        text: "It is never too late to make new friends and create new relationships. <br/>We believe we are able to change the way that kids can dream and how the experienced people in the society can helping them to create social bond through dreams.",
                         tag: "Register at the portal"
                     }
                 }
