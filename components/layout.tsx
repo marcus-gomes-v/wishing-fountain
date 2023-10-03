@@ -1,9 +1,12 @@
 import Head from "next/head"
 import Footer from "./shared/Footer"
 import Navbar from "./shared/Navbar"
+import { useTranslation } from 'react-i18next';
+
 
 export default function Layout({ children, page }: { children: React.ReactNode, page: string }) {
-  const siteTitle = "GrandpaRentails"
+  const { t } = useTranslation();
+  const siteTitle = t('header.page_title_default') 
 
   return (
    <div className="bg-gray-50">
@@ -11,7 +14,7 @@ export default function Layout({ children, page }: { children: React.ReactNode, 
         <link rel="icon" href="/icons/60.png" type="image/png"></link>
         <meta
           name="description"
-          content="Discover people potential, Dont allow age be a waste."
+          content={t('header.page_description_default')}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />

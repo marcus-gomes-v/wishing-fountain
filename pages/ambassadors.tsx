@@ -2,16 +2,15 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useTranslation } from 'react-i18next'
 import Layout from '../components/layout'
-import FeaturesGradient from '../components/shared/FeaturesGradient'
 
-const howItWorks: NextPage = () => {
+const Ambassadors: NextPage = () => {
     const { t } = useTranslation();
 
-  const pageTitle = 'How it Works - Discover more how support dreams of kids to build a brighter tomorrow.'
+  const pageTitle = 'Ambassadors - Discover more about how we are helping kids to keep dreaming.'
   return (
-    <Layout page='howItWorks'>    
+    <Layout page='ambassadors'>    
         <Head>
-              <title>Wishing Fountain</title>
+              <title>Unwrap Your Dream</title>
             <meta
             name="description"
             content={pageTitle}
@@ -25,12 +24,12 @@ const howItWorks: NextPage = () => {
         </Head>
         <div className='mx-4 my-3 grid gap-y-3'>
             <h1 className='font-light text-2xl'>
-                  {t('page.howItWorks.title')}
+                {t('page.ambassadors.title')}
             </h1>
-            <p>{t('page.howItWorks.content')}</p>
+            <p>{t('page.ambassadors.content')}</p>
         </div>
     </Layout> 
   )
 }
 
-export default howItWorks
+export default Ambassadors

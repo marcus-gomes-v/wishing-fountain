@@ -32,8 +32,8 @@ function Hero() {
   
     return (
         <div className="relative">
-            <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
-            <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 ">
+            
+            <div className="mx-auto max-w-7xl sm:mt-16">
                 <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
                     <div className="absolute inset-0">
                         <img
@@ -53,7 +53,7 @@ function Hero() {
                         <p className="mx-auto my-6 max-w-lg text-center text-xl text-pelorous-50 sm:max-w-3xl">
                             {t('components.hero.description')}
                         </p>
-                        <div className="mx-auto flex max-w-lg align-middle items-center space-x-3">
+                        {/* <div className="mx-auto flex max-w-lg align-middle items-center space-x-3">
                             <input
                                 type="text"
                                 name="location"
@@ -86,7 +86,7 @@ function Hero() {
                                 <FontAwesomeIcon icon={faSearch} className="mx-2 h-6 w-6" aria-hidden="true" />
                             </button>
                             
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

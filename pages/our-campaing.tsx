@@ -3,12 +3,12 @@ import Head from 'next/head'
 import { useTranslation } from 'react-i18next'
 import Layout from '../components/layout'
 
-const AboutUs: NextPage = () => {
+const OurCampaign: NextPage = () => {
     const { t } = useTranslation();
 
-  const pageTitle = 'About Us - Discover more about how we are helping kids to keep dreaming.'
+  const pageTitle = 'Our Campaign - Discover more about how we are helping kids to keep dreaming.'
   return (
-    <Layout page='aboutUs'>    
+    <Layout page='our-campaign'>    
         <Head>
               <title>Unwrap Your Dream</title>
             <meta
@@ -24,12 +24,12 @@ const AboutUs: NextPage = () => {
         </Head>
         <div className='mx-4 my-3 grid gap-y-3'>
             <h1 className='font-light text-2xl'>
-                {t('page.aboutUs.title')}
+                {t('page.ourCampaing.title')}
             </h1>
-            <p>{t('page.aboutUs.content')}</p>
+            <p>{t('page.ourCampaing.content')}</p>
         </div>
     </Layout> 
   )
 }
 
-export default AboutUs
+export default OurCampaign

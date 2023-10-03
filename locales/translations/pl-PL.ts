@@ -1,8 +1,8 @@
 export default {
     translation: {
         common: {
-            grandparentals: 'Wishing Fountain',
-            rights: "2023 Wishing Fountain. All rights reserved."
+            grandparentals: 'Unwrap Your Dream',
+            rights: "2023 Unwrap Your Dream. All rights reserved."
         },
         navBar: {
             dashboard: 'Dashboard',
