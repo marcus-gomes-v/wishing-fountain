@@ -7,6 +7,10 @@ import { useTranslation } from 'react-i18next';
 import Testimonials from '../components/shared/Testimonials'
 import DynamicTestMap from '../components/shared/MapComponents'
 import Act from '../components/shared/Act'
+import Explain from '../components/shared/Explain'
+import FeaturesGradient from '../components/shared/FeaturesGradient'
+import ExplainImproved from '../components/shared/ExplainImproved'
+import Goals from '../components/shared/Goals'
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
@@ -27,10 +31,10 @@ const Home: NextPage = () => {
         />
       </Head>
       <Hero />
-      <Testimonials></Testimonials>
-      <Features></Features>
+      <ExplainImproved></ExplainImproved>
+      <FeaturesGradient></FeaturesGradient>
+      <Goals></Goals>
       <DynamicTestMap />
-      <Act></Act>
     </Layout> 
   )
 }

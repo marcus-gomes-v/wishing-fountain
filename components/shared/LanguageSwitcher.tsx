@@ -12,7 +12,7 @@ function LanguageSwitcher() {
                 }
             >
                 <option value="en">EN</option>
-                <option value="pl-PL">PL</option>
+                {/* <option value="pl-PL">PL</option> */}
             </select>
         </div>
     );

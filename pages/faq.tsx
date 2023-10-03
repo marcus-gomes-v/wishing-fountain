@@ -2,13 +2,14 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useTranslation } from 'react-i18next'
 import Layout from '../components/layout'
+import FaqComponent from '../components/shared/Faq'
 
 const OurCampaign: NextPage = () => {
     const { t } = useTranslation();
 
-  const pageTitle = 'Our Campaign - Discover more about how we are helping kids to keep dreaming.'
+  const pageTitle = 'Faq - Discover more about how we are helping kids to keep dreaming.'
   return (
-    <Layout page='our-campaign'>    
+    <Layout page='faq'>    
         <Head>
               <title>Unwrap Your Dream</title>
             <meta
@@ -23,10 +24,7 @@ const OurCampaign: NextPage = () => {
             />
         </Head>
         <div className='mx-4 my-3 grid gap-y-3'>
-            <h1 className='font-light text-2xl'>
-                {t('page.ourCampaing.title')}
-            </h1>
-            <p>{t('page.ourCampaing.content')}</p>
+            <FaqComponent></FaqComponent>
         </div>
     </Layout> 
   )

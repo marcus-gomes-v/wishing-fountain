@@ -19,12 +19,6 @@ function Navbar({page}: {page: string}) {
     
     const navigation = [
         {
-            title: t('navBar.pages.our_campaing'),
-            href: '/our-campaing',
-            page: 'our-campaing',
-            icon: faComment,
-        },
-        {
             title: t('navBar.pages.ambassadors'),
             href: '/ambassadors',
             page: 'ambassadors',
@@ -34,6 +28,12 @@ function Navbar({page}: {page: string}) {
             title: t('navBar.pages.about_us'),
             href: '/about-us',
             page: 'aboutUs',
+            icon: faComment,
+        },
+        {
+            title: t('navBar.pages.faq'),
+            href: '/faq',
+            page: 'faq',
             icon: faComment,
         }
     ]

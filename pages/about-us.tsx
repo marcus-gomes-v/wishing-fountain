@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useTranslation } from 'react-i18next'
 import Layout from '../components/layout'
+import Team from '../components/shared/Team'
 
 const AboutUs: NextPage = () => {
     const { t } = useTranslation();
@@ -23,10 +24,7 @@ const AboutUs: NextPage = () => {
             />
         </Head>
         <div className='mx-4 my-3 grid gap-y-3'>
-            <h1 className='font-light text-2xl'>
-                {t('page.aboutUs.title')}
-            </h1>
-            <p>{t('page.aboutUs.content')}</p>
+            <Team></Team>
         </div>
     </Layout> 
   )
