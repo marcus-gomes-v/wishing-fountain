@@ -33,7 +33,8 @@ export default {
             },
             ambassadors: {
                 title: "Ambassadors",
-                content: "Page Under Construction"
+                content: "Page Under Construction",
+                test: "lerigo"
             },
             personalInformation: {
                 head: {
