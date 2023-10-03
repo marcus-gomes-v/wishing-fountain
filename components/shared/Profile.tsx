@@ -75,9 +75,9 @@ function Profile({ data }: any) {
                                     </div>
                                     <div>
                                     {
-                                        data.skills.map((element: any) => {
+                                        data.skills.map((element: any, key: any) => {
                                             return (
-                                                <span className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
+                                                <span key={key} className="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
                                                     {element}
                                                 </span>
                                         )})

@@ -68,7 +68,7 @@ function discover({ list }: { list: Array<Object> }) {
                                     <h3 className="text-sm font-medium text-yellow-800">No register found</h3>
                                     <div className="mt-2 text-sm text-yellow-700">
                                         <p>
-                                            Sorry but at the moment we didn't found any grandparent to connect with you, come back soon we promise that we'll found someone to create bonds with you.
+                                            Sorry but at the moment we didn&lsquo;t found any grandparent to connect with you, come back soon we promise that we&lsquo;ll found someone to create bonds with you.
                                         </p>
                                     </div>
                                 </div>

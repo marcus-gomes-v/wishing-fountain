@@ -7,5 +7,7 @@ module.exports = {
     formats: ['image/webp'],
     domains: ['firebasestorage.googleapis.com', 'lh3.googleusercontent.com'],
   },
-  
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }

@@ -17,6 +17,8 @@
     "@types/react-dom": "^18.2.8",
     "axios": "^0.27.2",
     "dashify": "^2.0.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^13.5.4",
     "firebase": "^9",
     "firebase-admin": "^10.2.0",
     "headlessui": "^0.0.0",
