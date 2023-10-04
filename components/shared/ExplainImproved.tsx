@@ -40,10 +40,10 @@ export default function ExplainImproved() {
                         <FontAwesomeIcon icon={feature.icon} className="h-8 w-8 text-white" aria-hidden="true" />
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                    <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight text-gray-900 text-left">
                       {feature.name}
                     </h3>
-                    <p className="mt-5 text-base leading-7 text-gray-600">{feature.description}</p>
+                    <p className="mt-5 text-base leading-7 text-gray-600 text-left">{feature.description}</p>
                   </div>
                 </div>
               </div>

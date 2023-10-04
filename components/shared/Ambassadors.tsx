@@ -31,73 +31,73 @@ function AmbassadorsComponent() {
   const people = [
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
       name: 'Name Surname',
-      role: 'Role / Position',
+      role: 'Country',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     }

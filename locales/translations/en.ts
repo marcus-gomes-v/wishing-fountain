@@ -1,7 +1,7 @@
 export default {
     translation: {
         common: {
-            logo_name: 'Unwrap Your Dream',
+            logo_name: '#UnwrapYourDream',
             rights: "2023 Unwrap Your Dream. All rights reserved."
         },
         header:{
@@ -140,6 +140,10 @@ export default {
                         }
                     }
                 }
+            },
+            map: {
+                title: "#UnwrapYourDream",
+                description: "Among all the tangible gifts this season, the most heartwarming sight is a child’s eyes lighting up, revealing what truly makes them come alive. Let's come together and nurture that spark. Encourage them to #UnwrapTheirDream.",
             },
             act: {
                 title: "You have a role to play",
