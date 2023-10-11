@@ -59,6 +59,13 @@ export default {
                 title:"A Universe of Dreams",
                 slogan: "#UnwrapYourDream"
             },
+            participants: {
+                title: "A Universe of Dreams",
+                subtitle: "#UnwrapYourDream",
+                actions: {
+                    add: 'Finish your Register'
+                }
+            },
             explain: {
                 left: {
                     title: "The Vision",

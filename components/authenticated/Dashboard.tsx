@@ -1,8 +1,7 @@
-import Grandparents from "./Grandparents"
 import { useAuth } from '../../context/AuthContext';
 import { useEffect, useState } from "react";
 import { useTranslation } from 'react-i18next'
-
+import Participants from "./Participants";
 
 function Dashboard() {
     const { t } = useTranslation();
@@ -43,13 +42,12 @@ function Dashboard() {
                                     </div>
                                 </div>
                             </div>
-                            
                         </div>
                     </section>
 
                     {/* Actions panel */}
                     <section aria-labelledby="quick-links-title">
-                        <Grandparents></Grandparents>
+                        <Participants></Participants>
                     </section>
                 </div>
             </div>
