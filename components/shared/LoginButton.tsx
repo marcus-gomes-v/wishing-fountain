@@ -36,7 +36,7 @@ function LogginButton({ handleLoading, handleLogged }: { handleLoading: any, han
             className={` group
                 w-full py-3
                 lg:ml-8 lg:px-4 lg:py-0
-                border border-transparent lg:rounded-md 
+                border border-transparent lg:rounded-full 
                 shadow-sm 
                 font-bold
                 tracking-wide
@@ -45,7 +45,7 @@ function LogginButton({ handleLoading, handleLogged }: { handleLoading: any, han
                 ${!loading && isLogged ? "bg-red-600 hover:bg-red-700" : "bg-yellow-500 hover:bg-yellow-200"} `}>
 
             <span className={`inline-flex items-center justify-center group-hover:text-yellow-700 group-hover:animate-pulse text-white `} >
-                <FontAwesomeIcon icon={!loading && isLogged ? faClose : faGoogle} className="w-4 h-4 mr-2" />
+                <FontAwesomeIcon icon={!loading && isLogged ? faClose : faGoogle} className="w-4 h-4 mr-2 hidden" />
                 {!loading && isLogged ? t('login.logout') : t('login.google')}
             </span>
         </button>

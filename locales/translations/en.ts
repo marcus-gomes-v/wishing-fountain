@@ -12,6 +12,8 @@ export default {
             dashboard: "Dashboard",
             pages: {
                 faq: 'FAQ',
+                ourImpact: 'Our Impact',
+                ourEvent: 'Our Event',
                 ambassadors: 'Ambassadors',
                 about_us: 'About Us',
                 register_now: 'Register Now',
@@ -21,7 +23,7 @@ export default {
         login: {
             login: 'Login',
             logout: 'Logout',
-            google: 'Register with Google'
+            google: 'JOIN US'
         },
         page: {
             aboutUs: {
@@ -58,9 +60,9 @@ export default {
         components: {
             hero: {
                 title: [
-                    "Dream,",
-                    "Visualize",
-                    "& Inspire."
+                    "Dream.",
+                    "Visualize.",
+                    "Inspire."
                 ],
                 slogan: "#UnwrapYourDream"
             },

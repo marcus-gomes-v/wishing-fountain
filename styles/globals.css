@@ -8,3 +8,20 @@
 h1, h2, h3, h4, h5, h6, div, p, span, b, i, u{
   font-family: 'Amatic SC', sans-serif;
 }
+
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0;
+}
+
+/* Or use custom CSS */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* Adjust as needed */
+}

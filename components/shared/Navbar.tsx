@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -17,12 +17,37 @@ import LanguageSwitcher from './LanguageSwitcher'
 
 function Navbar({page}: {page: string}) {
     const { t } = useTranslation();
+    const [scrolled, setScrolled] = useState(false);
+    const backgroundColor = scrolled || page != 'home' ? "bg-violet-500" : "bg-transparent";
+    const stickyNavbarClass = scrolled ? "sticky top-0 py-1 bg-gradient-to-b from-violet-600 to-violet-700" : "relative";
+
+    useEffect(() => {
+        const handleScroll = () => {
+            // Check the scroll position to determine if the user has scrolled down
+            const isScrolled = window.scrollY > 0;
+            setScrolled(isScrolled);
+        };
+
+        // Attach the event listener when the component mounts
+        window.addEventListener("scroll", handleScroll);
+
+        // Clean up the event listener when the component unmounts
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     
     const navigation = [
         {
-            title: t('navBar.pages.ambassadors'),
-            href: '/ambassadors',
-            page: 'ambassadors',
+            title: t('navBar.pages.ourImpact'),
+            href: '/our-impact',
+            page: 'our-impact',
+            icon: faComment,
+        },
+        {
+            title: t('navBar.pages.ourEvent'),
+            href: '/our-event',
+            page: 'our-event',
             icon: faComment,
         },
         {
@@ -47,11 +72,11 @@ function Navbar({page}: {page: string}) {
    
     
     return (
-        <header className=''>
+        <header className={` ${stickyNavbarClass} ${backgroundColor}`}>
             <Popover className="relative">
                 <div className="absolute inset-0 pointer-events-none" aria-hidden="true" />
-                <div className="relative z-20">
-                    <div className="max-w-full mx-auto flex justify-between items-center px-3 sm:px-12 py-2">
+                <div className={`relative z-20 `}>
+                    <div className={`max-w-full mx-auto flex justify-between items-center px-3 sm:px-12 py-2 `}>
                         <Link href={'/'}>
                             <a className="flex font-bold text-yellow-200 text-[32px] group">
                                 <span className="sr-only">{t('common.logo_name')}</span>

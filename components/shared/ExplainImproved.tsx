@@ -33,7 +33,7 @@ export default function ExplainImproved() {
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-2">
             {features.map((feature) => (
               <div key={feature.name} className="pt-6">
-                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8 min-h-[260px]">
                   <div className="-mt-6">
                     <div>
                       <span className="inline-flex items-center justify-center rounded-xl p-3 shadow-lg bg-gradient-to-b from-[#f9d59c] to-[#dbae61]">
