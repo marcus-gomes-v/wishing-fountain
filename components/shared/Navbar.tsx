@@ -8,7 +8,8 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import Link from 'next/link'
-import {  faDashboard, faHeadSideHeart, faHouseLaptop, faInfo, faPeople, faPotFood, faSquareInfo} from '@fortawesome/pro-solid-svg-icons';
+import { faDashboard, faHeadSideHeart, faHouseLaptop, faInfo, faPeople, faPotFood, faSquareInfo, faUserAstronaut} from '@fortawesome/pro-solid-svg-icons';
+
 import { faBook, faComment, faDog } from '@fortawesome/free-solid-svg-icons';
 import LogginButton from './LoginButton';
 import { useTranslation } from 'react-i18next';
@@ -46,32 +47,31 @@ function Navbar({page}: {page: string}) {
    
     
     return (
-        <header>
-            <Popover className="relative bg-white">
+        <header className=''>
+            <Popover className="relative">
                 <div className="absolute inset-0 pointer-events-none" aria-hidden="true" />
                 <div className="relative z-20">
-                    <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-7 md:justify-start md:space-x-10">
+                    <div className="max-w-full mx-auto flex justify-between items-center px-3 sm:px-12 py-2">
                         <Link href={'/'}>
-                            <a className="flex font-bold text-pelorous-600 text-lg group">
+                            <a className="flex font-bold text-yellow-200 text-[32px] group">
                                 <span className="sr-only">{t('common.logo_name')}</span>
-                                <img src='/icons/29.png' className='mr-2'/>
+                                <FontAwesomeIcon icon={faUserAstronaut} className='h-12 w-12' />
                                 {t('common.logo_name')}
                             </a>
                         </Link>
                         <div className="-mr-2 -my-2 md:hidden flex">
                             <LanguageSwitcher />
-                            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pelorous-500">
+                            <Popover.Button className="bg-white ml-3 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pelorous-500">
                                 <span className="sr-only">Open menu</span>
                                 <MenuIcon className="h-6 w-6" aria-hidden="true" />
                             </Popover.Button>
                         </div>
                         <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
-                            <Popover.Group as="nav" className="flex space-x-10 align-middle items-center">
-                                
+                            <Popover.Group as="nav" className="flex space-x-2 align-middle items-center text-[24px] ml-6">
                                 {!loading && isLogged ?
                                     <Link href={'/user'}>
-                                        <a className={`px-3 text-base font-medium
-                                            ${page == 'user' ? "text-pelorous-500 hover:text-pelorous-900" : "text-gray-500 hover:text-gray-900"}`}>
+                                        <a className={`px-3 font-bold tracking-wide hover:tracking-wider
+                                            ${page == 'user' ? "text-orange-400 hover:text-yellow-700" : "text-white hover:text-yellow-100"}`}>
                                             {t('navBar.dashboard')}
                                         </a>
                                     </Link> : <></>
@@ -79,8 +79,8 @@ function Navbar({page}: {page: string}) {
                                 {navigation.map( (nav, i) => {
                                     return (
                                         <Link key={i} href={nav.href}>
-                                            <a className={` px-3 text-base font-medium
-                                                ${page == nav.page ? "text-pelorous-500 hover:text-pelorous-900" : "text-gray-500 hover:text-gray-900"}`}>
+                                            <a className={` px-3 font-bold tracking-wide hover:tracking-wider
+                                                ${page == nav.page ? "text-orange-400 hover:text-yellow-700" : "text-white hover:text-yellow-100"}`}>
                                                 {nav.title}
                                             </a>
                                         </Link>

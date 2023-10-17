@@ -4,21 +4,26 @@ function Hero() {
     const { t } = useTranslation();
   
     return (
-        <div className="relative">
-            <div className="absolute inset-0">
+        <div className="h-screen flex justify-end items-center">
+            <div className="absolute">
                 <img
                     className="h-full w-full object-cover"
-                    src="/images/photos/top-image-home.png"
+                    src="/images/photos/home.jpg"
                     alt="People working on laptops"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-pelorous-600 to-indigo-300 mix-blend-multiply" />
+                <div className="absolute bg-gradient-to-r from-yellow-100 to-orange-200 mix-blend-multiply" />
             </div>
-            <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+            <div className="relative">
+                <h1 className="text-left font-bold tracking-tight text-[96px] sm:text-[128px] px-6 sm:px-24">
                     <span className="block text-white">
-                        {t('components.hero.title')}
+                        {t('components.hero.title.0')}
                     </span>
-                    <span className="block text-pelorous-200">{t('components.hero.slogan')}</span>
+                    <span className="block text-white sm:pl-6">
+                        {t('components.hero.title.1')}
+                    </span>
+                    <span className="block text-white sm:pl-12">
+                        {t('components.hero.title.2')}
+                    </span>
                 </h1>
             </div>
         </div>

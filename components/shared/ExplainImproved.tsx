@@ -23,12 +23,12 @@ export default function ExplainImproved() {
   
 
   return (
-    <div className="relative bg-white py-24 sm:py-32 lg:py-20">
+    <div className="relative bg-gradient-to-b from-[#D3A55C] to-[#dbae61] py-24 sm:py-32 lg:py-20">
       <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-        <p className="mx-auto max-w-prose text-xl text-gray-500">
+        <p className="mx-auto max-w-prose text-[32px] text-gray-50 tracking-wider">
           {t('components.testimonials.text')}
         </p>
-        <h2 className="text-lg font-semibold text-teal-600">{t('components.testimonials.author')}</h2>
+        <h2 className="text-[24px] font-bold text-yellow-100">{t('components.testimonials.author')}</h2>
         <div className="mt-20">
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-2">
             {features.map((feature) => (
@@ -36,14 +36,14 @@ export default function ExplainImproved() {
                 <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center rounded-xl bg-teal-500 p-3 shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-xl p-3 shadow-lg bg-gradient-to-b from-[#f9d59c] to-[#dbae61]">
                         <FontAwesomeIcon icon={feature.icon} className="h-8 w-8 text-white" aria-hidden="true" />
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight text-gray-900 text-left">
+                    <h3 className="mt-8 text-[24px] tracking-wide font-bold leading-8 text-gray-900 text-left">
                       {feature.name}
                     </h3>
-                    <p className="mt-5 text-base leading-7 text-gray-600 text-left">{feature.description}</p>
+                    <p className="mt-5 text-[18px] font-sans tracking-wider leading-7 text-gray-600 text-left">{feature.description}</p>
                   </div>
                 </div>
               </div>

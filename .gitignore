@@ -38,4 +38,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
+
 wishing-fountain-firebase-adminsdk-credentials.json

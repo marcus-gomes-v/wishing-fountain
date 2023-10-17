@@ -9,6 +9,7 @@ export default {
             page_description_default: 'Discover people potential, Dont allow age be a waste.'
         },
         navBar: {
+            dashboard: "Dashboard",
             pages: {
                 faq: 'FAQ',
                 ambassadors: 'Ambassadors',
@@ -20,7 +21,7 @@ export default {
         login: {
             login: 'Login',
             logout: 'Logout',
-            google: 'Login with Google'
+            google: 'Register with Google'
         },
         page: {
             aboutUs: {
@@ -56,7 +57,11 @@ export default {
         },
         components: {
             hero: {
-                title:"A Universe of Dreams",
+                title: [
+                    "Dream,",
+                    "Visualize",
+                    "& Inspire."
+                ],
                 slogan: "#UnwrapYourDream"
             },
             participants: {
