@@ -21,10 +21,10 @@ const Map = () => {
   }) as any;
 
   return (
-    <div className="relative bg-gradient-to-r from-pelorous-800 to-pelorous-700">
+    <div className="relative bg-gradient-to-br from-yellow-400 to-yellow-700">
       <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:pt-20 sm:pb-20 lg:max-w-7xl lg:px-8 ">
-        <h2 className="text-3xl font-bold tracking-tight text-white">{t('components.map.title')}</h2>
-        <p className="mt-4 max-w-3xl text-lg text-pelorous-200">
+        <h2 className="text-[40px] font-bold tracking-wide text-white">{t('components.map.title')}</h2>
+        <p className="mt-4 max-w-3xl text-[14px] text-white font-mono">
           {t('components.map.description')}
         </p>
       </div>

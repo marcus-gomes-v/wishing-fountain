@@ -11,6 +11,10 @@ import Explain from '../components/shared/Explain'
 import FeaturesGradient from '../components/shared/FeaturesGradient'
 import ExplainImproved from '../components/shared/ExplainImproved'
 import Goals from '../components/shared/Goals'
+import First from '../components/shared/First'
+import Second from '../components/shared/Second'
+import Third from '../components/shared/Third'
+import Fourth from '../components/shared/Fourth'
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
@@ -32,8 +36,12 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <ExplainImproved></ExplainImproved>
-      <FeaturesGradient></FeaturesGradient>
-      <Goals></Goals>
+      <First></First>
+      <Second></Second>
+      <Third></Third>
+      <Fourth></Fourth>
+      {/* <FeaturesGradient></FeaturesGradient>
+      <Goals></Goals> */}
       <DynamicTestMap />
     </Layout> 
   )

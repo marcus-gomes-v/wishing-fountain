@@ -66,6 +66,42 @@ export default {
                 ],
                 slogan: "#UnwrapYourDream"
             },
+            first: {
+                title: [
+                    "Visualizing Dreams",
+                    "Voicing Futures"
+                ],
+                topic: [
+                    {
+                        title: "Children are the visionaries of our future.",
+                        description: "Yet, many face barriers from societal pressures, adversity, financial hardships, or self-doubt. They strive for understanding, yearn to be heard, and seek spaces where their dreams matter."
+                    },
+                    {
+                        title: "#UnwrapYourDream",
+                        description: "champions these young minds, ensuring their aspirations aren't just dreams, but blueprints for a brighter tomorrow."
+                    }
+                ]
+            },
+            second: {
+                title: "Dreams Inspire Growth",
+                description: "They keep children anchored and motivated. They teach them to overcome adversity, find strength in vulnerability, and shield them from despair and doubt. Dreams foster strength, allowing them to imagine a world of limitless potential.",
+                bottomBold: "#UnwrapYourDream",
+                bottomText: "gives wings to these aspirations, sowing seeds of resilience for a brighter tomorrow."
+                
+            },
+            third: {
+                title: "Dreams Are Transformative",
+                descriptionBold: "We've already ignited the imaginations of over 25,000+ children worldwide.",
+                descriptionNormal: "Through sketching, drawing, painting, and visualizing, we're charting a brighter future.",
+                descriptionEnd: "Our initiative empowers young minds with a canvas to dream, giving them the tools to shape their destinies and ripple positive change throughout their communities."
+            },
+            forth: {
+                title: "Meet Our Inspiration",
+                descriptionNormal: "Across the globe, many rise above challenges that stifle dreams and aspirations. Tererai Trent is one such beacon. Married off at the age of 11 and deprived of an education due to poverty and societal norms, she dared to dream beyond her circumstances. Today, she stands as an epitome of resilience, an acclaimed scholar and humanitarian.",
+                descriptionNormalSecond: "Her story inspired the birth of",
+                descriptionBold: "#UnwrapYourDream",
+                descriptionNormalThird: ", a movement urging children worldwide to visualize and chase their dreams."
+            },
             participants: {
                 title: "A Universe of Dreams",
                 subtitle: "#UnwrapYourDream",
