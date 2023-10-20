@@ -10,7 +10,7 @@ function Fourth() {
     const { t } = useTranslation();
 
     return (
-      <div className="bg-gradient-to-t from-[#206179] to-[#3a8ba9]">
+      <div className="bg-gradient-to-t from-[#ffffff] to-[#f6f6f6]">
         <div className="mx-auto max-w-4xl lg:max-w-7xl pt-36 pb-[40px]">
           <div className="flex flex-col sm:flex-row gap-10 px-6 sm:px-0">
             <div className="flex flex-1">
@@ -23,14 +23,14 @@ function Fourth() {
                 />
               </div>
             </div>
-            <div className="flex flex-1 flex-col text-gray-200">
-              <h2 className="text-[56px] font-bold tracking-wide text-gray-50">{t('components.forth.title')}</h2>
-              <p className="mt-4  text-[18px] font-mono">
+            <div className="flex flex-1 flex-col text-gray-400">
+              <h2 className="text-[56px] font-bold tracking-wide text-gray-500">{t('components.forth.title')}</h2>
+              <p className="mt-4  text-[18px] ">
                 {t('components.forth.descriptionNormal')}
               </p>
-              <p className="mt-4  text-[18px] font-mono">
+              <p className="mt-4  text-[18px] ">
                 {t('components.forth.descriptionNormalSecond')}&nbsp;
-                <span className="font-bold font-mono">{t('components.forth.descriptionBold')}&nbsp;</span>
+                <span className="font-bold ">{t('components.forth.descriptionBold')}&nbsp;</span>
                 {t('components.forth.descriptionNormalThird')}
               </p>
               <a href="#ignite" className="flex items-center mt-10 bg-yellow-500 text-white mx-auto px-6 py-3 rounded-full tracking-wider font-bold text-[24px] gap-2">

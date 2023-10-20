@@ -11,7 +11,7 @@ function Third() {
 
     return (
       <div className="bg-gradient-to-t from-white to-gray-100">
-        <div className="mx-auto max-w-4xl lg:max-w-7xl pt-24 pb-[58px]">
+        <div className="mx-auto max-w-4xl lg:max-w-7xl py-[112px]">
           <div className="flex flex-col sm:flex-row gap-10 px-6 sm:px-0">
             <div className="flex flex-1">
               <div className="w-[700px] h-[317px]">
@@ -25,11 +25,11 @@ function Third() {
             </div>
             <div className="flex flex-1 flex-col text-gray-600">
               <h2 className="text-[56px] font-bold tracking-wide text-gray-500">{t('components.third.title')}</h2>
-              <p className="mt-4  text-[18px] font-mono">
-                <span className="font-bold font-mono">{t('components.third.descriptionBold')}&nbsp;</span>
+              <p className="mt-4  text-[18px] ">
+                <span className="font-bold ">{t('components.third.descriptionBold')}&nbsp;</span>
                 {t('components.third.descriptionNormal')}
               </p>
-              <p className="mt-4  text-[18px] font-mono">
+              <p className="mt-4  text-[18px] ">
                 {t('components.third.descriptionEnd')}
               </p>
               <a href="#ignite" className="flex items-center mt-10 bg-yellow-500 text-white mx-auto px-6 py-3 rounded-full tracking-wider font-bold text-[24px] gap-2">

@@ -42,7 +42,7 @@ function LogginButton({ handleLoading, handleLogged }: { handleLoading: any, han
                 tracking-wide
                 hover:tracking-wider
                 text-[24px]
-                ${!loading && isLogged ? "bg-red-600 hover:bg-red-700" : "bg-yellow-500 hover:bg-yellow-200"} `}>
+                ${!loading && isLogged ? "bg-red-600 hover:bg-red-700" : "bg-[#FFD24A] hover:bg-yellow-200"} `}>
 
             <span className={`inline-flex items-center justify-center group-hover:text-yellow-700 group-hover:animate-pulse text-white `} >
                 <FontAwesomeIcon icon={!loading && isLogged ? faClose : faGoogle} className="w-4 h-4 mr-2 hidden" />

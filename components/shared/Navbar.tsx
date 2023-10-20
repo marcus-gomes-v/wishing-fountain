@@ -18,8 +18,8 @@ import LanguageSwitcher from './LanguageSwitcher'
 function Navbar({page}: {page: string}) {
     const { t } = useTranslation();
     const [scrolled, setScrolled] = useState(false);
-    const backgroundColor = scrolled || page != 'home' ? "bg-violet-500" : "bg-transparent";
-    const stickyNavbarClass = scrolled ? "sticky top-0 py-1 bg-gradient-to-b from-violet-600 to-violet-700" : "relative";
+    const backgroundColor = scrolled || page != 'home' ? "bg-[#48259fff]" : "bg-transparent";
+    const stickyNavbarClass = scrolled ? "sticky top-0 py-1 bg-gradient-to-b from-[#48259fff] to-violet-700" : "relative";
 
     useEffect(() => {
         const handleScroll = () => {
@@ -78,7 +78,7 @@ function Navbar({page}: {page: string}) {
                 <div className={`relative z-20 `}>
                     <div className={`max-w-full mx-auto flex justify-between items-center px-3 sm:px-12 py-2 `}>
                         <Link href={'/'}>
-                            <a className="flex font-bold text-yellow-200 text-[32px] group">
+                            <a className="flex font-bold text-[#FFD24A] text-[32px] group">
                                 <span className="sr-only">{t('common.logo_name')}</span>
                                 <FontAwesomeIcon icon={faUserAstronaut} className='h-12 w-12' />
                                 {t('common.logo_name')}
