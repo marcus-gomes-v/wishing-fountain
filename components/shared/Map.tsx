@@ -3,14 +3,15 @@ import 'leaflet/dist/leaflet.css'
 import { renderToStaticMarkup } from 'react-dom/server';
 import { divIcon } from 'leaflet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChildReaching } from '@fortawesome/pro-solid-svg-icons';
+import { faChildReaching, faChildren, faPenSwirl } from '@fortawesome/pro-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
+import OurImpactComponent from './OurImpactComponent';
 
 
 const Map = () => {
   const { t } = useTranslation();
 
-  const component = (<FontAwesomeIcon icon={faChildReaching} className='text-teal-700' />) as any;
+  const component = (<FontAwesomeIcon icon={faChildren} className='text-[#48259fff] ' />) as any;
   const iconMarkup = renderToStaticMarkup(component);
   const customMarkerIcon = divIcon({
     className: '',
@@ -21,40 +22,85 @@ const Map = () => {
   }) as any;
 
   return (
-    <div className="relative bg-gradient-to-br from-yellow-400 to-yellow-700">
-      <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:pt-20 sm:pb-20 lg:max-w-7xl lg:px-8 ">
-        <h2 className="text-[40px] font-bold tracking-wide text-white">{t('components.map.title')}</h2>
-        <p className="mt-4 max-w-3xl text-[18px] text-white">
-          {t('components.map.description')}
-        </p>
+    <div className="relative">
+      <div className="mx-auto max-w-7xl py-12">
+        <h2 className="text-[69px] font-bold tracking-wide text-gray-600 text-center underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[8px]">{t('components.map.title')}</h2>
+        <div className="py-6">
+          <p className="mt-4 text-[24px] text-gray-600">
+            {t('components.map.subtitle')}
+          </p>
+          <p className="mt-4 text-[24px] text-gray-600">
+            {t('components.map.descriptionNormal')}
+          </p>
+        </div>
+        <OurImpactComponent></OurImpactComponent>
+        <h2 className="text-[69px] font-bold tracking-wide text-gray-600">
+          <strong>{t('components.map.descriptionBold')}</strong>
+        </h2>
       </div>
       <MapContainer center={[14.124, -33.451]} zoom={3} scrollWheelZoom={false} style={{ height: 600, width: "100%" }}>
         <TileLayer
           attribution='&copy; Marcus Gomes Maptile'
-          url='https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png'
+          url='https://tile.openstreetmap.org/{z}/{x}/{y}.png'
         />
-        <Marker position={[51.505, -0.09]} icon={customMarkerIcon} >
+        <Marker position={[43.7178174, -79.6898656]} icon={customMarkerIcon} >
+          <Popup>
+            Toronto
+          </Popup>
         </Marker>
-        <Marker position={[51.93201629362751, 4.47222238830505]} icon={customMarkerIcon} >
+        <Marker position={[40.0292807, -105.3223777]} icon={customMarkerIcon} >
+          <Popup>
+            Boulder, Colorado
+          </Popup>
         </Marker>
-        <Marker position={[52.245017153610895, 21.004194034900525]} icon={customMarkerIcon} >
+        <Marker position={[-33.915099, 18.3264211]} icon={customMarkerIcon} >
+          <Popup>
+            Cape Town, South Africa
+          </Popup>
         </Marker>
-        <Marker position={[-33.9390281926236, 18.48023097787878]} icon={customMarkerIcon} >
+
+        <Marker position={[49.2577062, -123.2063038]} icon={customMarkerIcon} >
+          <Popup>
+            Vancouver, Canada
+          </Popup>
         </Marker>
-        <Marker position={[38.55048138550833, 68.76439608135253]} icon={customMarkerIcon} >
+
+        <Marker position={[50.0467365, 19.9224733]} icon={customMarkerIcon} >
+          <Popup>
+            Krakow, Poland
+          </Popup>
         </Marker>
-        <Marker position={[-8.650154697196562, 115.21568149476032]} icon={customMarkerIcon} >
+
+        <Marker position={[52.2328232, 20.8963905]} icon={customMarkerIcon} >
+          <Popup>
+            Warsaw, Poland
+          </Popup>
         </Marker>
-        <Marker position={[25.1791277824668, 55.2405212609074]} icon={customMarkerIcon} >
+
+        <Marker position={[32.8205566, -96.8963597]} icon={customMarkerIcon} >
+          <Popup>
+            Dallas, Texas
+          </Popup>
         </Marker>
-        <Marker position={[30.282756856530355, -97.74064855047236]} icon={customMarkerIcon} >
+
+        <Marker position={[38.561295, 68.6991807]} icon={customMarkerIcon} >
+          <Popup>
+            Tushanbe, Tajikistan
+          </Popup>
         </Marker>
-        <Marker position={[36.1482790387559, -86.80310967109904]} icon={customMarkerIcon} >
+
+        <Marker position={[-12.02659, -77.1525885]} icon={customMarkerIcon} >
+          <Popup>
+            Lima, Peru
+          </Popup>
         </Marker>
-        <Marker position={[-23.964817402056706, -46.332132273367925]} icon={customMarkerIcon} >
+
+        <Marker position={[34.5535962, 69.0329241]} icon={customMarkerIcon} >
+          <Popup>
+            Kabul, Afeganistan
+          </Popup>
         </Marker>
-        <Marker position={[41.16462252688111, -8.639481117847707]} icon={customMarkerIcon} >
-        </Marker>
+
       </MapContainer>
     </div>
   )

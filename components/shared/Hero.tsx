@@ -11,17 +11,17 @@ function Hero() {
                     src="/images/photos/home.jpg"
                     alt="People working on laptops"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-yellow-100 to-orange-200 mix-blend-multiply" />
+                <div className="absolute inset-0 bg-gradient-to-b from-yellow-100 to-white mix-blend-multiply" />
             </div>
             <div className="relative">
-                <h1 className="text-left font-bold tracking-tight text-[96px] sm:text-[7vw] px-24 lg:px-0 md:px-0 lg:pr-[21vw] md:pr-[18vw] md:pb-[50px]">
+                <h1 className="text-left font-bold tracking-tight text-[96px] sm:text-[7vw] px-24 lg:px-0 md:px-0 lg:pr-[16vw] md:pr-[18vw] md:pb-[50px]">
                     <span className="block text-white">
                         {t('components.hero.title.0')}
                     </span>
-                    <span className="block text-white sm:pl-6">
+                    <span className="block text-white sm:pl-12">
                         {t('components.hero.title.1')}
                     </span>
-                    <span className="block text-white sm:pl-12">
+                    <span className="block text-white sm:pl-32">
                         {t('components.hero.title.2')}
                     </span>
                 </h1>

@@ -1,6 +1,7 @@
 import { faChildReaching, faCompass, faStar } from "@fortawesome/pro-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from 'react-i18next'
+import ExplainImproved from "./ExplainImproved";
 
 function OurEventComponent() {
     const { t } = useTranslation();
@@ -28,15 +29,63 @@ function OurEventComponent() {
       }
     ]
 
+    const content = [
+      {
+        title: "Dream Discussion:",
+        description: "Begin by hosting a dedicated class or session on the power of dreams and aspirations. Adjust the depth and style of the conversation based on the school level you're engaging with. See suggestions above!"
+      },
+      {
+        title: "Creative Expression:",
+        description: "Encourage your students to channel their thoughts, hopes, and aspirations into illustrations or drawings."
+      },
+      {
+        title: "Share on X with the World:",
+        description: "If possible, post these artworks on December 22nd on your (institution's) Twitter channels using the hashtag #UnwrapYourDream. This showcases your students' visions and contributes to a global tapestry of dreams."
+      },
+      {
+        title: "Privacy Matters:",
+        description: "When sharing artworks on platforms like Twitter, include only the artwork, first names,age and country. If there's parental permission, you can have kids in the photos holding their art work. Otherwise, share only the artwork itself with a short description, age, country, and use the hashtag #UnwrapYourDream."
+      }
+    ]
+
   return (
-    <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Event.</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            We are proud to work with a global network of incredible changemakers who are committed to our mission and to reaching out to young people everywhere.
+    <div className="">
+      <div className="mx-auto max-w-4xl lg:max-w-7xl py-10">
+        <h2 className="
+          text-[69px]
+          font-bold
+          tracking-wide
+          text-gray-600
+          text-center
+          underline
+          decoration-wavy
+          decoration-[#ffd24a]
+          underline-offset-8
+          decoration-[8px]">
+          A Global Invitation to Visualize the Future
+        </h2>
+        <div className="py-6">
+          <p className="mt-4 text-[24px] text-gray-600">
+            The core of our campaign is simple: inspiring children to draw their dreams for the future. But making it global requires everyone — teachers, parents, corporates, and you.
           </p>
         </div>
+        <h2 className="text-[48px] font-bold text-gray-600 underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[8px]">
+          <strong>How to Participate?</strong>
+        </h2>
+        
+        {/* <div>
+          <p className="mt-4 text-[24px] text-gray-600">
+            🎨 <strong>Age Suitability:</strong> This activity is adaptable for various school levels:
+            <br /><a href="#" aria-label="Kindergarten" className="font-secundary">- Kindergarten</a>
+            <br /><a href="#" aria-label="Primary School" className="font-secundary">- Primary School</a>
+            <br /><a href="#" aria-label="Secondary School" className="font-secundary">- Secondary School</a>
+          </p>
+          {content.map((cont, i) => (
+            <p className="mt-4 text-[24px] text-gray-600 py-3" key={i}>
+              🎨 <strong>{cont.title}</strong> {cont.description}
+            </p>
+          ))}
+        </div> */}
       </div>
     </div>
   )

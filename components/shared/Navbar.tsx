@@ -96,7 +96,7 @@ function Navbar({page}: {page: string}) {
                                 {!loading && isLogged ?
                                     <Link href={'/user'}>
                                         <a className={`px-3 font-bold tracking-wide hover:tracking-wider
-                                            ${page == 'user' ? "text-orange-400 hover:text-yellow-700" : "text-white hover:text-yellow-100"}`}>
+                                            ${page == 'user' ? "text-[#ffd24a] hover:text-[#ffd24a]" : "text-white hover:text-[#ffd24a"}`}>
                                             {t('navBar.dashboard')}
                                         </a>
                                     </Link> : <></>
@@ -105,7 +105,7 @@ function Navbar({page}: {page: string}) {
                                     return (
                                         <Link key={i} href={nav.href}>
                                             <a className={` px-3 font-bold tracking-wide hover:tracking-wider
-                                                ${page == nav.page ? "text-orange-400 hover:text-yellow-700" : "text-white hover:text-yellow-100"}`}>
+                                                ${page == nav.page ? "text-[#ffd24a] hover:text-[#ffd24a]" : "text-white hover:text-[#ffd24a"}`}>
                                                 {nav.title}
                                             </a>
                                         </Link>

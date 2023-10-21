@@ -1,16 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Layout from '../components/layout'
-import Features from '../components/shared/Features'
 import Hero from '../components/shared/Hero'
 import { useTranslation } from 'react-i18next';
-import Testimonials from '../components/shared/Testimonials'
-import DynamicTestMap from '../components/shared/MapComponents'
-import Act from '../components/shared/Act'
-import Explain from '../components/shared/Explain'
-import FeaturesGradient from '../components/shared/FeaturesGradient'
-import ExplainImproved from '../components/shared/ExplainImproved'
-import Goals from '../components/shared/Goals'
 import First from '../components/shared/First'
 import Second from '../components/shared/Second'
 import Third from '../components/shared/Third'
@@ -42,7 +34,7 @@ const Home: NextPage = () => {
       <Fourth></Fourth>
       {/* <FeaturesGradient></FeaturesGradient>
       <Goals></Goals> */}
-      <DynamicTestMap />
+      {/* <DynamicTestMap /> */}
     </Layout> 
   )
 }

@@ -96,11 +96,12 @@ export default {
                 descriptionEnd: "Our initiative empowers young minds with a canvas to dream, giving them the tools to shape their destinies and ripple positive change throughout their communities."
             },
             forth: {
-                title: "Meet Our Inspiration",
-                descriptionNormal: "Across the globe, many rise above challenges that stifle dreams and aspirations. Tererai Trent is one such beacon. Married off at the age of 11 and deprived of an education due to poverty and societal norms, she dared to dream beyond her circumstances. Today, she stands as an epitome of resilience, an acclaimed scholar and humanitarian.",
-                descriptionNormalSecond: "Her story inspired the birth of",
+                title: "Inspired By Tererai Trent:",
+                subtitle: "A Beacon Of Hope",
+                descriptionNormal: "From a young age, Tererai faced challenges that could have silenced her dreams. Married at 11 and denied education due to societal norms and poverty, she remained undeterred. With unwavering determination, she transformed her life, becoming a renowned scholar and humanitarian. ",
+                descriptionNormalSecond: "Tererai's triumphant journey fuels our passion and gave birth to",
                 descriptionBold: "#UnwrapYourDream",
-                descriptionNormalThird: ", a movement urging children worldwide to visualize and chase their dreams."
+                descriptionNormalThird: ", encouraging children everywhere to capture and pursue their dreams."
             },
             participants: {
                 title: "A Universe of Dreams",
@@ -120,7 +121,12 @@ export default {
                 }
             },
             testimonials: {
-                text: '"The meaning of life is to find your gift. The purpose of life is to give it away."',
+                text: [
+                    '"The meaning of life',
+                    'is to find your gift.',
+                    'The purpose of life',
+                    'is to give it away."'
+                ],
                 author: "- Pablo Picasso"
 
             },
@@ -192,8 +198,10 @@ export default {
                 }
             },
             map: {
-                title: "#UnwrapYourDream",
-                description: "Among all the tangible gifts this season, the most heartwarming sight is a child’s eyes lighting up, revealing what truly makes them come alive. Let's come together and nurture that spark. Encourage them to #UnwrapTheirDream.",
+                title: "The Impact Of Dreams",
+                subtitle: "We've inspired over 25,000 children to visualize and crystallize their dreams for the future.",
+                descriptionBold: "Discover the global reach of #UnwrapYourDream:",
+                descriptionNormal: "Dreams aren't mere wishes; they're blueprints of potential.For many vulnerable children, dreams often lie dormant, overshadowed by societal constraints or limited opportunities. However, with the right environment and encouragement, we can help these dreams rise, illuminating pathways to brighter tomorrows",
             },
             act: {
                 title: "You have a role to play",

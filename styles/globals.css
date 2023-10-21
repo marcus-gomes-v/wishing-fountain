@@ -18,6 +18,10 @@ div, p, b, i, u {
   font-family: 'Amatic SC', sans-serif;
 }
 
+.font-secundary {
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .sticky {
   position: sticky;
@@ -34,4 +38,8 @@ div, p, b, i, u {
   top: 0;
   z-index: 1000;
   /* Adjust as needed */
+}
+
+.leaflet-control-attribution.leaflet-control {
+  display: none;
 }
