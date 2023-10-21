@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:image"
-          content={`https://www.unwrapyourdream.com/images/photos/home.jpg`}
+          content={`https://www.unwrapyourdream.com/images/og-image.jpg`}
         />
       </Head>
       <Hero />

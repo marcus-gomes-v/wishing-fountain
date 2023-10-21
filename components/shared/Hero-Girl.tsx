@@ -14,7 +14,7 @@ function HeroPaint() {
                 <div className="absolute inset-0 bg-gradient-to-b from-yellow-100 to-white mix-blend-multiply" />
             </div>
             <div className="relative">
-                <h1 className="text-left font-bold tracking-tight text-[96px] sm:text-[7vw] px-24">
+                <h1 className="text-left font-bold tracking-tight text-[96px] sm:text-[7vw] px-12 lg:px-24">
                     <span className="block text-white">
                         Unwrap Dreams on 
                         <br />December 22nd!

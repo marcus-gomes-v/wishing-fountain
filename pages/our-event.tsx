@@ -31,9 +31,9 @@ const Ambassadors: NextPage = () => {
             />
         </Head>
         
-        <HeroPaint></HeroPaint>
-        <OurEventComponent></OurEventComponent>
-        <div className="flex flex-row mx-auto max-w-7xl">
+      <HeroPaint></HeroPaint>
+      <OurEventComponent></OurEventComponent>
+      <div className="flex flex-col md:flex-row mx-auto max-w-4xl lg:max-w-7xl px-3 md:px-0">
           <div className=''>
             <div className="bg-gray-200 py-12 px-12 rounded-lg">
                 <p className="mx-auto max-w-prose text-[24px] text-gray-500 tracking-wider">

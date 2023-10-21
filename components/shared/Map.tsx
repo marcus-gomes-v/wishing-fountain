@@ -23,7 +23,7 @@ const Map = () => {
 
   return (
     <div className="relative">
-      <div className="mx-auto max-w-7xl py-12">
+      <div className="mx-auto max-w-7xl py-12 px-3 md:px-0">
         <h2 className="text-[69px] font-bold tracking-wide text-gray-600 text-center underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[8px]">{t('components.map.title')}</h2>
         <div className="py-6">
           <p className="mt-4 text-[24px] text-gray-600">
@@ -34,7 +34,7 @@ const Map = () => {
           </p>
         </div>
         <OurImpactComponent></OurImpactComponent>
-        <h2 className="text-[69px] font-bold tracking-wide text-gray-600">
+        <h2 className="text-[60px] md:text-[69px] font-bold tracking-wide text-gray-600 text-center md:text-left">
           <strong>{t('components.map.descriptionBold')}</strong>
         </h2>
       </div>

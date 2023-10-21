@@ -49,7 +49,7 @@ function OurEventComponent() {
     ]
 
   return (
-    <div className="">
+    <div className="px-3 md:px-0">
       <div className="mx-auto max-w-4xl lg:max-w-7xl py-10">
         <h2 className="
           text-[69px]

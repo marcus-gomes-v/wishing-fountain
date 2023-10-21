@@ -8,7 +8,7 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import Link from 'next/link'
-import { faDashboard, faHeadSideHeart, faHouseLaptop, faInfo, faPeople, faPotFood, faSquareInfo, faUserAstronaut} from '@fortawesome/pro-solid-svg-icons';
+import { faCircle, faDashboard, faHeadSideHeart, faHouseLaptop, faInfo, faMap, faNotes, faPeople, faPerson, faPotFood, faQuestion, faSquareInfo, faUserAstronaut} from '@fortawesome/pro-solid-svg-icons';
 
 import { faBook, faComment, faDog } from '@fortawesome/free-solid-svg-icons';
 import LogginButton from './LoginButton';
@@ -42,25 +42,25 @@ function Navbar({page}: {page: string}) {
             title: t('navBar.pages.ourImpact'),
             href: '/our-impact',
             page: 'our-impact',
-            icon: faComment,
+            icon: faMap,
         },
         {
             title: t('navBar.pages.ourEvent'),
             href: '/our-event',
             page: 'our-event',
-            icon: faComment,
+            icon: faNotes,
         },
         {
             title: t('navBar.pages.about_us'),
             href: '/about-us',
             page: 'aboutUs',
-            icon: faComment,
+            icon: faCircle,
         },
         {
             title: t('navBar.pages.faq'),
             href: '/faq',
             page: 'faq',
-            icon: faComment,
+            icon: faQuestion,
         }
     ]
 
@@ -154,7 +154,7 @@ function Navbar({page}: {page: string}) {
                                                 return (
                                                     <Link key={i} href={nav.href}>
                                                         <a className="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
-                                                            <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-pelorous-500 text-white sm:h-12 sm:w-12">
+                                                            <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-[#FFD24A] text-white sm:h-12 sm:w-12">
                                                                 <FontAwesomeIcon icon={nav.icon} className="h-6 w-6" aria-hidden="true" />
                                                             </div>
                                                             <div className="ml-4 text-base font-medium text-gray-900">{nav.title}</div>
