@@ -1,4 +1,4 @@
-import { faArrowUp, faCog, faDiceFour, faDiceOne, faDiceThree, faDiceTwo, faEye, faLock, faMap, faPortalEnter, faServer, faShield, faStar } from '@fortawesome/pro-solid-svg-icons'
+import { faArrowUp, faBackpack, faBook, faBullhorn, faChild, faCog, faDiceFour, faDiceOne, faDiceThree, faDiceTwo, faEye, faGraduationCap, faHandHoldingHeart, faInfo, faLock, faMap, faPortalEnter, faServer, faShield, faStar } from '@fortawesome/pro-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useTranslation } from 'react-i18next';
 
@@ -9,36 +9,80 @@ export default function ExplainImproved() {
 
   const features = [
     {
-      title: "Start a Dream Discussion Educator:",
-      description: "Begin by hosting a dedicated class or session on the power of dreams and aspirations. Adjust the depth and style of the conversation based on the school level you're engaging with. See suggestions above!",
-      icon: faDiceOne
+      title: "Organize",
+      description: "Organize a workshop in your community, school, or organization. ",
+      icon: faBook,
+      buttons: [
+        {
+          text: "Kindergarten",
+          href: "#",
+          icon: faChild
+        },
+        {
+          text: "Primary School",
+          href: "#",
+          icon: faBackpack
+        },
+        {
+          text: "Secondary school",
+          href: "#",
+          icon: faGraduationCap
+        },
+      ]
     },
     {
-      title: "Foster Creative Expression:",
-      description: "Encourage your students to channel their thoughts, hopes, and aspirations into illustrations or drawings.",
-      icon: faDiceTwo
+      title: "Partner",
+      description: "Corporate: Align your CSR goals with our mission.<br /><br />Individual: Become an ambassador or volunteer.",
+      icon: faBullhorn,
+      buttons: [
+        {
+          text: "Know More",
+          href: "#",
+          icon: faInfo,
+        }
+      ]
     },
     {
-      title: "Share the Dreams on X:",
-      description: "If possible, post these artworks on December 22nd on your (institution's) Twitter channels using the hashtag #UnwrapYourDream. This showcases your students' visions and contributes to a global tapestry of dreams.",
-      icon: faDiceThree
-    },
-    {
-      title: "Privacy Matters:",
-      description: "When sharing artworks on platforms like Twitter, include only the artwork, first names,age and country. If there's parental permission, you can have kids in the photos holding their art work. Otherwise, share only the artwork itself with a short description, age, country, and use the hashtag #UnwrapYourDream.",
-      icon: faStar
+      title: "Support",
+      description: "Share our mission, events, and success stories through your social networks",
+      icon: faHandHoldingHeart,
+      buttons: [
+        {
+          text: "Know More",
+          href: "#",
+          icon: faInfo
+        }
+      ]
     }
   ]
+
+  /*
+     <div className="flex flex-col items-start  gap-y-3 py-9 pl-9 ">
+        <button onClick={() => setPage("educator")} className="uppercase flex items-center bg-[#ffd24a] text-black ml-0 px-6 py-3 rounded-full font-light text-[24px] gap-2 font-secundary shadow-md">
+          <FontAwesomeIcon icon={faGraduationCap} className="h-6 w-6" />
+          Educators
+        </button>
+        <button onClick={() => setPage("startup")} className="uppercase flex items-center bg-[#ffd24a] text-black ml-0 px-6 py-3 rounded-full font-light text-[24px] gap-2 font-secundary shadow-md">
+          <FontAwesomeIcon icon={faRocket} className="h-6 w-6" />
+          Startups
+        </button>
+        <button onClick={() => setPage("corporate")} className="uppercase flex items-center bg-[#ffd24a] text-black ml-0 px-6 py-3 rounded-full font-light text-[24px] gap-2 font-secundary shadow-md">
+          <FontAwesomeIcon icon={faBuilding} className="h-6 w-6" />
+          Corporates
+        </button>
+      </div>
+
+  */
   
 
   return (
-    <div className="relative bg-gradient-to-b from-[#ffe494] to-[#ffd24a] py-9">
+    <div className="relative ">
       <div className="mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
         <div className="mt-20">
-          <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 lg:grid-cols-3">
             {features.map((feature, i) => (
               <div key={i} className="pt-6">
-                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8 min-h-[260px]">
+                <div className="flow-root rounded-lg bg-gradient-to-b from-[#ffe494] to-[#ffd24a] px-6 pb-8 min-h-[360px]">
                   <div className="-mt-6">
                     <div>
                       <span className="inline-flex items-center justify-center rounded-xl p-3 shadow-lg bg-gradient-to-b from-[#7048d4] to-[#48259fff]">
@@ -48,7 +92,36 @@ export default function ExplainImproved() {
                     <h3 className="mt-8 text-[24px] tracking-wide font-bold leading-8 text-gray-900 text-left">
                       {feature.title}
                     </h3>
-                    <p className="mt-5 text-[18px] font-sans tracking-wider leading-7 text-gray-600 text-left">{feature.description}</p>
+                    <p className="mt-5 text-[18px] font-sans tracking-wider leading-7 text-gray-600 text-left" dangerouslySetInnerHTML={{ __html: feature.description }}></p>
+                    <div className="flex flex-col gap-y-3 py-3">
+                      {feature.buttons.map((link, i) =>
+                        <button
+                          key={i}
+                          type="button"
+                          className="
+                            font-secundary
+                            rounded-full
+                            bg-indigo-600
+                            px-3.5
+                            py-2
+                            font-semibold
+                            text-white
+                            shadow-sm
+                            hover:bg-indigo-500
+                            focus-visible:outline
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-indigo-600
+                            flex
+                            items-center
+                            justify-between
+                          "
+                        >
+                          {link.text}
+                          <FontAwesomeIcon icon={link.icon} className='w-4 h-4' />
+                        </button>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>

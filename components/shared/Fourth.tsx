@@ -11,8 +11,8 @@ function Fourth() {
 
     return (
       <div className="bg-gradient-to-t from-[#ffffff] to-[#fdfdfd]">
-        <div className="mx-auto max-w-4xl lg:max-w-7xl py-24">
-          <div className="flex flex-col sm:flex-row gap-10 px-6 sm:px-0">
+        <div className="mx-auto max-w-4xl lg:max-w-7xl py-16 lg:py-24">
+          <div className="flex flex-col-reverse sm:flex-row gap-10 px-6 sm:px-0">
             <div className="flex flex-1">
               <div className="relative py-16">
                 <img

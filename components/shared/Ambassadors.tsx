@@ -105,9 +105,10 @@ function AmbassadorsComponent() {
 
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 py-10">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 py-6">
           <h2 className="
-          text-[69px]
+          text-[48px]
+          md:text-[69px]
           font-bold
           tracking-wide
           text-gray-600
@@ -116,7 +117,8 @@ function AmbassadorsComponent() {
           decoration-wavy
           decoration-[#ffd24a]
           underline-offset-8
-          decoration-[8px]">Our voices around the world.
+          decoration-[4px]
+          md:decoration-[8px]">Our voices around the world.
           </h2>
           <p className="mt-4 text-[24px] text-gray-600">
             We are proud to work with a global network of incredible changemakers who are committed to our mission and to reaching out to young people everywhere.

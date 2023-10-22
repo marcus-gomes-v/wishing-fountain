@@ -229,48 +229,160 @@ export default {
                     "answer": "The #UnwrapYourDream movement is a holiday-season initiative aimed at guiding children to visualize, embrace, and express their unique dreams and talents. Through workshops, we're encouraging kids to paint or draw their aspirations, thereby taking a pivotal step in recognizing and chasing their dreams."
                 },
                 {
-                    "question": "Who can participate in the dream visualization workshop?",
-                    "answer": "The workshop is open to all children, with a focus on those who might be visualizing their dreams for the first time. Schools, churches, and community groups are also encouraged to join and collaborate in hosting the workshop."
+                    "question": "What is our Mission & Vision?",
+                    "answer": "..."
                 },
                 {
-                    "question": "How can schools, churches, or community groups collaborate?",
-                    "answer": "Organizations interested in collaborating can reach out to our coordination team. We provide workshop guidelines, support materials, and assistance to ensure a successful event."
+                    "question": "Are there specific age categories for the campaign?",
+                    "answer": "..."
                 },
                 {
-                    "question": "What do children need for the workshop?",
-                    "answer": "Children will mainly require basic drawing or painting supplies like paper, pencils, crayons, or paints. Specific materials might vary depending on the workshop's theme or guidance."
+                    "question": "Why focus on visualizing dreams?",
+                    "answer": "..."
                 },
                 {
-                    "question": "Why focus on drawing or painting dreams?",
-                    "answer": "Visualizing dreams through drawing or painting provides a tangible representation of intangible aspirations. This creative process helps in crystallizing their thoughts, making dreams more accessible and real to them."
+                    "question": "How did the idea of this campaign come about?",
+                    "answer": "..."
                 },
                 {
-                    "question": "How will the dreams visualized during the workshop be showcased or used?",
-                    "answer": "We're planning on creating a digital gallery showcasing selected works, celebrating the diversity and depth of children's dreams. This serves as a testament to the power and importance of children's aspirations."
+                    "question": "How is the #Unwrapyourdream event funded/sponsored?",
+                    "answer": "..."
                 },
                 {
-                    "question": "Is there any cost associated with participating?",
-                    "answer": "Participation in the #UnwrapYourDream workshop is free. Our mission is to reach and inspire as many children as possible without financial barriers."
+                    "question": "Who can participate in this campaign?",
+                    "answer": "..."
                 },
                 {
-                    "question": "How can I register for the December 22nd campaign?",
-                    "answer": "Registration details will be available on our official website. Simply fill out the necessary details and submit your intent to participate."
+                    "question": "How do I register my event ? ",
+                    "answer": "..."
                 },
                 {
-                    "question": "What support or guidance will be provided to the children during the workshop?",
-                    "answer": "Experienced mentors and guides will be available during the workshop to assist and encourage the children in visualizing and expressing their dreams."
+                    "question": "Will I get a confirmation after I register?",
+                    "answer": "..."
                 },
                 {
-                    "question": "How can I support the #UnwrapYourDream movement if I can't host or attend a workshop?",
-                    "answer": "Even if you can't attend or host, you can spread the word about our initiative, make a donation to support our cause, or volunteer in various capacities. Every bit of support adds to our momentum."
+                    "question": "Can I update or edit my registration details after submitting?",
+                    "answer": "..."
                 },
                 {
-                    "question": "How does this movement aim to impact the wider community?",
-                    "answer": "The movement aims to nurture young aspirations, instill resilience, cultivate future leaders, and fortify community bonds. By championing children's dreams, we're investing in brighter, more cohesive futures."
+                    "question": "What kind of organizations/institutions can get involved?",
+                    "answer": "..."
                 },
                 {
-                    "question": "Is there a follow-up plan after the visualization workshop?",
-                    "answer": "Yes, post the initial visualization, we aim to conduct follow-up sessions, providing resources and support to ensure these dreams continue to be nurtured and celebrated."
+                    "question": "Can individuals get involved, or is it only for groups and institutions?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Until when can I register my event?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Are there any fees associated with registration?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Can any country participate?",
+                    "answer": "..."
+                },
+                {
+                    "question": "What date should the event take place?",
+                    "answer": "..."
+                },
+                {
+                    "question": "What time should the event start and finish?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Where can I organize the event?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Is there a sample agenda or structure for how the event should run?",
+                    "answer": "..."
+                },
+                {
+                    "question": "What materials will students need for the event?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Are there costs associated with participating in the event?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Are there any resources for organizing workshops?",
+                    "answer": "..."
+                },
+                {
+                    "question": "What kind of guidance should organizers provide participants during workshops?",
+                    "answer": "..."
+                },
+                {
+                    "question": "How many children can participate in each group?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Are there specific hashtags or tags I should use when sharing on X?",
+                    "answer": "..."
+                },
+                {
+                    "question": "What should I mention in my tweets?",
+                    "answer": "..."
+                },
+                {
+                    "question": "What should I not include in my tweets?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Should I take photos during the event?",
+                    "answer": "..."
+                },
+                {
+                    "question": "How can I share my event photos?",
+                    "answer": "..."
+                },
+                {
+                    "question": "How will the dreams vizualized during workshops be shared or used by the organizers?",
+                    "answer": "..."
+                },
+                {
+                    "question": "How do I ensure the privacy and safety of the children in the photos?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Can parents or guardians request that photos of their children not be taken or shared?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Are photos ever shared with third parties or sold for commercial purposes?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Privacy",
+                    "answer": "..."
+                },
+                {
+                    "question": "I want to help further the #UnwrapYourDream campaign. How can I offer additional support or collaborate?",
+                    "answer": "..."
+                },
+                {
+                    "question": "I work with an organization interested in partnering with #UnwrapYourDream. Who should we get in touch with?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Can I volunteer for any offline events or workshops related to the campaign?",
+                    "answer": "..."
+                },
+                {
+                    "question": "I want to share a testimonial or story related to the campaign's impact. Where can I do so?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Are there any feedback channels post-event to share our experience or suggestions?",
+                    "answer": "..."
+                },
+                {
+                    "question": "Will I receive any follow up material to share with my participants?",
+                    "answer": "..."
                 }
             ]
         }
