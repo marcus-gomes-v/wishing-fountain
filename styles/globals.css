@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, a, button{
   font-family: 'Amatic SC', sans-serif;
 }
 
-div, p, b, i, u {
+div, p, b, i, u, button.swal2-confirm.swal2-styled {
   font-family: 'Roboto', sans-serif;
 }
 

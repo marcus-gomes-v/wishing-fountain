@@ -1,15 +1,15 @@
 import axios from "axios";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useAuth } from "../../context/AuthContext";
-import Image from 'next/image'
 import { useTranslation } from 'react-i18next'
-import Offer from "../../pages/user/offer/create";
+import Offer from "../../pages/user/participant/create";
+
+
 
 function Participants() {
     const { t } = useTranslation();
 
-    const { useSession } = useAuth() as { useSession: user };
+    const { useSession } = useAuth() as { useSession: any };
 
     const [people, setPeople] = useState([]);
 
@@ -23,6 +23,10 @@ function Participants() {
             axiosRequest();
         }
     }, [useSession])
+
+    useEffect(() => {
+        console.log(useSession)
+    }, [useSession]);
 
     return (
         <div>

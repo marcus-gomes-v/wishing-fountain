@@ -4,35 +4,42 @@ import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { useAuth } from '../../context/AuthContext'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClose } from '@fortawesome/pro-solid-svg-icons';
-import { onAuthStateChanged } from 'firebase/auth';
-import { auth } from '../../lib/firebase';
 import { useTranslation } from 'react-i18next';
+import { useRouter } from 'next/router';
+import { iUser } from '../../typings';
 
-function LogginButton({ handleLoading, handleLogged }: { handleLoading: any, handleLogged: any }) {
+function LogginButton({ handleLogged, user }: { handleLogged: any, user: iUser }) {
     const { t } = useTranslation();
+    const { loginWithGoogle, signOut, authUser, loading } = useAuth();
+    const [error, setError] = useState(null);
+    const [isLogged, setIsLogged] = useState(false);
+    const router = useRouter();
 
-    const { login, logout } = useAuth();
-    
-    const [loading, setLoading] = useState(false);
+    const googleLogin = (event: any) => {
+        setError(null)
+        loginWithGoogle()
+            .then((authUser: any) => {
+                router.push('/user');
+            })
+            .catch((error: any) => {
+                setError(error.message)
+            });
+        event.preventDefault();
+    };
 
-    const [ isLogged, setIsLogged ] = useState(false)
+    useEffect(() => {
+        if (!loading && !authUser){
+            setIsLogged(false)
+        }
 
-    useEffect( () => {
-        setLoading(true)
-        handleLoading(true)
-        onAuthStateChanged(auth, (user) => {
-            setLoading(false)
-            handleLoading(false)
-            if (user) {
-                setIsLogged(true)
-                handleLogged(true)
-            } 
-        });
-    }, [isLogged]);
+        if(authUser){
+            setIsLogged(true)
+        }
+    }, [authUser, loading, router])
     
     return (
         <button
-            onClick={!loading && isLogged ? logout : login}
+            onClick={!loading && isLogged ? signOut : googleLogin}
             className={` group
                 w-full py-3
                 lg:ml-8 lg:px-4 lg:py-0

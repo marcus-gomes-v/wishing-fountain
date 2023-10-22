@@ -14,8 +14,10 @@ import { faBook, faComment, faDog } from '@fortawesome/free-solid-svg-icons';
 import LogginButton from './LoginButton';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher'
+import { useAuth } from '../../context/AuthContext'
 
 function Navbar({page}: {page: string}) {
+    const { authUser, loading, signOut } = useAuth();
     const { t } = useTranslation();
     const [scrolled, setScrolled] = useState(false);
     const backgroundColor = scrolled || page != 'home' ? "bg-[#48259fff]" : "bg-transparent";
@@ -64,12 +66,17 @@ function Navbar({page}: {page: string}) {
         }
     ]
 
-
-    const [loading, setLoading] = useState(false);
-
     const [ isLogged, setIsLogged ] = useState(false)
 
-   
+    useEffect(() => {
+        if (!loading && !authUser) {
+            setIsLogged(false)
+        }
+
+        if (authUser) {
+            setIsLogged(true)
+        }
+    }, [authUser, loading])
     
     return (
         <header className={` ${stickyNavbarClass} ${backgroundColor}`}>
@@ -78,10 +85,8 @@ function Navbar({page}: {page: string}) {
                 <div className={`relative z-20 `}>
                     <div className={`max-w-full mx-auto flex justify-between items-center px-3 sm:px-12 py-2 `}>
                         <Link href={'/'}>
-                            <a className="flex font-bold text-[#FFD24A] text-[32px] group">
-                                <span className="sr-only">{t('common.logo_name')}</span>
-                                <FontAwesomeIcon icon={faUserAstronaut} className='h-12 w-12' />
-                                {t('common.logo_name')}
+                            <a className="flex font-bold text-[#FFD24A] ">
+                                <img src='/logo/logomark.svg' className='w-[300px]'/>
                             </a>
                         </Link>
                         <div className="-mr-2 -my-2 md:hidden flex">
@@ -91,12 +96,12 @@ function Navbar({page}: {page: string}) {
                                 <MenuIcon className="h-6 w-6" aria-hidden="true" />
                             </Popover.Button>
                         </div>
-                        <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
+                        <div className="hidden md:flex-1 md:flex md:items-center md:justify-between pt-2">
                             <Popover.Group as="nav" className="flex space-x-2 align-middle items-center text-[24px] ml-6">
                                 {!loading && isLogged ?
                                     <Link href={'/user'}>
                                         <a className={`px-3 font-bold tracking-wide hover:tracking-wider
-                                            ${page == 'user' ? "text-[#ffd24a] hover:text-[#ffd24a]" : "text-white hover:text-[#ffd24a"}`}>
+                                            ${page == 'dashboard' ? "text-[#ffd24a] hover:text-[#ffd24a]" : "text-white hover:text-[#ffd24a"}`}>
                                             {t('navBar.dashboard')}
                                         </a>
                                     </Link> : <></>
@@ -115,7 +120,7 @@ function Navbar({page}: {page: string}) {
                             
                             <div className="flex items-center md:ml-12">
                                 <LanguageSwitcher />
-                                <LogginButton handleLoading={setLoading} handleLogged={setIsLogged}></LogginButton>
+                                <LogginButton user={authUser} handleLogged={setIsLogged} ></LogginButton>
                             </div>
                         </div>
                     </div>
@@ -179,7 +184,7 @@ function Navbar({page}: {page: string}) {
                             </div>
                             <div>
                                 <div className="mt-6">
-                                    <LogginButton handleLoading={setLoading} handleLogged={setIsLogged}></LogginButton>
+                                    <LogginButton user={authUser} handleLogged={setIsLogged} ></LogginButton>
                                 </div>
                             </div>
                         </div>

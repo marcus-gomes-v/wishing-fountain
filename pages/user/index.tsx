@@ -3,31 +3,29 @@ import { useEffect, useState } from 'react';
 import Dashboard from '../../components/authenticated/Dashboard';
 import Layout from '../../components/layout';
 import { useAuth } from '../../context/AuthContext';
-import { session } from '../../lib/session';
+import { useRouter } from 'next/router';
 
 const LoggedIn = () => {
-  const [user, setUser] = useState<user>() 
-  const [loading, setLoading] = useState(false)
+  const { authUser, loading, signOut } = useAuth();
+  const router = useRouter();
 
+  // Listen for changes on loading and authUser, redirect if needed
   useEffect(() => {
-    setLoading(true)
-    const oUser = session.get('user')
-    if(oUser){
-      setUser(oUser)
-      console.log(oUser)
-    }
-    setLoading(false)
-  }, []);
+    if (!loading && !authUser)
+      router.push('/')
+  }, [authUser, loading, router])
+
+  const pageTitle = 'dashboard';
   
   return (
-    <Layout page='user'>
+    <Layout page={pageTitle}>
       <div>
         {
           loading ?
             <div>
               <div>Loading....</div>
             </div> :
-            <Dashboard></Dashboard>
+            <Dashboard user={authUser}></Dashboard>
         }
       </div>
     </Layout>

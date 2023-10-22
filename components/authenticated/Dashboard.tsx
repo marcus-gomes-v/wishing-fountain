@@ -2,21 +2,13 @@ import { useAuth } from '../../context/AuthContext';
 import { useEffect, useState } from "react";
 import { useTranslation } from 'react-i18next'
 import Participants from "./Participants";
+import { iUser } from '../../typings';
 
-function Dashboard() {
+function Dashboard({ user }: { user: iUser }) {
     const { t } = useTranslation();
-
-    const { useSession } = useAuth() as { useSession: user };
-
-    const [ author, setAuthor ] = useState() as any;
-
-    useEffect(() => {
-        if(useSession)
-            setAuthor(useSession);
-    }, [useSession])
     
     return (
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-6">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 lg:py-6 ">
             <h1 className="sr-only">{t('page.userDashboard.title')}</h1>
             {/* Main 3 column grid */}
             <div className="grid grid-cols-1 items-start gap-4  lg:gap-8">
@@ -32,12 +24,12 @@ function Dashboard() {
                                 <div className="sm:flex sm:items-center sm:justify-between">
                                     <div className="sm:flex sm:space-x-5">
                                         <div className="flex-shrink-0">
-                                            <img className="mx-auto h-20 w-20 rounded-full" src={author?.photoURL} alt="" />
+                                            <img className="mx-auto h-20 w-20 rounded-full" src={user?.imageUrl} alt="" />
                                         </div>
                                         <div className="mt-4 text-center sm:mt-0 sm:pt-1 sm:text-left">
                                             <p className="text-sm font-medium text-gray-600">{t('page.userDashboard.welcome')}</p>
-                                            <p className="text-xl font-bold text-gray-900 sm:text-2xl">{author?.displayName}</p>
-                                            <p className="text-sm font-medium text-gray-600">{author?.email}</p>
+                                            <p className="text-xl font-bold text-gray-900 sm:text-2xl">{user?.name}</p>
+                                            <p className="text-sm font-medium text-gray-600">{user?.email}</p>
                                         </div>
                                     </div>
                                 </div>

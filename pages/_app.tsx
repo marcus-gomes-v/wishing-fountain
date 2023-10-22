@@ -1,10 +1,11 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { AuthProvider } from '../context/AuthContext'
+import { AuthUserProvider } from '../context/AuthContext'
 import '../locales'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <AuthProvider><Component {...pageProps} /></AuthProvider>
+function app({ Component, pageProps }: AppProps) {
+  return <AuthUserProvider><Component {...pageProps} /></AuthUserProvider>
 }
 
-export default MyApp
+export default app
+

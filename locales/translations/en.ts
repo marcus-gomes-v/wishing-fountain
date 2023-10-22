@@ -5,7 +5,7 @@ export default {
             rights: "2023 Unwrap Your Dream. All rights reserved."
         },
         header:{
-            page_title_default: '#UnwrapYourDream - Join our global movement on December 22nd!',
+            page_title_default: 'Register your #UnwrapYourDream Event on December 22nd',
             page_description_default: 'Empower children to draw their dreams and chart a brighter tomorrow.'
         },
         navBar: {
