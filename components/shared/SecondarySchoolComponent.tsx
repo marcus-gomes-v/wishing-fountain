@@ -90,7 +90,7 @@ function SecondarySchoolComponent() {
           </ul>
 
           <h2 className="text-[48px] font-bold text-gray-600 underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[4px] pt-10">
-            <strong>CONCLUSION</strong>
+            <strong>Additional Recommendations</strong>
           </h2>
 
           <p className="mt-4 text-[24px] text-gray-600">
