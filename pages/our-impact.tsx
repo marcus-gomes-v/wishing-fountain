@@ -12,15 +12,15 @@ const Ambassadors: NextPage = () => {
   return (
     <Layout page='our-impact'>    
         <Head>
-              <title>Unwrap Your Dream</title>
-            <meta
+          <title>Unwrap Your Dream | Our Impact</title>
+          <meta
             name="description"
             content={pageTitle}
-            />
-            <meta
+          />
+          <meta
             property="og:image"
-            content={`https://www.unwrapyourdream.com/images/photos/home.jpg`}
-            />
+            content={`https://www.unwrapyourdream.com/images/og-image.jpg`}
+          />
         </Head>
         <DynamicTestMap />
     </Layout> 

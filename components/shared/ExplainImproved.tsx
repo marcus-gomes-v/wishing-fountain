@@ -77,7 +77,7 @@ export default function ExplainImproved() {
 
   return (
     <div className="relative ">
-      <div className="mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl lg:px-8 mb-20">
         <div className="mt-20">
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 lg:grid-cols-3">
             {features.map((feature, i) => (
@@ -89,7 +89,7 @@ export default function ExplainImproved() {
                         <FontAwesomeIcon icon={feature.icon} className="h-8 w-8 text-white" aria-hidden="true" />
                       </span>
                     </div>
-                    <h3 className="mt-8 text-[24px] tracking-wide font-bold leading-8 text-gray-900 text-left">
+                    <h3 className="flex items-center gap-x-3 font-primary tracking-widest text-black text-[34px] font-bold underline decoration-wavy decoration-[#ffffff] underline-offset-8 decoration-[3px]">
                       {feature.title}
                     </h3>
                     <p className="mt-5 text-[18px] font-sans tracking-wider leading-7 text-gray-600 text-left" dangerouslySetInnerHTML={{ __html: feature.description }}></p>

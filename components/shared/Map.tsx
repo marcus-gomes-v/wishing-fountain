@@ -40,7 +40,7 @@ const Map = () => {
         ">{t('components.map.title')}</h2>
         <div className="py-6">
           <p className="mt-4 text-[24px] text-gray-600">
-            {t('components.map.subtitle')}
+            <strong>{t('components.map.subtitleBold')}</strong> {t('components.map.subtitle')}
           </p>
           <p className="mt-4 text-[24px] text-gray-600">
             {t('components.map.descriptionNormal')}

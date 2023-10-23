@@ -92,24 +92,16 @@ const CreateParticipant = () => {
                 .then( e => 
                     Swal.fire({
                         html:
-                            'You are register with success. <br /><br />Follow us <br /> ' +
+                            'Thank you for being a dream champion!<br /><br />Connect with us and fellow dreamers on our social media. <br /><br /> ' +
                             `
                             <span class="isolate inline-flex rounded-md shadow-sm">
                                 <a
-                                    href="https://twitter.com/home"
+                                    href="https://www.facebook.com/UnwrapYourDream"
                                     target="_blank"
                                     type="button"
-                                    class="font-secundary relative inline-flex items-center rounded-l-md bg-blue-300 px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-blue-200 focus:z-10"
+                                    class="font-secundary relative -ml-px inline-flex items-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-gray-100 ring-1 ring-inset ring-gray-300 hover:bg-blue-500 focus:z-10"
                                 >
-                                    Twitter
-                                </a>
-                                <a
-                                    href="https://linkedin.com/"
-                                    target="_blank"
-                                    type="button"
-                                    class="font-secundary relative -ml-px inline-flex items-center rounded-r-md bg-blue-600 px-3 py-2 text-sm font-semibold text-gray-100 ring-1 ring-inset ring-gray-300 hover:bg-blue-500 focus:z-10"
-                                >
-                                    Linkedin
+                                    Facebook
                                 </a>
                             </span>
                             ` ,
@@ -154,7 +146,8 @@ const CreateParticipant = () => {
         <div className="bg-white px-4 py-5 shadow sm:rounded-lg sm:p-6">
             <div className="md:grid md:grid-cols-3 md:gap-6">
                 <div className="md:col-span-1">
-                    <h3 className="text-lg font-medium leading-6 text-gray-900 text-[44px] pb-6">Profile</h3>
+                        <h3 className="text-gray-900 text-[34px] font-bold pb-6">Register your #UnwrapYourDream Event on
+                            December 22nd</h3>
                     <p className="mt-1 text-sm text-gray-500">
                         This information will be displayed publicly so be careful what you share.
                     </p>
@@ -174,7 +167,7 @@ const CreateParticipant = () => {
                                     value={content.organizerName}
                                     onChange={onChange}
                                     className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="Lorena Krawczyk"
+                                    placeholder="Your Name"
                                     required
                                 />
                             </div>
@@ -182,7 +175,7 @@ const CreateParticipant = () => {
 
                             <div className="col-span-6 sm:col-span-6">
                                 <label htmlFor="Organization" className="block text-sm font-medium text-gray-700">
-                                    Organization
+                                    Organization (if applicable)
                                 </label>
                                 <div className="mt-1 flex rounded-md shadow-sm">
                                     <input
@@ -193,7 +186,6 @@ const CreateParticipant = () => {
                                         onChange={onChange}
                                         className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                         placeholder="UnwrapYourDream"
-                                        required
                                     />
                                 </div>
                             </div>
@@ -210,7 +202,7 @@ const CreateParticipant = () => {
                                     value={content.country}
                                     onChange={onChange}
                                     className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="Poland"
+                                    placeholder="Your Country"
                                     required
                                 />
                             </div>
@@ -228,8 +220,7 @@ const CreateParticipant = () => {
                                     value={content.state}
                                     onChange={onChange}
                                     className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="Wielkopolski"
-                                    required
+                                    placeholder="Your State"
                                 />
                             </div>
                         </div>
@@ -246,7 +237,7 @@ const CreateParticipant = () => {
                                     value={content.city}
                                     onChange={onChange}
                                     className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="Poznan"
+                                    placeholder="Your City"
                                     required
                                 />
                             </div>
@@ -323,7 +314,7 @@ const CreateParticipant = () => {
                                 value={content.plannedEvent}
                                 onChange={onChange}
                                 className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                placeholder="Describe the kids dream, could be the dream for the future or just a dream to achieve someday in when growup, here the idea is to let the kid free to dream."
+                                placeholder="Your planned event..."
                                 required
                             />
                         </div>

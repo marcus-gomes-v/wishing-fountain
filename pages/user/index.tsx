@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
+import Head from 'next/head'
 import Dashboard from '../../components/authenticated/Dashboard';
 import Layout from '../../components/layout';
 import { useAuth } from '../../context/AuthContext';
@@ -19,6 +19,17 @@ const LoggedIn = () => {
   
   return (
     <Layout page={pageTitle}>
+      <Head>
+        <title>Unwrap Your Dream | Authenticated</title>
+        <meta
+          name="description"
+          content={pageTitle}
+        />
+        <meta
+          property="og:image"
+          content={`https://www.unwrapyourdream.com/images/og-image.jpg`}
+        />
+      </Head>
       <div>
         {
           loading ?

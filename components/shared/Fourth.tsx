@@ -21,7 +21,7 @@ function Fourth() {
                   className="bg-[#white] border-[12px] border-[#ffd24a] hover:bg-[#ffd24a]  rounded-t-2xl"
                 />
                 <a href="#ignite" className="
-                flex
+                
                 items-baseline
                 justify-center
                 bg-[#ffd24a]
@@ -31,7 +31,7 @@ function Fourth() {
                 text-[24px]
                 font-secundary 
                 rounded-b-2xl
-                shadow-md">
+                shadow-md hidden">
                   <FontAwesomeIcon icon={faInfo} className="h-6 w-6 inline" />
                   SEE HER STORY
                 </a>

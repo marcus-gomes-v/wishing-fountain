@@ -32,7 +32,7 @@ function OurEventComponent() {
             </p>
           </div>
           <h2 className="text-[48px] font-bold text-gray-600 underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[8px]">
-            <strong>How to Participate?</strong>
+            <strong>How do I get involved?</strong>
           </h2>
         </div>
       </div>

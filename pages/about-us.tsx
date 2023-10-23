@@ -12,15 +12,15 @@ const AboutUs: NextPage = () => {
   return (
     <Layout page='aboutUs'>    
         <Head>
-              <title>Unwrap Your Dream</title>
-            <meta
+          <title>Unwrap Your Dream | About Us</title>
+          <meta
             name="description"
             content={pageTitle}
-            />
-            <meta
+          />
+          <meta
             property="og:image"
-            content={`https://www.unwrapyourdream.com/images/photos/home.jpg`}
-            />
+            content={`https://www.unwrapyourdream.com/images/og-image.jpg`}
+          />
         </Head>
         <div className='mx-4 my-3 grid gap-y-3'>
             <AmbassadorsComponent></AmbassadorsComponent>

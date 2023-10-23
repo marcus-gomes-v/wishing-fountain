@@ -8,7 +8,7 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import Link from 'next/link'
-import { faCircle, faDashboard, faHeadSideHeart, faHouseLaptop, faInfo, faMap, faNotes, faPeople, faPerson, faPotFood, faQuestion, faSquareInfo, faUserAstronaut} from '@fortawesome/pro-solid-svg-icons';
+import { faBlog, faCircle, faDashboard, faHeadSideHeart, faHouseLaptop, faInfo, faMap, faNotes, faPeople, faPerson, faPotFood, faQuestion, faSquareInfo, faUserAstronaut} from '@fortawesome/pro-solid-svg-icons';
 
 import { faBook, faComment, faDog } from '@fortawesome/free-solid-svg-icons';
 import LogginButton from './LoginButton';
@@ -63,6 +63,12 @@ function Navbar({page}: {page: string}) {
             href: '/faq',
             page: 'faq',
             icon: faQuestion,
+        },
+        {
+            title: t('navBar.pages.blog'),
+            href: '#',
+            page: 'blog',
+            icon: faBlog,
         }
     ]
 

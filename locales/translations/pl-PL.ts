@@ -63,7 +63,7 @@ export default {
                 location: "Location",
             },
             userDashboard: {
-                title: "Profile",
+                title: "#UnwrapYourDream | Dashboard",
                 subtitle: " Profile Overview",
                 welcome: "Welcome back, "
             },

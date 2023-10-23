@@ -176,12 +176,12 @@ function FaqComponent() {
       answer: t('components.faq.32.answer'),
     },
     {
-      category: "Photos",
+      category: "Support",
       question: t('components.faq.33.question'),
       answer: t('components.faq.33.answer'),
     },
     {
-      category: "Privacy",
+      category: "Support",
       question: t('components.faq.34.question'),
       answer: t('components.faq.34.answer'),
     },
@@ -196,24 +196,14 @@ function FaqComponent() {
       answer: t('components.faq.36.answer'),
     },
     {
-      category: "Support",
+      category: "Event Follow Up",
       question: t('components.faq.37.question'),
       answer: t('components.faq.37.answer'),
     },
     {
-      category: "Support",
+      category: "Event Follow Up",
       question: t('components.faq.38.question'),
       answer: t('components.faq.38.answer'),
-    },
-    {
-      category: "Support",
-      question: t('components.faq.39.question'),
-      answer: t('components.faq.39.answer'),
-    },
-    {
-      category: "Support",
-      question: t('components.faq.40.question'),
-      answer: t('components.faq.40.answer'),
     },
   ]
 
@@ -225,7 +215,7 @@ function FaqComponent() {
       title: "Registration"
     },
     {
-      title: "Organizaing The Event"
+      title: "Organizing The Event"
     },
     {
       title: "Share on X"
@@ -234,10 +224,10 @@ function FaqComponent() {
       title: "Photos"
     },
     {
-      title: "Privacy"
+      title: "Support"
     },
     {
-      title: "Support"
+      title: "Event Follow Up"
     },
   ]
 

@@ -11,14 +11,14 @@ const Ambassadors: NextPage = () => {
   return (
     <Layout page='ambassadors'>    
         <Head>
-              <title>Unwrap Your Dream</title>
-            <meta
-            name="description"
-            content={pageTitle}
+           <title>Unwrap Your Dream</title>
+           <meta
+              name="description"
+              content={pageTitle}
             />
             <meta
-            property="og:image"
-            content={`https://www.unwrapyourdream.com/images/photos/home.jpg`}
+              property="og:image"
+              content={`https://www.unwrapyourdream.com/images/og-image.jpg`}
             />
         </Head>
         <div className='mx-4 my-3 grid gap-y-3'>

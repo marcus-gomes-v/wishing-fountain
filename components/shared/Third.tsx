@@ -22,7 +22,7 @@ function Third() {
               <p className="mt-4  text-[24px] ">
                 {t('components.third.descriptionEnd')}
               </p>
-              <a href="#ignite" className="flex items-center mt-10 bg-[#ffd24a] text-black mx-auto px-6 py-3 rounded-full font-light text-[24px] gap-2 font-secundary shadow-md">
+              <a href="/our-event" className="flex items-center mt-10 bg-[#ffd24a] text-black mx-auto px-6 py-3 rounded-full font-light text-[24px] gap-2 font-secundary shadow-md">
                 <FontAwesomeIcon icon={faFireFlame} className="h-6 w-6" />
                 IGNITE THEIR DREAMS
               </a>

@@ -3,67 +3,35 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from 'react-i18next'
 
 function Team() {
-    const { t } = useTranslation();
-
-    const goals = [
-        {
-            name: t('components.goals.items.one.name'),
-            description: t('components.goals.items.one.description'),
-            icon: faCompass,
-        },
-        {
-            name: t('components.goals.items.two.name'),
-            description: t('components.goals.items.two.description'),
-            icon: faStar,
-        },
-        {
-            name: t('components.goals.items.three.name'),
-            description: t('components.goals.items.three.description'),
-            icon: faChildReaching,
-      },
-      {
-        name: t('components.goals.items.four.name'),
-        description: t('components.goals.items.four.description'),
-        icon: faChildReaching,
-      }
-    ]
+  const { t } = useTranslation();
 
   const people = [
     {
       name: 'Karolina Stawinska',
-      role: 'Founder',
+      role: 'Co-founder #UnwrapYourDream',
       imageUrl:
         '/images/team/karolina-1.png',
-      bio: 'Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.',
+      bio: "Karolina’s passion for the #UnwrapYourDream movement was kindled after studying the inspiring case of Tererai Trent during her Semester at Sea journey. This voyage, along with her travels to over 60 countries, fortified a realization in her: every child, regardless of their geographical location, smiles in the same universal language and possesses an innate curiosity coupled with the courage to dream.  In 2014, her dedication to this vision came alive with the #tweetadream campaign where over 25,000 children visualized their dreams across 35. countries. Working in talent development for both startups and corporates, Karolina possesses a unique insight into potential and passion. This perspective was further illuminated when, as a mentor in STEM, she journeyed to Tajikistan, guiding her mentee and local youths in harnessing solar power for innovation. Whether it's crafting solar-powered LEGO toys with girls to demonstrate boundless potential or being an ally to the most vulnerable refugee families, Karolina's actions consistently underline her belief: dreams are the catalysts of hope and transformation, regardless of one's situation.",
       twitterUrl: '#',
       linkedinUrl: 'https://www.linkedin.com/in/karolinastawinska/',
     },
     {
       name: 'Karolina Cikowska',
-      role: 'Co-founder',
+      role: 'Co-Founder #UnwrapYourDream',
       imageUrl:
         '/images/team/karolina-2.png',
-      bio: 'Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.',
+      bio: "Karolina’s life story is a testament to the transformative power of dreams. As the co-founder of Girl Code Fun, she ignited the aspirations of countless young girls, empowering them with STEM skills and opening doors to a world of endless potential. Her dedication to sparking creativity in STEM is relentless, especially within communities that often lie in the shadows of opportunity. This same spirit led her to her current role at Upwardly Global. As the Polish Country Representative, Karolina has been a beacon of hope for Ukrainian war refugees in Poland. Recognizing the dreams and aspirations they carry, she works fervently to facilitate their job placements, ensuring that even in their new homeland, their professional ambitions remain within reach. Whether it's a young girl coding her first app or a displaced family seeking a fresh start, Karolina stands alongside every dreamer, underscoring the belief that every dream, big or small, deserves to be cherished.",
       twitterUrl: '#',
       linkedinUrl: 'https://www.linkedin.com/in/karolina-cikowska-she-her-hers-39312418/',
     },
     {
       name: 'Marcus Gomes',
-      role: 'Senior Developer',
+      role: 'Dream Developer & Amplifier',
       imageUrl:
         '/images/team/marcus.png',
-      bio: 'Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.',
+      bio: "Marcus, with his infectious enthusiasm and zeal, exemplifies the power of dreams. Growing up in Brazil, his early years amidst the favelas painted a vivid picture of the dichotomy of dreams vs reality. Yet, his childlike wonder envisioned a world brimming with opportunities. With an early aspiration of becoming the next president to solve housing crises, Marcus soon realized the transformative power of technology. Despite challenges, his indomitable spirit and an insatiable curiosity led him to self-learn, eventually leading to the creation of an immensely popular blog that simplified the intricacies of coding. Having witnessed the meteoric rise of Dafiti, Brazil's unicorn, Marcus understands the impact of dreaming big. Now, as a pillar of the #UnwrapYourDream campaign, he's committed to ensuring every child gets the opportunity to dream, innovate, and transform the world.",
       twitterUrl: '#',
       linkedinUrl: 'https://www.linkedin.com/in/gomesmarcusv/',
-    },
-    {
-      name: 'Nuno Lei',
-      role: 'Brand Strategists',
-      imageUrl:
-        '/images/team/nuno.png',
-      bio: 'Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.',
-      twitterUrl: '#',
-      linkedinUrl: 'https://www.linkedin.com/in/nunolei/',
     },
   ]
 
@@ -81,7 +49,7 @@ function Team() {
           underline-offset-8
           decoration-[8px]">Our team</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We’re a dynamic group of individuals who are passionate about what we do and dedicated to help everyone to achieve it's own potential.
+            We are a collective of dreamers, rooted in the belief that every child deserves a canvas to paint their aspirations. At the heart of the #UnwrapYourDream campaign, we're not just changemakers but custodians of young aspirations, ensuring that dreams aren't just fleeting thoughts but seeds sown for a brighter tomorrow.
           </p>
         </div>
         <ul

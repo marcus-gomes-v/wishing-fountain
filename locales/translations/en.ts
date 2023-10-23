@@ -18,6 +18,7 @@ export default {
                 about_us: 'About Us',
                 register_now: 'Register Now',
                 dashboard: 'Dashboard',
+                blog: 'Blog',
             },
         },
         login: {
@@ -98,10 +99,10 @@ export default {
             forth: {
                 title: "Inspired By Tererai Trent:",
                 subtitle: "A Beacon Of Hope",
-                descriptionNormal: "From a young age, Tererai faced challenges that could have silenced her dreams. Married at 11 and denied education due to societal norms and poverty, she remained undeterred. With unwavering determination, she transformed her life, becoming a renowned scholar and humanitarian. ",
-                descriptionNormalSecond: "Tererai's triumphant journey fuels our passion and gave birth to",
-                descriptionBold: "#UnwrapYourDream",
-                descriptionNormalThird: ", encouraging children everywhere to capture and pursue their dreams."
+                descriptionNormal: "Tererai grew up in Zimbabwe without access to running water or electricity. Married at 11 she became a mom multiple times before reaching adulthood. She was denied an education, but she didnt give up.",
+                descriptionNormalSecond: "She wrote down her dreams, buried them, and later achieved them, becoming a celebrated PhD scholar and helper to many.",
+                descriptionBold: "Tererai's story is the heartbeat of #UnwrapYourDream.",
+                descriptionNormalThird: " We want kids everywhere to dream big and chase those dreams, just like she did."
             },
             participants: {
                 title: "A Universe of Dreams",
@@ -199,9 +200,10 @@ export default {
             },
             map: {
                 title: "The Impact Of Dreams",
-                subtitle: "We've inspired over 25,000 children to visualize and crystallize their dreams for the future.",
+                subtitleBold: "We've inspired over 25,000 children",
+                subtitle: " to visualize and crystallize their dreams for the future.",
                 descriptionBold: "Discover the global reach of #UnwrapYourDream:",
-                descriptionNormal: "Dreams aren't mere wishes; they're blueprints of potential.For many vulnerable children, dreams often lie dormant, overshadowed by societal constraints or limited opportunities. However, with the right environment and encouragement, we can help these dreams rise, illuminating pathways to brighter tomorrows",
+                descriptionNormal: "Dreams aren't mere wishes; they're blueprints of potential. For many vulnerable children, dreams often lie dormant, overshadowed by societal constraints or limited opportunities. However, with the right environment and encouragement, we can help these dreams rise, illuminating pathways to brighter tomorrows.",
             },
             act: {
                 title: "You have a role to play",
@@ -357,10 +359,6 @@ export default {
                     "answer": "..."
                 },
                 {
-                    "question": "Privacy",
-                    "answer": "..."
-                },
-                {
                     "question": "I want to help further the #UnwrapYourDream campaign. How can I offer additional support or collaborate?",
                     "answer": "..."
                 },
@@ -383,7 +381,7 @@ export default {
                 {
                     "question": "Will I receive any follow up material to share with my participants?",
                     "answer": "..."
-                }
+                },
             ]
         }
     }

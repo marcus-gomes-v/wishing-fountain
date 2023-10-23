@@ -20,15 +20,15 @@ const Ambassadors: NextPage = () => {
   return (
     <Layout page='our-event'>    
         <Head>
-              <title>Unwrap Your Dream</title>
-            <meta
+          <title>Unwrap Your Dream | Our Event</title>
+          <meta
             name="description"
             content={pageTitle}
-            />
-            <meta
+          />
+          <meta
             property="og:image"
-            content={`https://www.unwrapyourdream.com/images/photos/home.jpg`}
-            />
+            content={`https://www.unwrapyourdream.com/images/og-image.jpg`}
+          />
         </Head>
         
       <HeroPaint></HeroPaint>
