@@ -65,6 +65,11 @@ function KindergartenComponent() {
                 <strong>Show & Share (15 minutes):</strong> Offer the children an opportunity to present their artwork to their peers, if they're comfortable doing so. Create an atmosphere of encouragement filled with enthusiastic comments and admiration.
               </p>
             </li>
+            <li>
+              <p className="mt-4 text-[24px] text-gray-600">
+                <strong>Capture their dreams:</strong> Use this opportunity to take pictures of their dreams and describe them, to post on X on December 22nd. Take a look at our FAQ for post guidelines and privacy rules.
+              </p>
+            </li>
           </ul>
 
           <h2 className="text-[48px] font-bold text-gray-600 underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[4px] pt-10">
@@ -78,10 +83,10 @@ function KindergartenComponent() {
           </p>
 
           <ul className="list-disc pl-6 text-[24px] text-gray-600">
-            <li>Tranquil background music playlist (optional)</li>
+            <li>Tranquil background music playlist (optional).</li>
             <li>Nurture a welcoming environment, emphasizing that there are no wrong dreams.</li>
             <li>Encourage leaders and volunteers to also partake, demonstrating that dreaming is ageless and universal.</li>
-            <li>Refrain from focusing on the finished product; instead, underscore the importance of the creative process. The goal is to embolden children to imagine, ponder, and articulate</li>
+            <li>Refrain from focusing on the finished product; instead, underscore the importance of the creative process. The goal is to embolden children to imagine, ponder, and articulate.</li>
           </ul>
 
         </div>

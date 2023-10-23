@@ -5,10 +5,10 @@ import { ExternalLinkIcon } from '@heroicons/react/solid'
 function PrimaryMaterialComponent() {
 
   const projects = [
-    { name: 'A4 sketch pads', initials: faRectangleVertical, href: '#', members: 16, bgColor: 'bg-pink-600' },
-    { name: 'Colored markers/pencils', initials: faPenPaintbrush, href: '#', members: 12, bgColor: 'bg-purple-600' },
-    { name: 'Mixed arts & crafts supplies', initials: faRulerTriangle, href: '#', members: 16, bgColor: 'bg-yellow-500' },
-    { name: 'Inspirational and upbeat music playlist', initials: faWaveform, href: '#', members: 8, bgColor: 'bg-green-500' },
+    { name: 'A4 sketch pads.', initials: faRectangleVertical, href: '#', members: 16, bgColor: 'bg-pink-600' },
+    { name: 'Colored markers/pencils.', initials: faPenPaintbrush, href: '#', members: 12, bgColor: 'bg-purple-600' },
+    { name: 'Mixed arts & crafts supplies.', initials: faRulerTriangle, href: '#', members: 16, bgColor: 'bg-[#FFD24A]' },
+    { name: 'Inspirational and upbeat music playlist.', initials: faWaveform, href: '#', members: 8, bgColor: 'bg-green-500' },
   ]
 
   function classNames(...classes: any) {

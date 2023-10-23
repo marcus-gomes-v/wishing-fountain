@@ -3,12 +3,7 @@ import Head from 'next/head'
 import { useTranslation } from 'react-i18next'
 import Layout from '../components/layout'
 import OurEventComponent from '../components/shared/OurEventComponent'
-import ExplainImproved from '../components/shared/ExplainImproved'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faGraduationCap, faHatHard, faRocket } from '@fortawesome/pro-solid-svg-icons'
 import { useState } from 'react'
-import ExplainImprovedStartup from '../components/shared/ExplainImprovedStartup'
-import ExplainImprovedCorporate from '../components/shared/ExplainImprovedCorporate'
 import HeroPaint from '../components/shared/Hero-Girl'
 
 const Ambassadors: NextPage = () => {

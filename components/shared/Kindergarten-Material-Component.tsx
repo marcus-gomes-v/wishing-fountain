@@ -7,7 +7,7 @@ function KindergartenMaterialComponent() {
   const projects = [
     { name: 'Large drawing sheets (A3 size is preferable).', initials: faRectangleVertical, href: '#', members: 16, bgColor: 'bg-pink-600' },
     { name: 'Crayons, colored pencils, or watercolor paints.', initials: faPenPaintbrush, href: '#', members: 12, bgColor: 'bg-purple-600' },
-    { name: 'Stickers, stamps, and other craft materials.', initials: faNoteSticky, href: '#', members: 16, bgColor: 'bg-yellow-500' },
+    { name: 'Stickers, stamps, and other craft materials.', initials: faNoteSticky, href: '#', members: 16, bgColor: 'bg-[#FFD24A]' },
     { name: 'Printouts of thought-provoking dream prompts you can use to guide the students.', initials: faClapperboard, href: '#', members: 8, bgColor: 'bg-green-500' },
   ]
 
