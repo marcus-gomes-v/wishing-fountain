@@ -38,7 +38,7 @@ function PrimarySchoolComponent() {
             <br /><br />
             <strong>Materials Needed:</strong>
           </p>
-          <ul className="list-disc pl-6 text-[24px]">
+          <ul className="list-disc pl-6 text-[24px] text-gray-600">
             <li>A4 sketch pads</li>
             <li>Colored markers/pencils</li>
             <li>Mixed arts & crafts supplies</li>
@@ -59,7 +59,7 @@ function PrimarySchoolComponent() {
               <p className="mt-4 text-[24px] text-gray-600">
                 <strong>All-encompassing Dream Prompts (15 minutes):</strong> Guide the children with diverse and inclusive prompts that cater to a range of talents:
               </p>
-              <ul className="list-disc pl-12 text-[24px]">
+              <ul className="list-disc pl-12 text-[24px] text-gray-600">
                 <li className="py-2">"Imagine your talent is a magical paintbrush. Whatever you paint becomes reality. What would you paint to make the world a better place?"</li>
                 <li className="py-2">"If your talent could create a new toy or game that helps people or teaches something special, what would it be?"</li>
                 <li className="py-2">"Suppose your talent was a song that had the power to change people's feelings or behaviors. What would your song do?"</li>
@@ -89,7 +89,7 @@ function PrimarySchoolComponent() {
             <strong>Additional Recommendations:</strong>
           </p>
 
-          <ul className="list-disc pl-6 text-[24px]">
+          <ul className="list-disc pl-6 text-[24px] text-gray-600">
             <li>Help create an atmosphere of acceptance, emphasizing that all dreams, irrespective of their nature, hold the potential for greatness.</li>
             <li>Some teachers and support staff should also share their dreams, exemplifying the significance of dreaming at all ages.</li>
             <li>Maintain the focus on the process of dreaming, emphasizing that dreaming and planning are significant steps towards actualizing their dreams.</li>

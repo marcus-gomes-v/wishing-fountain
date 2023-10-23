@@ -1,3 +1,5 @@
+import KindergartenMaterialComponent from "./Kindergarten-Material-Component";
+import KindergartenPromptComponent from "./Kindergarten-Prompt-Component";
 
 function KindergartenComponent() {
 
@@ -34,13 +36,8 @@ function KindergartenComponent() {
             <br /><br />
             <strong>Materials Needed:</strong>
           </p>
-          <ul className="list-disc pl-6 text-[24px]">
-            <li>Large drawing sheets (A3 size is preferable)</li>
-            <li>Crayons, colored pencils, or watercolor paints</li>
-            <li>Stickers, stamps, and other craft materials</li>
-            <li>Tranquil background music playlist (optional)</li>
-            <li>Printouts of thought-provoking dream prompts you can use to guide the students (See below)</li>
-          </ul>
+          
+        <KindergartenMaterialComponent></KindergartenMaterialComponent>
 
           <p className="mt-4 text-[24px] text-gray-600">
             <strong>Workshop Steps:</strong>
@@ -56,12 +53,7 @@ function KindergartenComponent() {
               <p className="mt-4 text-[24px] text-gray-600">
                 <strong>Dream-Inspiring Prompts (10 minutes):</strong> Distribute the prompted printouts among the children and inspire their curiosity. Here are some prompts you can use:
               </p>
-              <ul className="list-disc pl-12 text-[24px]">
-                <li className="py-2">"Imagine you've woken up with a superpower! What would it be? How would you use this power to do wonderful things in the world?"</li>
-                <li className="py-2">"Pretend you are an inventor and you can create something amazing that the world has never seen. What would your invention do to make everyone's life better?"</li>
-                <li className="py-2">"Think about a day where we all lend a helping hand to each other. What help could you give to make someone's day brighter?"</li>
-                <li className="py-2">"If you could grow a magical tree that does something special for humans, what would that special thing be? How would people feel after using your magical tree?"</li>
-              </ul>
+              <KindergartenPromptComponent></KindergartenPromptComponent>
             </li>
             <li>
               <p className="mt-4 text-[24px] text-gray-600">
@@ -85,7 +77,8 @@ function KindergartenComponent() {
             <strong>Additional Recommendations:</strong>
           </p>
 
-          <ul className="list-disc pl-6 text-[24px]">
+          <ul className="list-disc pl-6 text-[24px] text-gray-600">
+            <li>Tranquil background music playlist (optional)</li>
             <li>Nurture a welcoming environment, emphasizing that there are no wrong dreams.</li>
             <li>Encourage leaders and volunteers to also partake, demonstrating that dreaming is ageless and universal.</li>
             <li>Refrain from focusing on the finished product; instead, underscore the importance of the creative process. The goal is to embolden children to imagine, ponder, and articulate</li>
