@@ -25,7 +25,7 @@ export default function ExplainImproved() {
         },
         {
           text: "Secondary school",
-          href: "#",
+          href: "/our-event/secondary-school",
           icon: faGraduationCap
         },
       ]
@@ -35,11 +35,6 @@ export default function ExplainImproved() {
       description: "Corporate: Align your CSR goals with our mission.<br /><br />Individual: Become an ambassador or volunteer.",
       icon: faBullhorn,
       buttons: [
-        {
-          text: "Learn more",
-          href: "#",
-          icon: faInfo,
-        }
       ]
     },
     {
@@ -47,11 +42,6 @@ export default function ExplainImproved() {
       description: "Share our mission, events, and success stories through your social networks.",
       icon: faHandHoldingHeart,
       buttons: [
-        {
-          text: "Learn more",
-          href: "#",
-          icon: faInfo
-        }
       ]
     }
   ]

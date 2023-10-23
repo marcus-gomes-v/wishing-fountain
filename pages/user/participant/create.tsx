@@ -148,9 +148,6 @@ const CreateParticipant = () => {
                 <div className="md:col-span-1">
                         <h3 className="text-gray-900 text-[34px] font-bold pb-6">Register your #UnwrapYourDream Event on
                             December 22nd</h3>
-                    <p className="mt-1 text-sm text-gray-500">
-                        This information will be displayed publicly so be careful what you share.
-                    </p>
                 </div>
                 <div className="mt-5 space-y-6 md:col-span-2 md:mt-0">
                     <div className="grid grid-cols-2 gap-6">
@@ -276,7 +273,7 @@ const CreateParticipant = () => {
                                     value={content.twitter}
                                     onChange={onChange}
                                     className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="lorena-krawczyk"
+                                    placeholder="Your Twitter"
                                     required
                                 />
                             </div>
@@ -295,7 +292,7 @@ const CreateParticipant = () => {
                                     value={content.linkedin}
                                     onChange={onChange}
                                     className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="kraw-lorena"
+                                    placeholder="Your Linkedin"
                                     required
                                 />
                             </div>
@@ -304,7 +301,7 @@ const CreateParticipant = () => {
 
                     <div>
                         <label htmlFor="plannedEvent" className="block text-sm font-medium text-gray-700">
-                            Describe planned event
+                            Describe your planned #UnwrapYourDream event:
                         </label>
                         <div className="mt-1">
                             <textarea
@@ -314,11 +311,10 @@ const CreateParticipant = () => {
                                 value={content.plannedEvent}
                                 onChange={onChange}
                                 className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                placeholder="Your planned event..."
+                                placeholder="Tell us more about how you envision your event, we will try amplify it on our social media..."
                                 required
                             />
                         </div>
-                        <p className="mt-2 text-sm text-gray-500">Tell more about your planned event.</p>
                     </div>
 
                 </div>

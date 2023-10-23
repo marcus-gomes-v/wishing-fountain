@@ -18,10 +18,9 @@ function Footer() {
             { name: 'Dashboard', href: '/user' },
         ],
         impact: [
-            { name: 'About', href: '/about-us' },
-            { name: 'Nurture Aspirations', href: '/our-impact' },
-            { name: 'Empower Voices', href: '/our-impact' },
-            { name: 'Build Resilience', href: '/our-impact' },
+            { name: 'Team', href: '/about-us' },
+            { name: 'Ambassadors', href: '/about-us' },
+            { name: 'Community', href: 'https://www.facebook.com/UnwrapYourDream' },
         ],
         event: [
             { name: 'Organize', href: '/our-event' },
@@ -124,7 +123,7 @@ function Footer() {
                             alt="Company name"
                         />
                         <p className="text-md leading-6 text-gray-50">
-                            Making the world a better place through igniting dreams.
+                            Empowering Every Child's Dream to Shine Brightest.
                         </p>
                         <div className="flex space-x-6">
                             {navigation.social.map((item) => (
@@ -151,7 +150,7 @@ function Footer() {
                             </div>
                         }
                         <div className="md:mt-0">
-                            <h3 className="text-md font-semibold leading-6 text-gray-50 font-secundary">Our Impact</h3>
+                            <h3 className="text-md font-semibold leading-6 text-gray-50 font-secundary">About Us</h3>
                             <ul role="list" className="mt-6 space-y-4">
                                 {navigation.impact.map((item) => (
                                     <li key={item.name}>

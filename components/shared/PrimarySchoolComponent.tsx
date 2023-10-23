@@ -48,7 +48,7 @@ function PrimarySchoolComponent() {
           <ul className="list-decimal pl-6">
             <li>
               <p className="mt-4 text-[24px] text-gray-600">
-                <strong>Setting the Stage (10 minutes):</strong> Begin with a compelling story about an individual who changed the world through their unique talent, such as Steve Jobs, or Malala Yousafzai or modern-day innovators. For further inspiration check out the stories on our Facebook Page. Guide the discussion with: "Imagine your unique talent as a magic tool. How would you use it to create a positive change in the world?"
+                <strong>Setting the Stage (10 minutes):</strong> Begin with a compelling story about an individual who changed the world through their unique talent, such as Steve Jobs, or Malala Yousafzai or modern-day innovators. For further inspiration check out the stories on our <a href="https://www.facebook.com/UnwrapYourDream" target="_blank">Facebook Page</a>. Guide the discussion with: "Imagine your unique talent as a magic tool. How would you use it to create a positive change in the world?"
               </p>
             </li>
             <li>
@@ -65,6 +65,11 @@ function PrimarySchoolComponent() {
             <li>
               <p className="mt-4 text-[24px] text-gray-600">
                 <strong>Dream Sharing & Encouragement (10 minutes):</strong> Provide an encouraging platform for children to present their dreams. Applaud unique ideas, foster mutual appreciation, and encourage discussion.
+              </p>
+            </li>
+            <li>
+              <p className="mt-4 text-[24px] text-gray-600">
+                <strong>Capture their dreams:</strong> Use this opportunity to take pictures of their dreams and describe them, to post on X on December 22nd. Take a look at our <a href="/faq" className="font-secundary underline">FAQ</a> for post guidelines and privacy rules.
               </p>
             </li>
           </ul>
