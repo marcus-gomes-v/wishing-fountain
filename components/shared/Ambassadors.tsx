@@ -30,78 +30,73 @@ function AmbassadorsComponent() {
 
   const people = [
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'Patrice Madurai',
+      role: 'Colorado, USA',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'Karol Gornowicz',
+      role: 'Warsaw, Poland',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'Agnieszka Mucha-Ryka',
+      role: 'Krakow, Poland',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'Blake MacDonald',
+      role: 'Toronto, Canada',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'Arek Skuza',
+      role: 'Texas, USA',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: "Aldrin	D'Souza",
+      role: 'Vancouver, Canada',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'Gulnora Anvarova',
+      role: 'Dushanbe, Tajikistan',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'Marcos Vargas',
+      role: 'Lima, Peru',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'Natasha Tolub',
+      role: 'Toronto, Canada',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'Madison MacDonald',
+      role: 'Toronto, Canada',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
     {
-      name: 'Name Surname',
-      role: 'Country',
+      name: 'You?',
+      role: '',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },
-    {
-      name: 'Name Surname',
-      role: 'Country',
-      imageUrl:
-        '/images/avatar/placeholder.jpeg',
-    }
-  ]
+    
+  ].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <div className="bg-white">

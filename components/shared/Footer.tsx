@@ -27,7 +27,7 @@ function Footer() {
             { name: 'Organize', href: '/our-event' },
             { name: 'Partner', href: '/our-event' },
             { name: 'Support', href: '/our-event' },
-            { name: 'Blog', href: '#' },
+            { name: 'Blog', href: 'https://kstawinska.medium.com/dreams-amid-darkness-uniting-to-ignite-the-future-ecfb2db84630' },
         ],
         legal: [
             { name: 'Privacy', href: '#' },

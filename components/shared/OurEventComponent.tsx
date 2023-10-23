@@ -1,5 +1,4 @@
-import { faChildReaching, faCompass, faStar } from "@fortawesome/pro-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { useTranslation } from 'react-i18next'
 import ExplainImproved from "./ExplainImproved";
 

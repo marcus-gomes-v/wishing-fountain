@@ -15,12 +15,12 @@ export default function ExplainImproved() {
       buttons: [
         {
           text: "Kindergarten",
-          href: "#",
+          href: "/our-event/kindergarten",
           icon: faChild
         },
         {
           text: "Primary School",
-          href: "#",
+          href: "/our-event/primary-school",
           icon: faBackpack
         },
         {
@@ -95,8 +95,9 @@ export default function ExplainImproved() {
                     <p className="mt-5 text-[18px] font-sans tracking-wider leading-7 text-gray-600 text-left" dangerouslySetInnerHTML={{ __html: feature.description }}></p>
                     <div className="flex flex-col gap-y-3 py-3">
                       {feature.buttons.map((link, i) =>
-                        <button
+                        <a
                           key={i}
+                          href={link.href}
                           type="button"
                           className="
                             font-secundary
@@ -119,7 +120,7 @@ export default function ExplainImproved() {
                         >
                           {link.text}
                           <FontAwesomeIcon icon={link.icon} className='w-4 h-4' />
-                        </button>
+                        </a>
                       )}
                     </div>
                   </div>

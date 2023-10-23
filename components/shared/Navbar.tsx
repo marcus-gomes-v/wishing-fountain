@@ -66,7 +66,7 @@ function Navbar({page}: {page: string}) {
         },
         {
             title: t('navBar.pages.blog'),
-            href: '#',
+            href: 'https://kstawinska.medium.com/dreams-amid-darkness-uniting-to-ignite-the-future-ecfb2db84630',
             page: 'blog',
             icon: faBlog,
         }
