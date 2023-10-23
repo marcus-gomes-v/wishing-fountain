@@ -36,7 +36,7 @@ export default function ExplainImproved() {
       icon: faBullhorn,
       buttons: [
         {
-          text: "Know More",
+          text: "Learn more",
           href: "#",
           icon: faInfo,
         }
@@ -44,11 +44,11 @@ export default function ExplainImproved() {
     },
     {
       title: "Support",
-      description: "Share our mission, events, and success stories through your social networks",
+      description: "Share our mission, events, and success stories through your social networks.",
       icon: faHandHoldingHeart,
       buttons: [
         {
-          text: "Know More",
+          text: "Learn more",
           href: "#",
           icon: faInfo
         }
