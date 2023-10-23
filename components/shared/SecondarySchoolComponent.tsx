@@ -52,7 +52,7 @@ function SecondarySchoolComponent() {
             </li>
             <li>
               <p className="mt-4 text-[24px] text-gray-600">
-                <strong>Lived Narratives (30 minutes): </strong> Present multimodal stories of aspiring young innovators, activists, or changemakers from diverse backgrounds and fields. Discuss their motivations, struggles, ane the talents or passions they harnessed on their journey. For inspiration, check our <a href="https://www.facebook.com/UnwrapYourDream" target="_blank">Facebook Community</a> Community Group.
+                <strong>Lived Narratives (30 minutes): </strong> Present multimodal stories of aspiring young innovators, activists, or changemakers from diverse backgrounds and fields. Discuss their motivations, struggles, ane the talents or passions they harnessed on their journey. For inspiration, check our <a href="https://www.facebook.com/UnwrapYourDream" target="_blank" className='font-secundary'>Facebook Community</a> Community Group.
               </p>
             </li>
             <li>

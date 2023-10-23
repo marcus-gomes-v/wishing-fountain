@@ -48,7 +48,7 @@ function PrimarySchoolComponent() {
           <ul className="list-decimal pl-6">
             <li>
               <p className="mt-4 text-[24px] text-gray-600">
-                <strong>Setting the Stage (10 minutes):</strong> Begin with a compelling story about an individual who changed the world through their unique talent, such as Steve Jobs, or Malala Yousafzai or modern-day innovators. For further inspiration check out the stories on our <a href="https://www.facebook.com/UnwrapYourDream" target="_blank">Facebook Page</a>. Guide the discussion with: "Imagine your unique talent as a magic tool. How would you use it to create a positive change in the world?"
+                <strong>Setting the Stage (10 minutes):</strong> Begin with a compelling story about an individual who changed the world through their unique talent, such as Steve Jobs, or Malala Yousafzai or modern-day innovators. For further inspiration check out the stories on our <a href="https://www.facebook.com/UnwrapYourDream" target="_blank" className="font-secundary">Facebook Page</a>. Guide the discussion with: "Imagine your unique talent as a magic tool. How would you use it to create a positive change in the world?"
               </p>
             </li>
             <li>
