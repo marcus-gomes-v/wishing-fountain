@@ -2,6 +2,8 @@ import { faChildReaching, faCompass, faStar } from "@fortawesome/pro-solid-svg-i
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from 'react-i18next'
 import ExplainImproved from "./ExplainImproved";
+import PrimaryPromptComponent from "./Primary-Prompt-Component";
+import PrimaryMaterialComponent from "./Primary-Material-Component";
 
 function PrimarySchoolComponent() {
     const { t } = useTranslation();
@@ -38,13 +40,7 @@ function PrimarySchoolComponent() {
             <br /><br />
             <strong>Materials Needed:</strong>
           </p>
-          <ul className="list-disc pl-6 text-[24px] text-gray-600">
-            <li>A4 sketch pads</li>
-            <li>Colored markers/pencils</li>
-            <li>Mixed arts & crafts supplies</li>
-            <li>Inspirational and upbeat music playlist</li>
-          </ul>
-
+          <PrimaryMaterialComponent></PrimaryMaterialComponent>
           <p className="mt-4 text-[24px] text-gray-600">
             <strong>Workshop Steps:</strong>
           </p>
@@ -59,13 +55,7 @@ function PrimarySchoolComponent() {
               <p className="mt-4 text-[24px] text-gray-600">
                 <strong>All-encompassing Dream Prompts (15 minutes):</strong> Guide the children with diverse and inclusive prompts that cater to a range of talents:
               </p>
-              <ul className="list-disc pl-12 text-[24px] text-gray-600">
-                <li className="py-2">"Imagine your talent is a magical paintbrush. Whatever you paint becomes reality. What would you paint to make the world a better place?"</li>
-                <li className="py-2">"If your talent could create a new toy or game that helps people or teaches something special, what would it be?"</li>
-                <li className="py-2">"Suppose your talent was a song that had the power to change people's feelings or behaviors. What would your song do?"</li>
-                <li className="py-2">"If you could create a shop that sells unique items crafted from your talent that makes the world happier or safer, what items would you sell?"</li>
-                <li className="py-2">"Visualize a day when you used your special talent and it resulted in something extraordinary. What happened that day?"</li>
-              </ul>
+              <PrimaryPromptComponent></PrimaryPromptComponent>
             </li>
             <li>
               <p className="mt-4 text-[24px] text-gray-600">

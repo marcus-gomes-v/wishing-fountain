@@ -1,14 +1,14 @@
-import { faClapperboard, faNoteSticky, faPaperPlane, faPenPaintbrush, faRectangleVertical } from '@fortawesome/pro-solid-svg-icons';
+import { faClapperboard, faNoteSticky, faPaperPlane, faPenPaintbrush, faPenRuler, faRectangleVertical, faRulerTriangle, faWaveform } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ExternalLinkIcon } from '@heroicons/react/solid'
 
-function KindergartenMaterialComponent() {
+function PrimaryMaterialComponent() {
 
   const projects = [
-    { name: 'Large drawing sheets (A3 size is preferable).', initials: faRectangleVertical, href: '#', members: 16, bgColor: 'bg-pink-600' },
-    { name: 'Crayons, colored pencils, or watercolor paints.', initials: faPenPaintbrush, href: '#', members: 12, bgColor: 'bg-purple-600' },
-    { name: 'Stickers, stamps, and other craft materials.', initials: faNoteSticky, href: '#', members: 16, bgColor: 'bg-yellow-500' },
-    { name: 'Printouts of thought-provoking dream prompts you can use to guide the students.', initials: faClapperboard, href: '#', members: 8, bgColor: 'bg-green-500' },
+    { name: 'A4 sketch pads', initials: faRectangleVertical, href: '#', members: 16, bgColor: 'bg-pink-600' },
+    { name: 'Colored markers/pencils', initials: faPenPaintbrush, href: '#', members: 12, bgColor: 'bg-purple-600' },
+    { name: 'Mixed arts & crafts supplies', initials: faRulerTriangle, href: '#', members: 16, bgColor: 'bg-yellow-500' },
+    { name: 'Inspirational and upbeat music playlist', initials: faWaveform, href: '#', members: 8, bgColor: 'bg-green-500' },
   ]
 
   function classNames(...classes: any) {
@@ -40,4 +40,4 @@ function KindergartenMaterialComponent() {
   )
 }
 
-export default KindergartenMaterialComponent;
+export default PrimaryMaterialComponent;
