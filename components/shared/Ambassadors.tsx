@@ -1,5 +1,4 @@
 import { faChildReaching, faCompass, faStar } from "@fortawesome/pro-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from 'react-i18next'
 
 function AmbassadorsComponent() {
@@ -33,7 +32,7 @@ function AmbassadorsComponent() {
       name: 'Patrice Madurai',
       role: 'Colorado, USA',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/patrice-madurai.jpeg',
     },
     {
       name: 'Karol Gornowicz',
@@ -45,19 +44,19 @@ function AmbassadorsComponent() {
       name: 'Agnieszka Mucha-Ryka',
       role: 'Krakow, Poland',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/agnieszka.jpg',
     },
     {
       name: 'Blake MacDonald',
       role: 'Toronto, Canada',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/blake-macdonald.jpg',
     },
     {
       name: 'Arek Skuza',
       role: 'Texas, USA',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/arek.jpg',
     },
     {
       name: "Aldrin	D'Souza",
@@ -69,7 +68,7 @@ function AmbassadorsComponent() {
       name: 'Gulnora Anvarova',
       role: 'Dushanbe, Tajikistan',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/gulnora.jpg',
     },
     {
       name: 'Marcos Vargas',
@@ -81,7 +80,7 @@ function AmbassadorsComponent() {
       name: 'Natasha Tolub',
       role: 'Toronto, Canada',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/natasha.jpg',
     },
     {
       name: 'Madison MacDonald',
