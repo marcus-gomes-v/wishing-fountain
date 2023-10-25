@@ -232,155 +232,155 @@ export default {
                 },
                 {
                     "question": "What is our Mission & Vision?",
-                    "answer": "..."
+                    "answer": "Our mission is to empower children to dream, create, and share their unique visions. Our vision is a world where every child's dream is valued and celebrated."
                 },
                 {
                     "question": "Are there specific age categories for the campaign?",
-                    "answer": "..."
+                    "answer": "The campaign welcomes children of all ages to participate, but it primarily focuses on school-aged children. We recommend organizing workshops for the following age categories: kindergarten, primary, and. secondary school. You can find more resources for age-appropriate prompts on our event page."
                 },
                 {
                     "question": "Why focus on visualizing dreams?",
-                    "answer": "..."
+                    "answer": "Visualizing dreams fosters creativity, self-confidence, and a sense of possibility. It's a powerful way to inspire and empower children to envision boundless possibilities. Every dream is a seed of change, ready to inspire the world and shape a brighter future. Curious about the power of visualizing dreams? Check our impact page."
                 },
                 {
                     "question": "How did the idea of this campaign come about?",
-                    "answer": "..."
+                    "answer": "The #UnwrapYourDream campaign is a continuation of the 'Tweet a Dream' initiative organized in 2014 which was inspired by Tererai Trent. Building on its success, we are eager to reach even more children this year, igniting their creativity and empowering them to dream bigger and brighter."
                 },
                 {
                     "question": "How is the #Unwrapyourdream event funded/sponsored?",
-                    "answer": "..."
+                    "answer": "The #UnwrapYourDream event is organized entirely for free, without external funding or sponsorship. The organizers are volunteers who passionately believe in the cause and are dedicated to making this campaign accessible and inclusive for all."
                 },
                 {
                     "question": "Who can participate in this campaign?",
-                    "answer": "..."
+                    "answer": "Anyone who shares our vision of empowering children through creativity and dreams is welcome to participate. The campaign is open to individuals, schools, community organizations, and institutions alike. Furthermore, all children ages 4-18 are welcome to participate in organized workshops. You can find age-appropriate workshop ideas on our event page."
                 },
                 {
                     "question": "How do I register my event ? ",
-                    "answer": "..."
+                    "answer": "To register your workshop, simply click in the button 'JOIN US' on our website."
                 },
                 {
                     "question": "Will I get a confirmation after I register?",
-                    "answer": "..."
+                    "answer": "After completing the registration form, you will receive a confirmation message. "
                 },
                 {
                     "question": "Can I update or edit my registration details after submitting?",
-                    "answer": "..."
+                    "answer": "Yes, you can edit your registration details by reaching out to our support team. We are here to assist you with any necessary updates or changes."
                 },
                 {
                     "question": "What kind of organizations/institutions can get involved?",
-                    "answer": "..."
+                    "answer": "Schools, community centers, churches, non-governmental organizations, and any institutions that wish to support and empower children through creativity are encouraged to get involved. The campaign's mission is to be inclusive and collaborative."
                 },
                 {
                     "question": "Can individuals get involved, or is it only for groups and institutions?",
-                    "answer": "..."
+                    "answer": "Individuals are absolutely welcome to participate. This is a great moment to have these conversations with your children, and simply turn it into a family event. The campaign celebrates the power of individual creativity and the potential to make a difference."
                 },
                 {
-                    "question": "Until when can I register my event?",
-                    "answer": "..."
+                    "question": "What is the deadline for registering my event?",
+                    "answer": "You can register your event up to one week before the planned campaign date, until December 15th. However, we advise registering as early as possible, as this will give you more time to prepare and promote your workshop."
                 },
                 {
                     "question": "Are there any fees associated with registration?",
-                    "answer": "..."
+                    "answer": "Registration is free of charge, ensuring that anyone who shares our mission can participate."
                 },
                 {
                     "question": "Can any country participate?",
-                    "answer": "..."
+                    "answer": "Yes, the campaign is open to participants from all countries. We welcome global participation, celebrating the universality of creativity and dreams."
                 },
                 {
                     "question": "What date should the event take place?",
-                    "answer": "..."
+                    "answer": "The workshop should take place on December 22, 2023."
                 },
                 {
                     "question": "What time should the event start and finish?",
-                    "answer": "..."
+                    "answer": "Event times are adaptable and can be customized to fit your schedule and the needs of your participants, and should take place on December 22nd."
                 },
                 {
                     "question": "Where can I organize the event?",
-                    "answer": "..."
+                    "answer": "You can organize the event at various locations, including schools, community centers, churches, or any suitable venues within your local area. The campaign is designed to be accessible and adaptable to different settings."
                 },
                 {
                     "question": "Is there a sample agenda or structure for how the event should run?",
-                    "answer": "..."
+                    "answer": "Yes, we provide a sample agenda to assist event organizers. It offers a general outline of how to structure and organize your event to ensure a positive experience for participants. You will receive access to these materials once you register your event. "
                 },
                 {
                     "question": "What materials will students need for the event?",
-                    "answer": "..."
+                    "answer": "Workshop participants will require basic art supplies, such as paper, markers, crayons, pencils, and any other creative materials you choose to provide. These materials will allow them to express their dreams visually."
                 },
                 {
                     "question": "Are there costs associated with participating in the event?",
-                    "answer": "..."
+                    "answer": "The campaign offers no-cost participation for all children. While it's designed to be accessible without significant expenses, organizers can seek sponsorships or fundraising options if needed for materials."
                 },
                 {
                     "question": "Are there any resources for organizing workshops?",
-                    "answer": "..."
+                    "answer": "Yes, we provide resources and guidelines to assist in organizing successful workshops here: Kindergarten, Primary School, Secondary School."
                 },
                 {
                     "question": "What kind of guidance should organizers provide participants during workshops?",
-                    "answer": "..."
+                    "answer": "Organizers should encourage creativity and emphasize the importance of dreaming. Create a safe and supportive environment where participants feel free to express their ideas and visions. Resources for organizing the workshops can be found here: Kindergarten, Primary School, Secondary School"
                 },
                 {
                     "question": "How many children can participate in each group?",
-                    "answer": "..."
+                    "answer": "The number of children per group can vary, but typically ranges anywhere from 1 to 20 participants. It's important to maintain a manageable group size to ensure that all children have the opportunity to actively engage in the workshop."
                 },
                 {
                     "question": "Are there specific hashtags or tags I should use when sharing on X?",
-                    "answer": "..."
+                    "answer": "When sharing on social media (X, Instagram, Facebook, LinkedIn), please use the campaign hashtag #UnwrapYourDream to connect with the larger community."
                 },
                 {
                     "question": "What should I mention in my tweets?",
-                    "answer": "..."
+                    "answer": "In your tweets, you can share details about your event, highlight inspiring stories, and share photos of participants’ projects. Use the platform to spread the message of creativity and dreams."
                 },
                 {
                     "question": "What should I not include in my tweets?",
-                    "answer": "..."
+                    "answer": "Avoid sharing personal information or sensitive data. Ensure the privacy and safety of all participants, especially children, when posting on social media."
                 },
                 {
                     "question": "Should I take photos during the event?",
-                    "answer": "..."
+                    "answer": "Yes, we encourage taking photos to document and share the creative spirit of the campaign."
                 },
                 {
                     "question": "How can I share my event photos?",
-                    "answer": "..."
+                    "answer": "The dreams visualized during workshops should be celebrated and shared as part of the campaign's message of empowerment and creativity. Please share the photos on your social media handles (X, instagram, Facebook, LinkedIn) with the hashtag #unwrapyourdream"
                 },
                 {
                     "question": "How will the dreams vizualized during workshops be shared or used by the organizers?",
-                    "answer": "..."
+                    "answer": "The dreams visualized during workshops will be celebrated and shared as part of the campaign's message of empowerment and creativity. These creations may be showcased on our website and social media platforms, with the consent of participants and their guardians."
                 },
                 {
                     "question": "How do I ensure the privacy and safety of the children in the photos?",
-                    "answer": "..."
+                    "answer": "Ensure you have obtained proper consent and permissions from parents or guardians before taking and sharing photos of children. Protect their personal information and identities when sharing photos, and prioritize their privacy and safety at all times."
                 },
                 {
                     "question": "Can parents or guardians request that photos of their children not be taken or shared?",
-                    "answer": "..."
+                    "answer": "Yes, parents or guardians have the right to request that photos of their children not be taken or shared during #UnwrapYourDream events. Respecting the privacy and preferences of families is of utmost importance, and organizers are encouraged to honor such requests"
                 },
                 {
                     "question": "Are photos ever shared with third parties or sold for commercial purposes?",
-                    "answer": "..."
+                    "answer": "No, photos of participants are not shared with third parties or used for commercial purposes. We are committed to safeguarding the privacy and security of all participants, and we strictly adhere to a policy of not sharing or selling photos for any commercial gain. Our primary aim is to inspire creativity and celebrate the dreams of children in a safe and supportive environment."
                 },
                 {
                     "question": "I want to help further the #UnwrapYourDream campaign. How can I offer additional support or collaborate?",
-                    "answer": "..."
+                    "answer": "AAA"
                 },
                 {
                     "question": "I work with an organization interested in partnering with #UnwrapYourDream. Who should we get in touch with?",
-                    "answer": "..."
+                    "answer": "AAA"
                 },
                 {
                     "question": "Can I volunteer for any offline events or workshops related to the campaign?",
-                    "answer": "..."
+                    "answer": "AAA"
                 },
                 {
                     "question": "I want to share a testimonial or story related to the campaign's impact. Where can I do so?",
-                    "answer": "..."
+                    "answer": "AAA"
                 },
                 {
                     "question": "Are there any feedback channels post-event to share our experience or suggestions?",
-                    "answer": "..."
+                    "answer": "AAA"
                 },
                 {
                     "question": "Will I receive any follow up material to share with my participants?",
-                    "answer": "..."
+                    "answer": "AAA"
                 },
             ]
         }
