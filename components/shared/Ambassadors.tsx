@@ -62,7 +62,7 @@ function AmbassadorsComponent() {
       name: "Aldrin	D'Souza",
       role: 'Vancouver, Canada',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/aldrin-souza.jpg',
     },
     {
       name: 'Gulnora Anvarova',
@@ -74,13 +74,19 @@ function AmbassadorsComponent() {
       name: 'Marcos Vargas',
       role: 'Lima, Peru',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/marcos-vargas.jpeg',
     },
     {
       name: 'Natasha Tolub',
       role: 'Toronto, Canada',
       imageUrl:
         '/images/ambassadors/natasha.jpg',
+    },
+    {
+      name: 'Joe Deobald',
+      role: 'Canada',
+      imageUrl:
+        '/images/ambassadors/joe-deobald.jpg',
     },
     {
       name: 'Madison MacDonald',
