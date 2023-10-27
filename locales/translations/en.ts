@@ -236,27 +236,27 @@ export default {
                 },
                 {
                     "question": "Are there specific age categories for the campaign?",
-                    "answer": "The campaign welcomes children of all ages to participate, but it primarily focuses on school-aged children. We recommend organizing workshops for the following age categories: kindergarten, primary, and. secondary school. You can find more resources for age-appropriate prompts on our event page."
+                    "answer": "The campaign welcomes children of all ages to participate, but it primarily focuses on school-aged children. We recommend organizing workshops for the following age categories: kindergarten, primary, and secondary school. You can find more resources for age-appropriate prompts on <a href='/our-event' class='font-secundary underline'>our event page</a>."
                 },
                 {
                     "question": "Why focus on visualizing dreams?",
-                    "answer": "Visualizing dreams fosters creativity, self-confidence, and a sense of possibility. It's a powerful way to inspire and empower children to envision boundless possibilities. Every dream is a seed of change, ready to inspire the world and shape a brighter future. Curious about the power of visualizing dreams? Check our impact page."
+                    "answer": "Visualizing dreams fosters creativity, self-confidence, and a sense of possibility. It's a powerful way to inspire and empower children to envision boundless possibilities. Every dream is a seed of change, ready to inspire the world and shape a brighter future. Curious about the power of visualizing dreams? See <a href='/our-event' class='font-secundary underline'>our impact page</a>."
                 },
                 {
                     "question": "How did the idea of this campaign come about?",
                     "answer": "The #UnwrapYourDream campaign is a continuation of the 'Tweet a Dream' initiative organized in 2014 which was inspired by Tererai Trent. Building on its success, we are eager to reach even more children this year, igniting their creativity and empowering them to dream bigger and brighter."
                 },
                 {
-                    "question": "How is the #Unwrapyourdream event funded/sponsored?",
+                    "question": "How is the #UnwrapYourDream event funded/sponsored?",
                     "answer": "The #UnwrapYourDream event is organized entirely for free, without external funding or sponsorship. The organizers are volunteers who passionately believe in the cause and are dedicated to making this campaign accessible and inclusive for all."
                 },
                 {
                     "question": "Who can participate in this campaign?",
-                    "answer": "Anyone who shares our vision of empowering children through creativity and dreams is welcome to participate. The campaign is open to individuals, schools, community organizations, and institutions alike. Furthermore, all children ages 4-18 are welcome to participate in organized workshops. You can find age-appropriate workshop ideas on our event page."
+                    "answer": "Anyone who shares our vision of empowering children through creativity and dreams is welcome to participate. The campaign is open to individuals, schools, community organizations, and institutions alike. Furthermore, all children ages 4-18 are welcome to participate in organized workshops. You can find age-appropriate workshop ideas on <a href='/our-event' class='font-secundary underline'>our event page</a>.."
                 },
                 {
                     "question": "How do I register my event ? ",
-                    "answer": "To register your workshop, simply click in the button 'JOIN US' on our website."
+                    "answer": "participating.on.event"
                 },
                 {
                     "question": "Will I get a confirmation after I register?",
@@ -264,7 +264,7 @@ export default {
                 },
                 {
                     "question": "Can I update or edit my registration details after submitting?",
-                    "answer": "Yes, you can edit your registration details by reaching out to our support team. We are here to assist you with any necessary updates or changes."
+                    "answer": "editing.on.event"
                 },
                 {
                     "question": "What kind of organizations/institutions can get involved?",
@@ -312,11 +312,11 @@ export default {
                 },
                 {
                     "question": "Are there any resources for organizing workshops?",
-                    "answer": "Yes, we provide resources and guidelines to assist in organizing successful workshops here: Kindergarten, Primary School, Secondary School."
+                    "answer": "Yes, we provide resources and guidelines to assist in organizing successful workshops here: <a href='/our-event/kindergarten' class='font-secundary underline'>Kindergarten</a>, <a href='/our-event/primary-school' class='font-secundary underline'>Primary School</a> and <a href='/our-event/secondary-school' class='font-secundary underline'>Secondary School</a>."
                 },
                 {
                     "question": "What kind of guidance should organizers provide participants during workshops?",
-                    "answer": "Organizers should encourage creativity and emphasize the importance of dreaming. Create a safe and supportive environment where participants feel free to express their ideas and visions. Resources for organizing the workshops can be found here: Kindergarten, Primary School, Secondary School"
+                    "answer": "Organizers should encourage creativity and emphasize the importance of dreaming. Create a safe and supportive environment where participants feel free to express their ideas and visions. Resources for organizing the workshops can be found here: <a href='/our-event/kindergarten' class='font-secundary underline'>Kindergarten</a>, <a href='/our-event/primary-school' class='font-secundary underline'>Primary School</a> and <a href='/our-event/secondary-school' class='font-secundary underline'>Secondary School</a>"
                 },
                 {
                     "question": "How many children can participate in each group?",
@@ -340,7 +340,7 @@ export default {
                 },
                 {
                     "question": "How can I share my event photos?",
-                    "answer": "The dreams visualized during workshops should be celebrated and shared as part of the campaign's message of empowerment and creativity. Please share the photos on your social media handles (X, instagram, Facebook, LinkedIn) with the hashtag #unwrapyourdream"
+                    "answer": "The dreams visualized during workshops should be celebrated and shared as part of the campaign's message of empowerment and creativity. Please share the photos on your social media handles (X, instagram, Facebook, LinkedIn) with the hashtag #UnwrapYourDream"
                 },
                 {
                     "question": "How will the dreams vizualized during workshops be shared or used by the organizers?",
@@ -352,7 +352,7 @@ export default {
                 },
                 {
                     "question": "Can parents or guardians request that photos of their children not be taken or shared?",
-                    "answer": "Yes, parents or guardians have the right to request that photos of their children not be taken or shared during #UnwrapYourDream events. Respecting the privacy and preferences of families is of utmost importance, and organizers are encouraged to honor such requests"
+                    "answer": "Yes, parents or guardians have the right to request that photos of their children not be taken or shared during #UnwrapYourDream events. Respecting the privacy and preferences of families is of utmost importance, and organizers are encouraged to honor such requests."
                 },
                 {
                     "question": "Are photos ever shared with third parties or sold for commercial purposes?",
@@ -360,27 +360,27 @@ export default {
                 },
                 {
                     "question": "I want to help further the #UnwrapYourDream campaign. How can I offer additional support or collaborate?",
-                    "answer": "AAA"
+                    "answer": "To offer additional support or explore collaboration opportunities, please go to the <a href='/our-event' class='font-secundary underline'>our event page</a> and choose an option in the Partner section to find out more or reach out to us about collaborating."
                 },
                 {
                     "question": "I work with an organization interested in partnering with #UnwrapYourDream. Who should we get in touch with?",
-                    "answer": "AAA"
+                    "answer": "We are excited to collaborate with organizations that share our mission. To find out more about partnering with us, go to our partnerships page"
                 },
                 {
                     "question": "Can I volunteer for any offline events or workshops related to the campaign?",
-                    "answer": "AAA"
+                    "answer": "Yes, your volunteer support for offline events and workshops is invaluable. To volunteer, please connect with the event organizers in your local area or contact us for information about volunteer opportunities. "
                 },
                 {
                     "question": "I want to share a testimonial or story related to the campaign's impact. Where can I do so?",
-                    "answer": "AAA"
+                    "answer": "TBA"
                 },
                 {
                     "question": "Are there any feedback channels post-event to share our experience or suggestions?",
-                    "answer": "AAA"
+                    "answer": "TBA"
                 },
                 {
                     "question": "Will I receive any follow up material to share with my participants?",
-                    "answer": "AAA"
+                    "answer": "TBA"
                 },
             ]
         }
