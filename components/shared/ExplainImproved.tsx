@@ -14,16 +14,19 @@ export default function ExplainImproved() {
       icon: faBook,
       buttons: [
         {
+          title: "",
           text: "Kindergarten",
           href: "/our-event/kindergarten",
           icon: faChild
         },
         {
+          title: "",
           text: "Primary School",
           href: "/our-event/primary-school",
           icon: faBackpack
         },
         {
+          title: "",
           text: "Secondary School",
           href: "/our-event/secondary-school",
           icon: faGraduationCap
@@ -32,15 +35,17 @@ export default function ExplainImproved() {
     },
     {
       title: "Partner",
-      description: "Corporate: Align your CSR goals with our mission.<br /><br />Individual: Become an ambassador or volunteer.",
+      description: "",
       icon: faBullhorn,
       buttons: [
         {
+          title: "Align your CSR goals with our mission.",
           text: "Corporate",
           href: "/our-event/corporate",
           icon: faBuilding
         },
         {
+          title: "Become an ambassador or volunteer.",
           text: "Individual",
           href: "/our-event/individual",
           icon: faPeopleSimple
@@ -95,11 +100,16 @@ export default function ExplainImproved() {
                     <p className="mt-5 text-[18px] font-sans tracking-wider leading-7 text-gray-600 text-left" dangerouslySetInnerHTML={{ __html: feature.description }}></p>
                     <div className="flex flex-col gap-y-3 py-3">
                       {feature.buttons.map((link, i) =>
-                        <a
-                          key={i}
-                          href={link.href}
-                          type="button"
-                          className="
+                        <>
+                          {link.title && link.title != '' ? 
+                            <p className=" mt-1 text-[18px] font-sans tracking-wider leading-7 text-gray-600 text-left" dangerouslySetInnerHTML={{ __html: link.title }}></p>
+                            : ""
+                          }
+                          <a
+                            key={i}
+                            href={link.href}
+                            type="button"
+                            className="
                             font-secundary
                             rounded-full
                             bg-indigo-600
@@ -117,10 +127,11 @@ export default function ExplainImproved() {
                             items-center
                             justify-between
                           "
-                        >
-                          {link.text}
-                          <FontAwesomeIcon icon={link.icon} className='w-4 h-4' />
-                        </a>
+                          >
+                            {link.text}
+                            <FontAwesomeIcon icon={link.icon} className='w-4 h-4' />
+                          </a>
+                        </>
                       )}
                     </div>
                   </div>
