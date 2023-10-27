@@ -1,14 +1,13 @@
-import { faClapperboard, faNoteSticky, faPaperPlane, faPenPaintbrush, faRectangleVertical } from '@fortawesome/pro-solid-svg-icons';
+import { faBriefcase, faBullhorn, faFileContract, faPenPaintbrush } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { ExternalLinkIcon } from '@heroicons/react/solid'
 
 function CorporateMaterialComponent() {
 
   const projects = [
-    { title: 'Dream Visualization Workshops:', description: "Host sessions where children are encouraged to imagine and articulate their dreams, turning them into visual stories or projects.", initials: faRectangleVertical, href: '#', members: 16, bgColor: 'bg-pink-600' },
-    { title: 'Amplify Young Trailblazers:', description: "Share stories of young achievers in your sector who followed their dreams, to inspire and show children what's possible.", initials: faPenPaintbrush, href: '#', members: 12, bgColor: 'bg-purple-600' },
-    { title: 'Employee Involvement:', description: "Empower your team to contribute by mentoring these young dreamers or sharing their own tales of perseverance and ambition.", initials: faNoteSticky, href: '#', members: 16, bgColor: 'bg-[#FFD24A]' },
-    { title: 'Co-Branding Initiatives:', description: "Co-create content, campaigns, or events that spotlight your commitment to nurturing the next generation of dreamers.", initials: faClapperboard, href: '#', members: 8, bgColor: 'bg-green-500' },
+    { title: 'Dream Visualization Workshops:', description: "Host sessions where children are encouraged to imagine and articulate their dreams, turning them into visual stories or projects.", initials: faPenPaintbrush, href: '#', members: 16, bgColor: 'bg-pink-600' },
+    { title: 'Amplify Young Trailblazers:', description: "Share stories of young achievers in your sector who followed their dreams, to inspire and show children what's possible.", initials: faBullhorn, href: '#', members: 12, bgColor: 'bg-purple-600' },
+    { title: 'Employee Involvement:', description: "Empower your team to contribute by mentoring these young dreamers or sharing their own tales of perseverance and ambition.", initials: faBriefcase, href: '#', members: 16, bgColor: 'bg-[#FFD24A]' },
+    { title: 'Co-Branding Initiatives:', description: "Co-create content, campaigns, or events that spotlight your commitment to nurturing the next generation of dreamers.", initials: faFileContract, href: '#', members: 8, bgColor: 'bg-green-500' },
   ]
 
   function classNames(...classes: any) {
