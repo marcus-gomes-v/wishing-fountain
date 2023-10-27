@@ -10,7 +10,7 @@ function CorporateComponent() {
     <>
       <div className="px-3 md:px-0">
         <div className="mx-auto max-w-4xl lg:max-w-7xl py-10 pb-20">
-          <h2 className="
+          <h1 className="
           text-[48px]
           md:text-[69px]
           font-bold
@@ -24,7 +24,7 @@ function CorporateComponent() {
           decoration-[4px]
           md:decoration-[8px]">
             Unlock Your Impact: Corporate Social Responsibility (CSR) Partner
-          </h2>
+          </h1>
           
           <p className="mt-4 text-[24px] text-gray-600">
             Join <strong>#UnwrapYourDream</strong>, is more than just a campaign; it’s a global mission dedicated to amplifying the dreams of children everywhere. By allying with us as a Corporate Social Responsibility (CSR) partner, your organization has the unique opportunity to spotlight the incredible stories of young trailblazers, while also inspiring countless children to visualize and chase their own aspirations.

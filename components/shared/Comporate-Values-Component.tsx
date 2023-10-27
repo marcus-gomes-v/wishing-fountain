@@ -6,13 +6,13 @@ function CorporateValuesComponent() {
       text: `<strong>Strengthened Brand Image:</strong><span class='font-light'> Cement your reputation as a company that not only champions dreams but actively fosters them.</span>`,
     },
     {
-      text: `<strong>Elevated Employee Morale:</strong> <span class='font-light'>Engage employees in a deeply rewarding endeavor that celebrates innovation and aspiration.</span>`,
+      text: `<strong>Elevated Employee Morale:</strong> <span class='font-light'> Engage employees in a deeply rewarding endeavor that celebrates innovation and aspiration.</span>`,
     },
     {
-      text: `<strong>Widespread Impact:</strong> <span class='font-light'>Touch the lives of children globally, molding future leaders and thinkers.</span>`,
+      text: `<strong>Widespread Impact:</strong> <span class='font-light'> Touch the lives of children globally, molding future leaders and thinkers.</span>`,
     },
     {
-      text: `<strong>Broaden Your Network:</strong> <span class='font-light'>Collaborate with other trailblazing companies dedicated to inspiring the next generation.</span>`,
+      text: `<strong>Broaden Your Network:</strong> <span class='font-light'> Collaborate with other trailblazing companies dedicated to inspiring the next generation.</span>`,
     }
   ]
 
