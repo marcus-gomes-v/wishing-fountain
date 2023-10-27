@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import SecondaryMaterialComponent from "./Secondary-Material-Component";
 import SecondaryPromptComponent from "./Secondary-Prompt-Component";
+import LogginButtonTextTwo from './LoginButtonTextTwo';
 
 function SecondarySchoolComponent() {
     const { t } = useTranslation();
@@ -36,6 +37,7 @@ function SecondarySchoolComponent() {
             <strong>Duration:</strong> Approximately 3 hours
             <br /><br />
             <strong>Objective:</strong> This workshop is an engaged, interactive platform that aims to inspire and provoke teenagers to deeply explore their personal passions and potential. It's all about encouraging them to envision a future filled with innovation, meaningful change, and impact.
+            <br /> <LogginButtonTextTwo></LogginButtonTextTwo> to organize a workshop
             <br /><br />
             <strong>Materials Needed:</strong>
           </p>

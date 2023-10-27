@@ -24,7 +24,7 @@ export default function ExplainImproved() {
           icon: faBackpack
         },
         {
-          text: "Secondary school",
+          text: "Secondary School",
           href: "/our-event/secondary-school",
           icon: faGraduationCap
         },

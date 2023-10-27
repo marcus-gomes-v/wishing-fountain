@@ -1,5 +1,6 @@
 import KindergartenMaterialComponent from "./Kindergarten-Material-Component";
 import KindergartenPromptComponent from "./Kindergarten-Prompt-Component";
+import LogginButtonTextTwo from "./LoginButtonTextTwo";
 
 function KindergartenComponent() {
 
@@ -24,13 +25,16 @@ function KindergartenComponent() {
           </h2>
           
           <h2 className="text-[48px] font-bold text-gray-600 underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[4px] pt-10">
-            <strong>INTRODUCTION</strong>
+            <strong>Workshop Overview</strong>
           </h2>
 
           <p className="mt-4 text-[24px] text-gray-600">
-            With their limitless imagination and pure innocence, it's an exceptional trait for children at this young age to dream without boundaries. Our workshop is an opportunity to resonate with this fertile imagination, empower our little dreamers and give them encouragement to express and bring their dreams to life.
+            <strong>Duration:</strong> 1 hour
             <br /><br />
-            <strong>Duration:</strong> Approximately an hour
+            <strong>Audience:</strong> Ages 4-6
+            <br /><br />
+            With their limitless imagination and pure innocence, it's an exceptional trait for children at this young age to dream without boundaries. Our workshop is an opportunity to resonate with this fertile imagination, empower our little dreamers and give them encouragement to express and bring their dreams to life.
+            <br /> <LogginButtonTextTwo></LogginButtonTextTwo> to organize a workshop
             <br /><br />
             <strong>Objective:</strong> This workshop is designed to invite children to recognize, articulate, and pictorially represent their dreams in a fun, engaging, and encouraging environment.
             <br /><br />
