@@ -48,8 +48,8 @@ function IndividualComponent() {
 
           <IndividualValuesComponent></IndividualValuesComponent>
 
-          <p className="mt-4 text-[24px] text-gray-600">
-            Interested to Join us as a Dream Ambassador? Connect with us on LinkedIn.  
+          <p className="mt-4 text-[18px] text-gray-600">
+            Interested to Join us as a Dream Ambassador?  <a href="https://www.linkedin.com/in/karolinastawinska/" target="_blank" className="font-secundary underline">Connect with us</a> on LinkedIn. 
           </p>
         </div>
       </div>
