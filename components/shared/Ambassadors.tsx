@@ -38,7 +38,7 @@ function AmbassadorsComponent() {
       name: 'Karol Gornowicz',
       role: 'Warsaw, Poland',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/karol-gornowicz.jpeg',
     },
     {
       name: 'Agnieszka Mucha-Ryka',
@@ -92,7 +92,7 @@ function AmbassadorsComponent() {
       name: 'Madison MacDonald',
       role: 'Toronto, Canada',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/madison-macdonald.png',
     },
     {
       name: 'You?',
