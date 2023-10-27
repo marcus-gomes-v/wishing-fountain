@@ -17,7 +17,19 @@ type participant = {
     numberParticipatingChild: number
     createdAt: Date | undefined
     uid: string | undefined
+    schoolTypes?: {
+        kindergarten: boolean;
+        primarySchool: boolean;
+        secondarySchool: boolean;
+    }
 }
+
+type SchoolTypes = {
+    kindergarten: boolean;
+    primarySchool: boolean;
+    secondarySchool: boolean;
+    [key: string]: boolean;
+};
 
 export interface iUser {
     uid: string;

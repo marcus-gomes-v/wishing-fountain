@@ -1,4 +1,4 @@
-import { faArrowUp, faBackpack, faBook, faBullhorn, faChild, faCog, faDiceFour, faDiceOne, faDiceThree, faDiceTwo, faEye, faGraduationCap, faHandHoldingHeart, faInfo, faLock, faMap, faPortalEnter, faServer, faShield, faStar } from '@fortawesome/pro-solid-svg-icons'
+import { faArrowUp, faBackpack, faBook, faBuilding, faBullhorn, faChild, faCog, faDiceFour, faDiceOne, faDiceThree, faDiceTwo, faEye, faGraduationCap, faHandHoldingHeart, faInfo, faLock, faMap, faPeopleSimple, faPortalEnter, faServer, faShield, faStar } from '@fortawesome/pro-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useTranslation } from 'react-i18next';
 
@@ -35,6 +35,16 @@ export default function ExplainImproved() {
       description: "Corporate: Align your CSR goals with our mission.<br /><br />Individual: Become an ambassador or volunteer.",
       icon: faBullhorn,
       buttons: [
+        {
+          text: "Corporate",
+          href: "/our-event/corporate",
+          icon: faBuilding
+        },
+        {
+          text: "Individual",
+          href: "/our-event/individual",
+          icon: faPeopleSimple
+        },
       ]
     },
     {

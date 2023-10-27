@@ -1,11 +1,14 @@
-import { Fragment, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useAuth } from '../../../context/AuthContext';
 import Swal from 'sweetalert2';
 import router from 'next/router';
 import firebase from 'firebase';
-import { participant } from '../../../typings';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { SchoolTypes, participant } from '../../../typings';
+import { Switch } from '@headlessui/react'
+
+function classNames(...classes: any) {
+    return classes.filter(Boolean).join(' ')
+}
 
 const CreateParticipant = () => {
     const { authUser, loading, signOut } = useAuth();
@@ -19,6 +22,14 @@ const CreateParticipant = () => {
     const setImageFromChild = (imgString: string) => {
         setImgUrl(imgString)
     }
+
+    const [schoolTypes, setSchoolTypes] = useState<SchoolTypes>({
+        kindergarten: false,
+        primarySchool: false,
+        secondarySchool: false
+    });
+
+    
 
     const [content, setContent] = useState<participant>({
         organizerName: "",
@@ -37,6 +48,10 @@ const CreateParticipant = () => {
     const onChange = (e: any) => {
         const { value, name } = e.target;
         setContent(prevState => ({ ...prevState, [name]: value }));
+    }
+
+    const handleToggleChange = (name: string, value: boolean) => {
+        setSchoolTypes(prev => ({ ...prev, [name]: value }));
     }
 
     const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -75,8 +90,8 @@ const CreateParticipant = () => {
                 city,
                 numberParticipatingChild,
                 createdAt: new Date(),
+                schoolTypes,
             };
-            console.log('To register: ', payload)
             setShow(true)
 
             firebase
@@ -125,20 +140,27 @@ const CreateParticipant = () => {
     }
 
     useEffect(() => {
-        if(authUser){
+        if (authUser) {
             const unsubscribe = firebase
                 .firestore()
                 .collection('participants')
                 .doc(authUser.uid)
                 .onSnapshot((doc) => {
                     const participantData: participant = doc.data() as participant;
-                    if (participantData) setContent(participantData);
+                    if (participantData) {
+                        setContent(participantData);
+                        if (participantData.schoolTypes) {
+                            setSchoolTypes(participantData.schoolTypes);
+                        }
+                    }
                 });
 
-                return () => unsubscribe();
+            return () => unsubscribe();
         }
     }, [authUser, loading]);
 
+
+    const orderedSchoolTypes = ["kindergarten", "primarySchool", "secondarySchool"];
 
     return (
         <form method="POST" onSubmit={onSubmit}>
@@ -295,6 +317,39 @@ const CreateParticipant = () => {
                                     placeholder="Your Linkedin"
                                     required
                                 />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-6">
+                        <div className="col-span-6 sm:col-span-2">
+                            <label className="block text-md font-medium text-gray-700">
+                                School Type
+                            </label>
+                            <div className="mt-1 flex flex-col space-y-2">
+                                {orderedSchoolTypes.map(type => (
+                                    <Switch.Group as="div" className="flex items-center" key={type}>
+                                        <Switch
+                                            checked={schoolTypes[type]}
+                                            onChange={(value: any) => handleToggleChange(type, value)}
+                                            className={classNames(
+                                                schoolTypes[type] ? 'bg-indigo-600' : 'bg-gray-200',
+                                                'relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2'
+                                            )}
+                                        >
+                                            <span
+                                                aria-hidden="true"
+                                                className={classNames(
+                                                    schoolTypes[type] ? 'translate-x-5' : 'translate-x-0',
+                                                    'pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out'
+                                                )}
+                                            />
+                                        </Switch>
+                                        <Switch.Label as="span" className="ml-3 text-sm">
+                                            <span className="font-medium text-gray-900"> {type.charAt(0).toUpperCase() + type.slice(1).replace(/([A-Z])/g, ' $1')}</span>
+                                        </Switch.Label>
+                                    </Switch.Group>
+                                ))}
                             </div>
                         </div>
                     </div>
