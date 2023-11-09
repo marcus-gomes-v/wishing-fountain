@@ -31,6 +31,7 @@ function Participants() {
     return (
         <div>
             <div className="sm:flex sm:items-center px-2 py-3">
+                <img src='/logo/icon.svg' className='w-[60px] mr-2' />
                 <div className="sm:flex-auto">
                     <h1 className="text-xl font-semibold text-gray-900">{t('components.participants.title')}</h1>
                     <p className="mt-2 text-sm text-gray-700">

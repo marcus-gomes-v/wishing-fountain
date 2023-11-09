@@ -45,36 +45,42 @@ function Navbar({page}: {page: string}) {
             href: '/our-impact',
             page: 'our-impact',
             icon: faMap,
+            target: "_self"
         },
         {
             title: t('navBar.pages.ourEvent'),
             href: '/our-event',
             page: 'our-event',
             icon: faNotes,
+            target: "_self"
         },
         {
             title: t('navBar.pages.ambassadors'),
             href: '/ambassadors',
             page: 'ambassadors',
             icon: faPerson,
+            target: "_self"
         },
         {
             title: t('navBar.pages.about_us'),
             href: '/about-us',
             page: 'aboutUs',
             icon: faCircle,
+            target: "_self"
         },
         {
             title: t('navBar.pages.faq'),
             href: '/faq',
             page: 'faq',
             icon: faQuestion,
+            target: "_self"
         },
         {
             title: t('navBar.pages.blog'),
             href: 'https://kstawinska.medium.com/dreams-amid-darkness-uniting-to-ignite-the-future-ecfb2db84630',
             page: 'blog',
             icon: faBlog,
+            target: "_blank"
         }
     ]
 
@@ -120,8 +126,8 @@ function Navbar({page}: {page: string}) {
                                 } 
                                 {navigation.map( (nav, i) => {
                                     return (
-                                        <Link key={i} href={nav.href}>
-                                            <a className={` px-3 font-bold tracking-wide hover:tracking-wider
+                                        <Link key={i} href={nav.href} >
+                                            <a target={nav.target} className={` px-3 font-bold tracking-wide hover:tracking-wider 
                                                 ${page == nav.page ? "text-[#ffd24a] hover:text-[#ffd24a]" : "text-white hover:text-[#ffd24a"}`}>
                                                 {nav.title}
                                             </a>
@@ -169,8 +175,8 @@ function Navbar({page}: {page: string}) {
                                         <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
                                             {navigation.map((nav, i) => {
                                                 return (
-                                                    <Link key={i} href={nav.href}>
-                                                        <a className="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
+                                                    <Link key={i} href={nav.href} >
+                                                        <a target={nav.target} className="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
                                                             <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-[#FFD24A] text-white sm:h-12 sm:w-12">
                                                                 <FontAwesomeIcon icon={nav.icon} className="h-6 w-6" aria-hidden="true" />
                                                             </div>

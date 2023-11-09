@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { useTranslation } from 'react-i18next'
 import Layout from '../components/layout'
 import AmbassadorsComponent from '../components/shared/Ambassadors'
+import IndividualComponent from '../components/shared/IndividualComponent'
 
 const Ambassadors: NextPage = () => {
     const { t } = useTranslation();
@@ -23,6 +24,7 @@ const Ambassadors: NextPage = () => {
         </Head>
         <div className='mx-4 my-3 grid gap-y-3'>
           <AmbassadorsComponent></AmbassadorsComponent>
+          <IndividualComponent></IndividualComponent>
         </div>
     </Layout> 
   )

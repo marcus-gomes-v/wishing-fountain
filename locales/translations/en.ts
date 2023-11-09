@@ -236,7 +236,7 @@ export default {
                 },
                 {
                     "question": "Are there specific age categories for the campaign?",
-                    "answer": "The campaign welcomes children of all ages to participate, but it primarily focuses on school-aged children. We recommend organizing workshops for the following age categories: kindergarten, primary, and secondary school. You can find more resources for age-appropriate prompts on <a href='/our-event' class='font-secundary underline'>our event page</a>."
+                    "answer": "The campaign welcomes children of all ages to participate, but it primarily focuses on school-aged children. We recommend organizing workshops for the following age categories: <a href='/our-event/kindergarten' class='font-secundary underline'>Kindergarten</a>, <a href='/our-event/primary-school' class='font-secundary underline'>Primary School</a> and <a href='/our-event/secondary-school' class='font-secundary underline'>Secondary School</a>. You can find more resources for age-appropriate prompts on <a href='/our-event' class='font-secundary underline'>our event page</a>."
                 },
                 {
                     "question": "Why focus on visualizing dreams?",
@@ -244,7 +244,7 @@ export default {
                 },
                 {
                     "question": "How did the idea of this campaign come about?",
-                    "answer": "The #UnwrapYourDream campaign is a continuation of the 'Tweet a Dream' initiative organized in 2014 which was inspired by Tererai Trent. Building on its success, we are eager to reach even more children this year, igniting their creativity and empowering them to dream bigger and brighter."
+                    "answer": "The #UnwrapYourDream campaign is a continuation of the 'Tweet a Dream' initiative organized in 2015 which was inspired by Tererai Trent. Building on its success, we are eager to reach even more children this year, igniting their creativity and empowering them to dream bigger and brighter."
                 },
                 {
                     "question": "How is the #UnwrapYourDream event funded/sponsored?",
@@ -288,7 +288,7 @@ export default {
                 },
                 {
                     "question": "What date should the event take place?",
-                    "answer": "The workshop should take place on December 22, 2023."
+                    "answer": "The workshop should take place between December 4th - 22nd, 2023."
                 },
                 {
                     "question": "What time should the event start and finish?",
@@ -300,7 +300,7 @@ export default {
                 },
                 {
                     "question": "Is there a sample agenda or structure for how the event should run?",
-                    "answer": "Yes, we provide a sample agenda to assist event organizers. It offers a general outline of how to structure and organize your event to ensure a positive experience for participants. You will receive access to these materials once you register your event. "
+                    "answer": "Yes, we provide a sample agenda to assist event organizers. It offers a general outline of how to structure and organize your event to ensure a positive experience for participants. You can find age-appropriate materials on <a href='/our-event' class='font-secundary underline'>our event page</a>."
                 },
                 {
                     "question": "What materials will students need for the event?",

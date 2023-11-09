@@ -237,13 +237,13 @@ function FaqComponent() {
       case "participating.on.event":
         return (
           <p className="text-base text-[16px] text-gray-600 py-6">
-            To register your workshop, simply click the button 'JOIN US' in the top right corner of our website. For your convenience you can also <LogginButtonText></LogginButtonText>.
+            To register your workshop, simply click the button 'REGISTER' in the top right corner of our website. For your convenience you can also <LogginButtonText></LogginButtonText>.
           </p>
         );
       case "editing.on.event":
         return (
           <p className="text-base text-[16px] text-gray-600 py-6">
-            Yes, you can edit your registration details by clicking "join us" in the top right corner. Alternatively, you can <LogginButtonText></LogginButtonText>. It will direct you to your dashboard if you have logged in previously. You can alter your event details there.
+            Yes, you can edit your registration details by clicking 'REGISTER' in the top right corner. Alternatively, you can <LogginButtonText></LogginButtonText>. It will direct you to your dashboard if you have logged in previously. You can alter your event details there.
           </p>
         );
       default:

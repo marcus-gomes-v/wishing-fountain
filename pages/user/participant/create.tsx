@@ -40,6 +40,7 @@ const CreateParticipant = () => {
         country: "",
         state: "",
         city: "",
+        myEventWillTakePlaceOn: "",
         numberParticipatingChild: 0,
         createdAt: undefined,
         uid: undefined
@@ -66,7 +67,8 @@ const CreateParticipant = () => {
             country,
             state,
             city,
-            numberParticipatingChild
+            numberParticipatingChild,
+            myEventWillTakePlaceOn
         } = content as any;
 
         if (
@@ -77,7 +79,8 @@ const CreateParticipant = () => {
             country &&
             state &&
             city &&
-            numberParticipatingChild
+            numberParticipatingChild && 
+            myEventWillTakePlaceOn
         ){
             const payload = {
                 organizerName,
@@ -89,6 +92,7 @@ const CreateParticipant = () => {
                 state,
                 city,
                 numberParticipatingChild,
+                myEventWillTakePlaceOn,
                 createdAt: new Date(),
                 schoolTypes,
             };
@@ -168,16 +172,25 @@ const CreateParticipant = () => {
         <div className="bg-white px-4 py-5 shadow sm:rounded-lg sm:p-6">
             <div className="md:grid md:grid-cols-3 md:gap-6">
                 <div className="md:col-span-1">
-                        <h3 className="text-gray-900 text-[34px] font-bold pb-6">Register to host your #UnwrapYourDream Event between December 4th - 22nd, 2023</h3>
+                    <h3 className="text-gray-900 text-[34px] font-bold pb-6">
+                        Register to host your #UnwrapYourDream Event between 
+                        <br /> <span className='
+                            underline
+                            decoration-wavy
+                            decoration-[#ffd24a]
+                            underline-offset-8
+                            decoration-[4px]
+                            mb-3
+                        '>December 4th - 22nd, 2023</span>
+                    </h3>
                 </div>
                 <div className="mt-5 space-y-6 md:col-span-2 md:mt-0">
-                    <div className="grid grid-cols-2 gap-6">
-                        <div className="col-span-6 sm:col-span-6">
+                    <div className="grid grid-cols-6 gap-6">
+                        <div className="col-span-6 lg:col-span-6">
                             <label htmlFor="Organizer’s Name" className="block text-sm font-medium text-gray-700">
                                 Organizer’s Name
                             </label>
                             <div className="mt-1 flex rounded-md shadow-sm">
-
                                 <input
                                     type="text"
                                     name="organizerName"
@@ -191,22 +204,22 @@ const CreateParticipant = () => {
                             </div>
                         </div>
 
-                            <div className="col-span-6 sm:col-span-6">
-                                <label htmlFor="Organization" className="block text-sm font-medium text-gray-700">
-                                    Organization (if applicable)
-                                </label>
-                                <div className="mt-1 flex rounded-md shadow-sm">
-                                    <input
-                                        type="text"
-                                        name="organization"
-                                        id="organization"
-                                        value={content.organization}
-                                        onChange={onChange}
-                                        className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                        placeholder="UnwrapYourDream"
-                                    />
-                                </div>
+                        <div className="col-span-6 lg:col-span-2">
+                            <label htmlFor="Organization" className="block text-sm font-medium text-gray-700">
+                                Organization (if applicable)
+                            </label>
+                            <div className="mt-1 flex rounded-md shadow-sm">
+                                <input
+                                    type="text"
+                                    name="organization"
+                                    id="organization"
+                                    value={content.organization}
+                                    onChange={onChange}
+                                    className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                    placeholder="UnwrapYourDream"
+                                />
                             </div>
+                        </div>
 
                         <div className="col-span-4 lg:col-span-2">
                             <label htmlFor="country" className="block text-sm font-medium text-gray-700">
@@ -226,7 +239,7 @@ const CreateParticipant = () => {
                             </div>
                         </div>
 
-                        <div className="col-span-4 lg:col-span-2">
+                        <div className="col-span-4 lg:col-span-1">
                             <label htmlFor="state" className="block text-sm font-medium text-gray-700">
                                 State
                             </label>
@@ -243,7 +256,7 @@ const CreateParticipant = () => {
                             </div>
                         </div>
 
-                        <div className="col-span-4 lg:col-span-2">
+                        <div className="col-span-4 lg:col-span-1">
                             <label htmlFor="city" className="block text-sm font-medium text-gray-700">
                                 City
                             </label>
@@ -261,12 +274,11 @@ const CreateParticipant = () => {
                             </div>
                         </div>
 
-                        <div className="col-span-6 lg:col-span-2">
+                        <div className="col-span-6 lg:col-span-3">
                             <label htmlFor="numberParticipatingChild" className="block text-sm font-medium text-gray-700">
                                 Number of children participating
                             </label>
                             <div className="mt-1 flex rounded-md shadow-sm">
-
                                 <input
                                     type="number"
                                     min={0}
@@ -278,6 +290,46 @@ const CreateParticipant = () => {
                                     placeholder="20"
                                     required
                                 />
+                            </div>
+                        </div>
+
+                        <div className="col-span-6 lg:col-span-3">
+                            <label htmlFor="myEventWillTakePlaceOn" className="block text-sm font-medium text-gray-700">
+                                The event will take place on December:
+                            </label>
+                            <div className="mt-1 flex rounded-md shadow-sm">
+                                <select
+                                    id="myEventWillTakePlaceOn"
+                                    name="myEventWillTakePlaceOn"
+                                    className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                    defaultValue=""
+                                    value={content.myEventWillTakePlaceOn}
+                                    onChange={onChange}
+                                >
+                                    <option>Select...</option>
+                                    <option value="04-12-23">04</option>
+                                    <option value="05-12-23">05</option>
+                                    <option value="06-12-23">06</option>
+                                    <option value="07-12-23">07</option>
+                                    <option value="08-12-23">08</option>
+                                    <option value="09-12-23">09</option>
+                                    <option value="10-12-23">10</option>
+                                    <option value="11-12-23">11</option>
+                                    <option value="12-12-23">12</option>
+                                    <option value="13-12-23">13</option>
+                                    <option value="14-12-23">14</option>
+                                    <option value="16-12-23">16</option>
+                                    <option value="16-12-23">16</option>
+                                    <option value="16-12-23">16</option>
+                                    <option value="16-12-23">16</option>
+                                    <option value="16-12-23">16</option>
+                                    <option value="17-12-23">17</option>
+                                    <option value="18-12-23">18</option>
+                                    <option value="19-12-23">19</option>
+                                    <option value="20-12-23">20</option>
+                                    <option value="21-12-23">21</option>
+                                    <option value="22-12-23">22</option>
+                                </select>
                             </div>
                         </div>
 
@@ -302,7 +354,7 @@ const CreateParticipant = () => {
 
                         <div className="col-span-6 lg:col-span-2">
                             <label htmlFor="linkedin" className="block text-sm font-medium text-gray-700">
-                                Linkedin
+                                LinkedIn
                             </label>
                             <div className="mt-1 flex rounded-md shadow-sm">
 

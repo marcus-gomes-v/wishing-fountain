@@ -17,6 +17,7 @@ type participant = {
     numberParticipatingChild: number
     createdAt: Date | undefined
     uid: string | undefined
+    myEventWillTakePlaceOn: string | undefined
     schoolTypes?: {
         kindergarten: boolean;
         primarySchool: boolean;

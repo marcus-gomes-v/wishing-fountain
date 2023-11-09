@@ -122,7 +122,7 @@ function AmbassadorsComponent() {
   ].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
-    <div className="bg-white">
+    <div >
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-6">
           <h2 className="
           text-[48px]
