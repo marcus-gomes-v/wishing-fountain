@@ -49,9 +49,9 @@ function LogginButton({ handleLogged, user }: { handleLogged: any, user: iUser }
                 tracking-wide
                 hover:tracking-wider
                 text-[24px]
-                ${!loading && isLogged ? "bg-red-600 hover:bg-red-700" : "bg-[#FFD24A] hover:bg-yellow-200"} `}>
+                ${!loading && isLogged ? "bg-[#FF1D79] hover:bg-[#ff1d77db] text-white group-hover:text-gray-200" : "bg-[#FFD24A] hover:bg-yellow-200 text-gray-600 group-hover:text-yellow-700"} `}>
 
-            <span className={`inline-flex items-center justify-center group-hover:text-yellow-700 group-hover:animate-pulse text-gray-600 `} >
+            <span className={`inline-flex items-center justify-center  group-hover:animate-pulse  `} >
                 <FontAwesomeIcon icon={!loading && isLogged ? faClose : faGoogle} className="w-4 h-4 mr-2 hidden" />
                 {!loading && isLogged ? t('login.logout') : t('login.google')}
             </span>

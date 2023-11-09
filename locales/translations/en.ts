@@ -5,7 +5,7 @@ export default {
             rights: "2023 Unwrap Your Dream. All rights reserved."
         },
         header:{
-            page_title_default: 'Register your #UnwrapYourDream Event on December 22nd',
+            page_title_default: 'Register to #UnwrapYourDream this December',
             page_description_default: 'Empower children to draw their dreams and chart a brighter tomorrow.'
         },
         navBar: {
@@ -118,7 +118,7 @@ export default {
                 },
                 right: {
                     title: "Join Us",
-                    description: "Schools, churches, and communities – host a dream visualization workshop on December 22nd. Together, let's celebrate children's dreams as the most treasured gifts."
+                    description: "Schools, churches, and communities – host a dream visualization workshop between the 4th and 22nd of December. Together, let's celebrate children's dreams as the most treasured gifts."
                 }
             },
             testimonials: {
@@ -144,7 +144,7 @@ export default {
                     },
                     three: {
                         name: 'HOW',
-                        description: " Together, we can inspire children to harness their dreams and share them with others. Join us by registering for our campaign on December 22nd"
+                        description: " Together, we can inspire children to harness their dreams and share them with others. Join us by registering for our campaign between the 4th and 22nd of December"
 
                     },
                 }
@@ -186,7 +186,7 @@ export default {
                         name: 'Join the Movement',
                         description: {
                             one: "Everyone is eligible to host a workshop. Guide children and teenagers to visualize and express their dreams, perhaps for the first time, through art.",
-                            second: "Sign up and witness a world of dreams unfold on December 22nd.",
+                            second: "Sign up and witness a world of dreams unfold between the 4th and 22nd of December.",
                         }
                     },
                     three: {
@@ -292,7 +292,7 @@ export default {
                 },
                 {
                     "question": "What time should the event start and finish?",
-                    "answer": "Event times are adaptable and can be customized to fit your schedule and the needs of your participants, and should take place on December 22nd."
+                    "answer": "Event times are adaptable and can be customized to fit your schedule and the needs of your participants, and should take place between the 4th and 22nd of December."
                 },
                 {
                     "question": "Where can I organize the event?",

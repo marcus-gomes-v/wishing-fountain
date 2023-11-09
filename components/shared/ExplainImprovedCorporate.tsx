@@ -20,7 +20,7 @@ export default function ExplainImprovedCorporate() {
     },
     {
       title: "Share the Dreams on X:",
-      description: "If possible, post these artworks on December 22nd on your (institution's) Twitter channels using the hashtag #UnwrapYourDream. This showcases your students' visions and contributes to a global tapestry of dreams.",
+      description: "If possible, post these artworks between the 4th and 22nd of December on your (institution's) Twitter channels using the hashtag #UnwrapYourDream. This showcases your students' visions and contributes to a global tapestry of dreams.",
       icon: faDiceThree
     },
     {
