@@ -126,12 +126,10 @@ function Navbar({page}: {page: string}) {
                                 } 
                                 {navigation.map( (nav, i) => {
                                     return (
-                                        <Link key={i} href={nav.href} >
-                                            <a target={nav.target} className={` px-3 font-bold tracking-wide hover:tracking-wider 
-                                                ${page == nav.page ? "text-[#ffd24a] hover:text-[#ffd24a]" : "text-white hover:text-[#ffd24a"}`}>
-                                                {nav.title}
-                                            </a>
-                                        </Link>
+                                        <a key={i} href={nav.href} target={nav.target} className={` px-3 font-bold tracking-wide hover:tracking-wider 
+                                            ${page == nav.page ? "text-[#ffd24a] hover:text-[#ffd24a]" : "text-white hover:text-[#ffd24a"}`}>
+                                            {nav.title}
+                                        </a>
                                     )
                                 })}
                             </Popover.Group>
@@ -175,14 +173,12 @@ function Navbar({page}: {page: string}) {
                                         <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
                                             {navigation.map((nav, i) => {
                                                 return (
-                                                    <Link key={i} href={nav.href} >
-                                                        <a target={nav.target} className="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
-                                                            <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-[#FFD24A] text-white sm:h-12 sm:w-12">
-                                                                <FontAwesomeIcon icon={nav.icon} className="h-6 w-6" aria-hidden="true" />
-                                                            </div>
-                                                            <div className="ml-4 text-base font-medium text-gray-900">{nav.title}</div>
-                                                        </a>
-                                                    </Link>
+                                                    <a key={i} href={nav.href} target={nav.target} className="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
+                                                        <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-[#FFD24A] text-white sm:h-12 sm:w-12">
+                                                            <FontAwesomeIcon icon={nav.icon} className="h-6 w-6" aria-hidden="true" />
+                                                        </div>
+                                                        <div className="ml-4 text-base font-medium text-gray-900">{nav.title}</div>
+                                                    </a>
                                                 )
                                             })}
                                             {!loading && isLogged ?
