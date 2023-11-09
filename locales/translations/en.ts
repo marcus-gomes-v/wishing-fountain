@@ -24,7 +24,7 @@ export default {
         login: {
             login: 'Login',
             logout: 'Logout',
-            google: 'JOIN US'
+            google: 'Register'
         },
         page: {
             aboutUs: {

@@ -95,8 +95,26 @@ function AmbassadorsComponent() {
         '/images/ambassadors/madison-macdonald.png',
     },
     {
+      name: 'Erika Elkady',
+      role: 'Dubai, UAE',
+      imageUrl:
+        '/images/ambassadors/erika-elkady.jpg',
+    },
+    {
+      name: 'Elizabeth Marami',
+      role: 'Kenya',
+      imageUrl:
+        '/images/avatar/placeholder.jpeg',
+    },
+    {
+      name: 'Laura Dekker',
+      role: 'New Zealand',
+      imageUrl:
+        '/images/avatar/placeholder.jpeg',
+    },
+    {
       name: 'You?',
-      role: '',
+      role: ' ',
       imageUrl:
         '/images/avatar/placeholder.jpeg',
     },

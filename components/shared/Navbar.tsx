@@ -53,6 +53,12 @@ function Navbar({page}: {page: string}) {
             icon: faNotes,
         },
         {
+            title: t('navBar.pages.ambassadors'),
+            href: '/ambassadors',
+            page: 'ambassadors',
+            icon: faPerson,
+        },
+        {
             title: t('navBar.pages.about_us'),
             href: '/about-us',
             page: 'aboutUs',

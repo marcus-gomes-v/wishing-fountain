@@ -114,6 +114,24 @@ const Map = () => {
           </Popup>
         </Marker>
 
+        <Marker position={[25.0760224, 55.2274879]} icon={customMarkerIcon} >
+          <Popup>
+            Dubai, UAE
+          </Popup>
+        </Marker>
+        
+        <Marker position={[30.0167819, 31.1484436]} icon={customMarkerIcon} >
+          <Popup>
+            Giza, Egypt
+          </Popup>
+        </Marker>
+
+        <Marker position={[8.5379439, 4.5343568]} icon={customMarkerIcon} >
+          <Popup>
+            Ilorin, Nigeria
+          </Popup>
+        </Marker>
+
       </MapContainer>
     </div>
   )
