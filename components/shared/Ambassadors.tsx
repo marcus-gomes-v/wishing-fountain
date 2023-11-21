@@ -110,7 +110,7 @@ function AmbassadorsComponent() {
       name: 'Laura Dekker',
       role: 'New Zealand',
       imageUrl:
-        '/images/avatar/placeholder.jpeg',
+        '/images/ambassadors/laura-dekker.png',
     },
     {
       name: 'You?',
@@ -136,7 +136,7 @@ function AmbassadorsComponent() {
           decoration-[#ffd24a]
           underline-offset-8
           decoration-[4px]
-          md:decoration-[8px]">Our voices around the world.
+          md:decoration-[8px]">Our Ambassadors around the world:
           </h2>
           <p className="mt-4 text-[24px] text-gray-600">
             We are proud to work with a global network of incredible changemakers who are committed to our mission and to reaching out to young people everywhere.
