@@ -37,10 +37,9 @@ function PrimarySchoolComponentDetail() {
             <strong>Audience:</strong> Ages 7-11
             <br /><br />
             <strong>Objective:</strong> This workshop is designed to inspire children to explore their individual talents—be it artistic, academic, athletic, entrepreneurial, or otherwise—and encourage them to envision how they can leverage these talents to positively impact the world. Providing a safe space for all ideas, the intention is to encourage children that all dreams, no matter how diverse, hold the potential for greatness.
-            <br /><LogginButtonTextThree></LogginButtonTextThree>
           </p>
 
-          <div className="hidden">
+          <div >
             <p className="mt-4 text-[24px] text-gray-600">
               <strong>Materials Needed:</strong>
             </p>
