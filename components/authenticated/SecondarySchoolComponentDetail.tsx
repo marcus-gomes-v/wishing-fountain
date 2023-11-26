@@ -1,20 +1,19 @@
 import { useTranslation } from 'react-i18next'
-import SecondaryMaterialComponent from "./Secondary-Material-Component";
-import SecondaryPromptComponent from "./Secondary-Prompt-Component";
-import LogginButtonTextTwo from './LoginButtonTextTwo';
-import LogginButtonTextThree from './LoginButtonTextThree';
+import SecondaryMaterialComponent from "../shared/Secondary-Material-Component";
+import SecondaryPromptComponent from "../shared/Secondary-Prompt-Component";
+import LogginButtonTextThree from '../shared/LoginButtonTextThree';
 
-function SecondarySchoolComponent() {
+function SecondarySchoolComponentDetail() {
     const { t } = useTranslation();
 
 
   return (
     <>
       <div className="px-3 md:px-0">
-        <div className="mx-auto max-w-4xl lg:max-w-7xl py-10 pb-20">
+        <div className="mx-auto pb-20">
           <h2 className="
           text-[48px]
-          md:text-[69px]
+          md:text-[50px]
           font-bold
           tracking-wide
           text-gray-600
@@ -23,12 +22,12 @@ function SecondarySchoolComponent() {
           decoration-wavy
           decoration-[#ffd24a]
           underline-offset-8
-          decoration-[4px]
-          md:decoration-[8px]">
+          decoration-[2px]
+          md:decoration-[4px]">
             #UnwrapYourDream Workshop
           </h2>
 
-          <h2 className="text-[48px] font-bold text-gray-600 underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[4px] pt-10">
+          <h2 className="text-[36px] font-bold text-gray-600 underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[4px] pt-10">
             <strong>Workshop Overview</strong>
           </h2>
 
@@ -38,10 +37,9 @@ function SecondarySchoolComponent() {
             <strong>Duration:</strong> Approximately 3 hours
             <br /><br />
             <strong>Objective:</strong> This workshop is an engaged, interactive platform that aims to inspire and provoke teenagers to deeply explore their personal passions and potential. It's all about encouraging them to envision a future filled with innovation, meaningful change, and impact.
-            <br /><LogginButtonTextThree></LogginButtonTextThree>
           </p>
 
-          <div className="hidden">
+          <div>
             <p className="mt-4 text-[24px] text-gray-600">
               <br /><br />
               <strong>Materials Needed:</strong>
@@ -116,4 +114,4 @@ function SecondarySchoolComponent() {
   )
 }
 
-export default SecondarySchoolComponent;
+export default SecondarySchoolComponentDetail;

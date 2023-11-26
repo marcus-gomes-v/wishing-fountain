@@ -1,23 +1,19 @@
-import { faChildReaching, faCompass, faStar } from "@fortawesome/pro-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from 'react-i18next'
-import ExplainImproved from "./ExplainImproved";
-import PrimaryPromptComponent from "./Primary-Prompt-Component";
-import PrimaryMaterialComponent from "./Primary-Material-Component";
-import LogginButtonTextTwo from "./LoginButtonTextTwo";
-import LogginButtonTextThree from "./LoginButtonTextThree";
+import PrimaryPromptComponent from "../shared/Primary-Prompt-Component";
+import PrimaryMaterialComponent from "../shared/Primary-Material-Component";
+import LogginButtonTextThree from "../shared/LoginButtonTextThree";
 
-function PrimarySchoolComponent() {
+function PrimarySchoolComponentDetail() {
     const { t } = useTranslation();
 
 
   return (
     <>
       <div className="px-3 md:px-0">
-        <div className="mx-auto max-w-4xl lg:max-w-7xl py-10 pb-20">
+        <div className="mx-auto pb-20">
           <h2 className="
           text-[48px]
-          md:text-[69px]
+          md:text-[50px]
           font-bold
           tracking-wide
           text-gray-600
@@ -26,12 +22,12 @@ function PrimarySchoolComponent() {
           decoration-wavy
           decoration-[#ffd24a]
           underline-offset-8
-          decoration-[4px]
-          md:decoration-[8px]">
+          decoration-[2px]
+          md:decoration-[4px]">
             Imaginative Dreamers – The Dream Big Creativity Workshop for Primary School Students
           </h2>
 
-          <h2 className="text-[48px] font-bold text-gray-600 underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[4px] pt-10">
+          <h2 className="text-[36px] font-bold text-gray-600 underline decoration-wavy decoration-[#ffd24a] underline-offset-8 decoration-[4px] pt-10">
             <strong>Workshop Overview</strong>
           </h2>
 
@@ -110,4 +106,4 @@ function PrimarySchoolComponent() {
   )
 }
 
-export default PrimarySchoolComponent;
+export default PrimarySchoolComponentDetail;

@@ -32,6 +32,22 @@ type SchoolTypes = {
     [key: string]: boolean;
 };
 
+type ShowMenus = {
+    dashboard: boolean;
+    kindergarten: boolean;
+    primarySchool: boolean;
+    secondarySchool: boolean;
+    [key: string]: boolean;
+};
+
+type ShowMenusSelected = {
+    dashboard: boolean;
+    kindergarten: boolean;
+    primarySchool: boolean;
+    secondarySchool: boolean;
+    [key: string]: boolean;
+};
+
 export interface iUser {
     uid: string;
     email: string;
