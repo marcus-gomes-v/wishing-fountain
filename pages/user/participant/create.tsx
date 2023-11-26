@@ -74,8 +74,6 @@ const CreateParticipant = () => {
         if (
             organizerName &&
             plannedEvent &&
-            twitter &&
-            linkedin &&
             country &&
             state &&
             city &&
@@ -411,7 +409,6 @@ const CreateParticipant = () => {
                                                 onChange={onChange}
                                                 className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                                 placeholder="Your Twitter"
-                                                required
                                             />
                                         </div>
                                     </div>
@@ -430,7 +427,6 @@ const CreateParticipant = () => {
                                                 onChange={onChange}
                                                 className="block w-full flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                                 placeholder="Your Linkedin"
-                                                required
                                             />
                                         </div>
                                     </div>

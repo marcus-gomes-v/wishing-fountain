@@ -9,8 +9,8 @@ type participant = {
     organizerName: string | undefined
     organization: string | undefined
     plannedEvent: string | undefined
-    twitter: string | undefined
-    linkedin: string | undefined
+    twitter?: string | undefined
+    linkedin?: string | undefined
     country: string | undefined
     state: string | undefined
     city: string | undefined
