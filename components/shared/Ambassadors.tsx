@@ -113,6 +113,12 @@ function AmbassadorsComponent() {
         '/images/ambassadors/laura-dekker.png',
     },
     {
+      name: 'Markus Raivio',
+      role: '',
+      imageUrl:
+        '/images/ambassadors/markus-raivio.jpg',
+    },
+    {
       name: 'You?',
       role: ' ',
       imageUrl:
