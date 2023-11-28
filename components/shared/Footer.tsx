@@ -19,7 +19,7 @@ function Footer() {
         ],
         impact: [
             { name: 'Team', href: '/about-us' },
-            { name: 'Ambassadors', href: '/about-us' },
+            { name: 'Ambassadors', href: '/ambassadors' },
             { name: 'Community', href: 'https://www.facebook.com/UnwrapYourDream' },
         ],
         event: [
