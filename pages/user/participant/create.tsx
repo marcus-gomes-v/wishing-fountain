@@ -219,7 +219,7 @@ const CreateParticipant = () => {
                                 underline-offset-8
                                 decoration-[4px]
                                 mb-3
-                            '>December 4th - 22nd, 2023</span>
+                            '>June 1st, 2024</span>
                         </h3>
                         <div className="menu grid rounded-md overflow-hidden divide-gray-300 divide-y-[1px] ring-1 ring-gray-300">
                             {Object.keys(showMenu).map((k: string) => 
@@ -357,7 +357,7 @@ const CreateParticipant = () => {
 
                                     <div className="col-span-6 lg:col-span-3">
                                         <label htmlFor="myEventWillTakePlaceOn" className="block text-sm font-medium text-gray-700">
-                                            The event will take place on December:
+                                            The event will take place on June:
                                         </label>
                                         <div className="mt-1 flex rounded-md shadow-sm">
                                             <select

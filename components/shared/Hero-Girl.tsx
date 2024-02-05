@@ -18,7 +18,7 @@ function HeroPaint() {
                     <span className="block text-white">
                         Unwrap Dreams
                         <br />Celebrate from:
-                        <br />4th -22nd of December
+                        <br />4th -22nd of June
                     </span>
                 </h1>
             </div>

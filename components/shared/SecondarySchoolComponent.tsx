@@ -91,7 +91,7 @@ function SecondarySchoolComponent() {
               </li>
               <li>
                 <p className="mt-4 text-[24px] text-gray-600">
-                  <strong>Capture their dreams:</strong> Use this opportunity to take pictures of their dreams and describe them, to post on X between the 4th and 22nd of December. Take a look at our <a href="/faq" className="font-secundary underline">FAQ</a> for post guidelines and privacy rules.
+                  <strong>Capture their dreams:</strong> Use this opportunity to take pictures of their dreams and describe them, to post on X between the 1th of June. Take a look at our <a href="/faq" className="font-secundary underline">FAQ</a> for post guidelines and privacy rules.
                 </p>
               </li>
               

@@ -2,7 +2,7 @@ export default {
     translation: {
         common: {
             grandparentals: 'Unwrap Your Dream',
-            rights: "2023 Unwrap Your Dream. All rights reserved."
+            rights: "2024 Unwrap Your Dream. All rights reserved."
         },
         navBar: {
             dashboard: 'Dashboard',
