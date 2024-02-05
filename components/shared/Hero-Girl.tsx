@@ -17,7 +17,7 @@ function HeroPaint() {
                 <h1 className="text-left font-bold tracking-tight text-[96px] sm:text-[7vw] px-12 lg:px-24 leading-[160px]">
                     <span className="block text-white">
                         Unwrap Dreams
-                        <br />Celebrate from:
+                        <br />Celebrate on:
                         <br />1st of June
                     </span>
                 </h1>
