@@ -118,7 +118,7 @@ export default {
                 },
                 right: {
                     title: "Join Us",
-                    description: "Schools, churches, and communities – host a dream visualization workshop between the 1th of June. Together, let's celebrate children's dreams as the most treasured gifts."
+                    description: "Schools, churches, and communities – host a dream visualization workshop on the 1th of June. Together, let's celebrate children's dreams as the most treasured gifts."
                 }
             },
             testimonials: {
@@ -186,7 +186,7 @@ export default {
                         name: 'Join the Movement',
                         description: {
                             one: "Everyone is eligible to host a workshop. Guide children and teenagers to visualize and express their dreams, perhaps for the first time, through art.",
-                            second: "Sign up and witness a world of dreams unfold between the 1th of June.",
+                            second: "Sign up and witness a world of dreams unfold on the 1th of June.",
                         }
                     },
                     three: {
@@ -276,7 +276,7 @@ export default {
                 },
                 {
                     "question": "What is the deadline for registering my event?",
-                    "answer": "You can register your event up to one week before the planned campaign date, until June 15th. However, we advise registering as early as possible, as this will give you more time to prepare and promote your workshop."
+                    "answer": "You can register your event up to one week before the planned campaign date, until May 23rd. However, we advise registering as early as possible, as this will give you more time to prepare and promote your workshop."
                 },
                 {
                     "question": "Are there any fees associated with registration?",
@@ -288,11 +288,11 @@ export default {
                 },
                 {
                     "question": "What date should the event take place?",
-                    "answer": "The workshop should take place between June 1st, 2024."
+                    "answer": "The workshop should take place on June 1st, 2024."
                 },
                 {
                     "question": "What time should the event start and finish?",
-                    "answer": "Event times are adaptable and can be customized to fit your schedule and the needs of your participants, and should take place between the 1th of June."
+                    "answer": "Event times are adaptable and can be customized to fit your schedule and the needs of your participants, and should take place on the 1th of June."
                 },
                 {
                     "question": "Where can I organize the event?",
